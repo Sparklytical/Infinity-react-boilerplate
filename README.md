@@ -9,23 +9,21 @@
 
 <div align="center">
   <!-- Dependency Status -->
-  <a href="https://david-dm.org/react-boilerplate/react-boilerplate">
-    <img src="https://david-dm.org/react-boilerplate/react-boilerplate.svg" alt="Dependency Status" />
+  <a href="https://david-dm.org/EvilSpark/react-redux-boilerplate">
+    <img src="https://david-dm.org/EvilSpark/react-redux-boilerplate.svg" alt="Dependency Status" />
   </a>
   <!-- devDependency Status -->
-  <a href="https://david-dm.org/react-boilerplate/react-boilerplate#info=devDependencies">
-    <img src="https://david-dm.org/react-boilerplate/react-boilerplate/dev-status.svg" alt="devDependency Status" />
+  <a href="https://david-dm.org/EvilSpark/react-redux-boilerplate#info=devDependencies">
+    <img src="https://david-dm.org/EvilSpark/react-redux-boilerplate/dev-status.svg" alt="devDependency Status" />
   </a>
   <!-- Build Status -->
   <a href="https://travis-ci.org/react-boilerplate/react-boilerplate">
     <img src="https://travis-ci.org/react-boilerplate/react-boilerplate.svg" alt="Build Status" />
   </a>
-  <!-- Test Coverage -->
-  <a href="https://coveralls.io/r/react-boilerplate/react-boilerplate">
-    <img src="https://coveralls.io/repos/github/react-boilerplate/react-boilerplate/badge.svg" alt="Test Coverage" />
+  <a href="https://ci.appveyor.com/project/EvilSpark/react-redux-boilerplate/">
+    <img src="https://ci.appveyor.com/api/projects/status/27e8kknj4cm6a4ui?svg=true" alt="Build Status" />
   </a>
-  <a href="https://spectrum.chat/react-boilerplate">
-  <img alt="Chat with us on Spectrum" src="https://withspectrum.github.io/badge/badge.svg" />
+
 </a>
 
 </div>
