@@ -29,7 +29,7 @@
   </a>
 <!-- Security Status -->
 <a href="https://snyk.io/test/github/EvilSpark/react-redux-boilerplate?targetFile=package.json"><img src="https://snyk.io/test/github/EvilSpark/react-redux-boilerplate/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/EvilSpark/react-redux-boilerplate?targetFile=package.json" style="max-width:100%;"></a>
-<!-- Maintainence Status -->
+<!-- maintenance Status -->
 <a href="https://codeclimate.com/github/EvilSpark/react-redux-boilerplate/maintainability"><img src="https://api.codeclimate.com/v1/badges/6787b5dca452dbc2a427/maintainability" /></a>
 </a>
 
