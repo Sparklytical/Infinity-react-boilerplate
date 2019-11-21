@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/EvilSpark/react-redux-boilerplate/app/assets/images/main.png" alt="react boilerplate banner" align="center" />
+<img src="https://raw.githubusercontent.com/EvilSpark/react-redux-boilerplate/master/app/components/common/assets/images/Main.png" alt="react boilerplate banner" align="center" />
 
 <br />
 
@@ -83,8 +83,7 @@ But wait... there's more!
 3.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.<br />
 4.  Run `npm run setup` in order to install dependencies and clean the git repo.<br />
     _At this point you can run `npm start` to see the example app at `http://localhost:3000`._
-5.  Run `npm run clean` to delete the example app.
-6.  Although I prefer using <a href="https://pnpm.js.org/">PNPM</a> instead of NPM.
+5.  Although I prefer using <a href="https://pnpm.js.org/">PNPM</a> instead of NPM.
 
 Now you're ready to rumble!
 
