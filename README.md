@@ -27,7 +27,8 @@
   <a href="https://github.com/frinyvonnick/gitmoji-changelog">
     <img src="https://img.shields.io/badge/Changelog-gitmoji-brightgreen.svg" alt="Changelog" />
   </a>
-
+<!-- Security Status -->
+<a href="https://snyk.io/test/github/EvilSpark/react-redux-boilerplate?targetFile=package.json"><img src="https://snyk.io/test/github/EvilSpark/react-redux-boilerplate/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/EvilSpark/react-redux-boilerplate?targetFile=package.json" style="max-width:100%;"></a>
 </a>
 
 </div>
