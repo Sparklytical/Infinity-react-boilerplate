@@ -18,11 +18,14 @@
     <img src="https://david-dm.org/EvilSpark/react-redux-boilerplate/dev-status.svg" alt="devDependency Status" />
   </a>
   <!-- Build Status -->
-  <a href="https://travis-ci.org/EvilSpark/react-redux-boilerplate">
-    <img src="https://travis-ci.org/EvilSpark/react-redux-boilerplate.svg" alt="Build Status" />
+  <a href="https://travis-ci.com/EvilSpark/react-redux-boilerplate">
+    <img src="https://travis-ci.com/EvilSpark/react-redux-boilerplate.svg" alt="Build Status" />
   </a>
   <a href="https://ci.appveyor.com/project/EvilSpark/react-redux-boilerplate/">
     <img src="https://ci.appveyor.com/api/projects/status/27e8kknj4cm6a4ui?svg=true" alt="Build Status" />
+  </a>
+  <a href="https://github.com/frinyvonnick/gitmoji-changelog">
+    <img src="https://img.shields.io/badge/Changelog-gitmoji-brightgreen.svg" alt="Changelog" />
   </a>
 
 </a>
@@ -48,7 +51,7 @@
   <dd>Unidirectional data flow allows for change logging and time travel debugging.</dd>
 
   <dt>Next generation JavaScript</dt>
-  <dd>Use template strings, object destructuring, arrow functions, JSX syntax and more.</dd>
+  <dd>Use template strings, object destructuring, arrow functions, JSX syntax etc.</dd>
 
   <dt>Next generation CSS</dt>
   <dd>Write composable CSS that's co-located with your components for complete modularity. Unique generated class names keep the specificity low while eliminating style clashes. Ship only the styles that are on the page for the best performance.</dd>
