@@ -1,5 +1,24 @@
 # Changelog
 
+<a name="next"></a>
+
+## next
+
+### Changed
+
+- 🎨 Commited [[bce5cb5](https://github.com/EvilSpark/react-redux-boilerplate/commit/bce5cb55f7455ba6c3baab248ac77989e69c2eaa)]
+- 🎨 Badge [[c9ccb8f](https://github.com/EvilSpark/react-redux-boilerplate/commit/c9ccb8f1cd5738e1f4959d5c7fc7e364467bce38)]
+
+### Fixed
+
+- 🚑 Maintenancee [[9a98b34](https://github.com/EvilSpark/react-redux-boilerplate/commit/9a98b340a2ada91facb0a6742e58add4ebbd95f0)]
+
+### Miscellaneous
+
+- Merge branch &#x27;master&#x27; of https://github.com/EvilSpark/react-redux-boilerplate [[b74539c](https://github.com/EvilSpark/react-redux-boilerplate/commit/b74539c3a9fe38ae23c5f031ced2f340489036e1)]
+- Create nodejs.yml [[89f292f](https://github.com/EvilSpark/react-redux-boilerplate/commit/89f292f85edeb2585e36f73a9085c58cce6c6270)]
+- Update issue templates [[c7dc603](https://github.com/EvilSpark/react-redux-boilerplate/commit/c7dc603c263e5b46639b3b65998b0c87f5dec720)]
+
 <a name="1.0.0"></a>
 
 ## 1.0.0 (2019-11-21)
