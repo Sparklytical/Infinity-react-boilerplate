@@ -1,5 +1,6 @@
+<p align=center>
 <img src="https://raw.githubusercontent.com/EvilSpark/react-redux-boilerplate/master/app/components/common/assets/images/Main.png" alt="react boilerplate banner" align="center" />
-
+</p>
 <br />
 
 <div align="center"><strong>Start your next react project in seconds</strong></div>
