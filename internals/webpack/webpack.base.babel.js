@@ -123,6 +123,7 @@ module.exports = options => ({
     // drop any unreachable code.
     new webpack.EnvironmentPlugin({
       NODE_ENV: 'development',
+      CODECOV_TOKEN="0c59546a-f5cb-4ad6-86ff-b9faefb475b2"
     }),
     new WebpackBar(),
   ]),
