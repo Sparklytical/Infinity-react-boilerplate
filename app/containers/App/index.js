@@ -12,6 +12,7 @@ import { Switch, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
 import HomePage from 'containers/HomePage/Loadable';
+import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 // Header and Footer
@@ -32,6 +33,7 @@ export default function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
+        <Route path="/features" component={FeaturePage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />

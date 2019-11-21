@@ -4,4 +4,4 @@
 
 import loadable from 'utils/loadable';
 
-export default loadable(() => import('./Homepage'));
+export default loadable(() => import('./FeaturePage'));
