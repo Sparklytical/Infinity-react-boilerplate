@@ -20,7 +20,7 @@ dependencies:
   react-app-polyfill: 1.0.4
   react-dom: 16.12.0_react@16.12.0
   react-helmet-async: 1.0.4_react-dom@16.12.0+react@16.12.0
-  react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
+  react-redux: 7.1.3_react@16.12.0
   react-router-dom: 5.1.2_react@16.12.0
   redux-injectors: 1.2.0_e5233c3f8d7ce8667da1daa3007bdff8
   redux-saga: 1.1.3
@@ -88,7 +88,7 @@ devDependencies:
   stylelint-config-recommended: 3.0.0_stylelint@12.0.0
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.8.0
-  svg-url-loader: 3.0.2_webpack@4.41.2
+  svg-url-loader: 3.0.3_webpack@4.41.2
   terser-webpack-plugin: 2.2.1_webpack@4.41.2
   url-loader: 2.3.0_file-loader@4.3.0+webpack@4.41.2
   webpack: 4.41.2_webpack@4.41.2
@@ -137,7 +137,7 @@ packages:
       debug: 4.1.1
       json5: 2.1.1
       lodash: 4.17.15
-      resolve: 1.12.0
+      resolve: 1.12.1
       semver: 5.7.1
       source-map: 0.5.7
     dev: true
@@ -1732,7 +1732,7 @@ packages:
   /@types/request/2.48.3:
     dependencies:
       '@types/caseless': 0.12.2
-      '@types/node': 8.10.59
+      '@types/node': 12.12.11
       '@types/tough-cookie': 2.3.5
       form-data: 2.5.1
     dev: true
@@ -2248,13 +2248,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-r2rId6Jcx/dOBYiUdThY39sk/bY=
-  /array-uniq/2.1.0:
-    dev: true
-    engines:
-      node: '>=6'
-    optional: true
-    resolution:
-      integrity: sha512-bdHxtev7FN6+MXI1YFW0Q8mQ8dTJc2S8AMfju+ZR77pbg2yAdVyDlwkaUI7Har0LyOMRFPHrJ9lYdyjZZswdlQ==
   /array-unique/0.3.2:
     dev: true
     engines:
@@ -2388,7 +2381,7 @@ packages:
       '@babel/types': 7.7.2
       eslint: 6.6.0
       eslint-visitor-keys: 1.1.0
-      resolve: 1.12.0
+      resolve: 1.12.1
     dev: true
     engines:
       node: '>=6'
@@ -2569,7 +2562,7 @@ packages:
   /bin-version/3.1.0:
     dependencies:
       execa: 1.0.0
-      find-versions: 3.1.0
+      find-versions: 3.2.0
     dev: true
     engines:
       node: '>=6'
@@ -2753,8 +2746,8 @@ packages:
   /browserslist/4.7.3:
     dependencies:
       caniuse-lite: 1.0.30001011
-      electron-to-chromium: 1.3.309
-      node-releases: 1.1.40
+      electron-to-chromium: 1.3.310
+      node-releases: 1.1.41
     dev: true
     hasBin: true
     resolution:
@@ -3455,7 +3448,7 @@ packages:
       immutable: 3.8.2
       prop-types: 15.7.2
       react: 16.12.0
-      react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
+      react-redux: 7.1.3_react@16.12.0
       seamless-immutable: 7.1.4
     dev: false
     peerDependencies:
@@ -4285,10 +4278,10 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
-  /electron-to-chromium/1.3.309:
+  /electron-to-chromium/1.3.310:
     dev: true
     resolution:
-      integrity: sha512-NZd91XD15v2UPLjYXoN/gLnkwIUQjdH4SQLpRCCQiYJH6BBkfgp5pWemBJPr1rZ2dl8Ee3o91O9Sa1QuAfZmog==
+      integrity: sha512-ixvxy46JrDv5c8k1+th66Z+xDZD8zShNs6oh7hgyMpNZUgaoRBisXgFZKAyyhQTAj7oU2Y/uZ0AAsj/TY4N0tA==
   /elegant-spinner/1.0.1:
     dev: true
     engines:
@@ -4489,7 +4482,7 @@ packages:
   /eslint-import-resolver-node/0.3.2:
     dependencies:
       debug: 2.6.9
-      resolve: 1.12.0
+      resolve: 1.12.1
     dev: true
     resolution:
       integrity: sha512-sfmTqJfPSizWu4aymbPr4Iidp5yKm8yDkHp+Ir3YiTHiiDfxh69mOUsmiqW6RZ9zRXFaF64GtYmN7e+8GHBv6Q==
@@ -4504,7 +4497,7 @@ packages:
       interpret: 1.2.0
       lodash: 4.17.15
       node-libs-browser: 2.2.1
-      resolve: 1.12.0
+      resolve: 1.12.1
       semver: 5.7.1
       webpack: 4.41.2_webpack@4.41.2
     dev: true
@@ -4535,7 +4528,7 @@ packages:
       minimatch: 3.0.4
       object.values: 1.1.0
       read-pkg-up: 2.0.0
-      resolve: 1.12.0
+      resolve: 1.12.1
     dev: true
     engines:
       node: '>=4'
@@ -4596,7 +4589,7 @@ packages:
       object.fromentries: 2.0.1
       object.values: 1.1.0
       prop-types: 15.7.2
-      resolve: 1.12.0
+      resolve: 1.12.1
     dev: true
     engines:
       node: '>=4'
@@ -5008,6 +5001,12 @@ packages:
       '0': node >=0.6.0
     resolution:
       integrity: sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=
+  /extsprintf/1.4.0:
+    dev: true
+    engines:
+      '0': node >=0.6.0
+    resolution:
+      integrity: sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
   /fast-deep-equal/2.0.1:
     dev: true
     resolution:
@@ -5109,18 +5108,6 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-bCg29ictuBaKUwwArK4ouCaqDgLZcysCFLmM/Yn/FDoqndh/9vNuQfXRDvTuXKLxfD/JtZQGKFT8MGcJBK644g==
-  /file-loader/4.2.0_webpack@4.41.2:
-    dependencies:
-      loader-utils: 1.2.3
-      schema-utils: 2.5.0
-      webpack: 4.41.2_webpack@4.41.2
-    dev: true
-    engines:
-      node: '>= 8.9.0'
-    peerDependencies:
-      webpack: ^4.0.0
-    resolution:
-      integrity: sha512-+xZnaK5R8kBJrHK0/6HRlrKNamvVS5rjyuju+rnyxRGuwUJwpAMsVzUl5dz6rK8brkzjV6JpcFNjp6NqV0g1OQ==
   /file-loader/4.3.0_webpack@4.41.2:
     dependencies:
       loader-utils: 1.2.3
@@ -5296,16 +5283,15 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==
-  /find-versions/3.1.0:
+  /find-versions/3.2.0:
     dependencies:
-      array-uniq: 2.1.0
       semver-regex: 2.0.0
     dev: true
     engines:
       node: '>=6'
     optional: true
     resolution:
-      integrity: sha512-NCTfNiVzeE/xL+roNDffGuRbrWI6atI18lTJ22vKp7rs2OhYzMK3W1dIdO2TUndH/QMcacM4d1uWwgcZcHK69Q==
+      integrity: sha512-P8WRou2S+oe222TOCHitLy8zj+SIsVJh52VP4lvXkaFVnOFFdoWv1H1Jjvel1aI6NCFOAaeAVm8qrI0odiLcww==
   /findup-sync/2.0.0:
     dependencies:
       detect-file: 1.0.0
@@ -7613,7 +7599,7 @@ packages:
       is-plain-object: 2.0.4
       object.map: 1.0.1
       rechoir: 0.6.2
-      resolve: 1.12.0
+      resolve: 1.12.1
     dev: true
     engines:
       node: '>= 0.8'
@@ -8105,11 +8091,11 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-CbTqYU17ABaLefO8vCU153ZZlprKYWDljcndKKDCFcYQITzWCXZAVk4QMFZPgvzrnUQ3uItnIE/LoUOwrT15Ig==
-  /merge-anything/2.4.1:
+  /merge-anything/2.4.2:
     dependencies:
       is-what: 3.3.1
     resolution:
-      integrity: sha512-dYOIAl9GFCJNctSIHWOj9OJtarCjsD16P8ObCl6oxrujAG+kOvlwJuOD9/O9iYZ9aTi1RGpGTG9q9etIvuUikQ==
+      integrity: sha512-/so+4seX7fdAhPI3m3bxwc60vhotzY9uM+1Z6C3GKeJBYzxt/lIrbs5uT9iwgM5aLi5kpJIPT7JzJfrrfloWHA==
   /merge-descriptors/1.0.1:
     dev: false
     resolution:
@@ -8524,18 +8510,18 @@ packages:
       isbinaryfile: 4.0.2
       lodash.get: 4.4.2
       mkdirp: 0.5.1
-      resolve: 1.12.0
+      resolve: 1.12.1
     dev: true
     engines:
       node: '>=8.9.4'
     resolution:
       integrity: sha512-HPtYicgUbQdvZvn5pjbTblT2jHFVAiJfhcqnKw2PR5dOVIzs/7hIeAkjUtX+PKLmJAQmZvjXJfk7ppJ2VHRLgw==
-  /node-releases/1.1.40:
+  /node-releases/1.1.41:
     dependencies:
       semver: 6.3.0
     dev: true
     resolution:
-      integrity: sha512-r4LPcC5b/bS8BdtWH1fbeK88ib/wg9aqmg6/s3ngNLn2Ewkn/8J6Iw3P9RTlfIAdSdvYvQl2thCY5Y+qTAQ2iQ==
+      integrity: sha512-+IctMa7wIs8Cfsa8iYzeaLTFwv5Y4r5jZud+4AnfymzeEXKBCavFX0KBgzVaPVqf0ywa6PrO8/b+bPqdwjGBSg==
   /node-sass/4.13.0:
     dependencies:
       async-foreach: 0.1.3
@@ -8579,7 +8565,7 @@ packages:
   /normalize-package-data/2.5.0:
     dependencies:
       hosted-git-info: 2.8.5
-      resolve: 1.12.0
+      resolve: 1.12.1
       semver: 5.7.1
       validate-npm-package-license: 3.0.4
     dev: true
@@ -10017,7 +10003,7 @@ packages:
   /react-is/16.12.0:
     resolution:
       integrity: sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
-  /react-redux/7.1.3_react-dom@16.12.0+react@16.12.0:
+  /react-redux/7.1.3_react@16.12.0:
     dependencies:
       '@babel/runtime': 7.7.2
       hoist-non-react-statics: 3.3.1
@@ -10025,13 +10011,10 @@ packages:
       loose-envify: 1.4.0
       prop-types: 15.7.2
       react: 16.12.0
-      react-dom: 16.12.0_react@16.12.0
       react-is: 16.12.0
     dev: false
     peerDependencies:
       react: ^16.8.3
-      react-dom: '*'
-      react-native: '*'
       redux: ^2.0.0 || ^3.0.0 || ^4.0.0-0
     peerDependenciesMeta:
       react-dom:
@@ -10233,7 +10216,7 @@ packages:
       integrity: sha1-RR/TAEqx5N+bTktmN2sqIZEkYtM=
   /rechoir/0.6.2:
     dependencies:
-      resolve: 1.12.0
+      resolve: 1.12.1
     dev: true
     engines:
       node: '>= 0.10'
@@ -10288,7 +10271,7 @@ packages:
       lodash: 4.17.15
       react: 16.12.0
       react-dom: 16.12.0_react@16.12.0
-      react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
+      react-redux: 7.1.3_react@16.12.0
       redux: 4.0.4
     dev: false
     peerDependencies:
@@ -10585,15 +10568,15 @@ packages:
     dev: true
     resolution:
       integrity: sha1-IDEU2CrSxe2ejgQRs5ModeiJ6Xs=
-  /resolve/1.12.0:
+  /resolve/1.12.1:
     dependencies:
       path-parse: 1.0.6
     dev: true
     resolution:
-      integrity: sha512-B/dOmuoAik5bKcD6s6nXDCjzUKnaDvdkRyAk6rsmsKLipWj4797iothd7jmmUhWTfinVMU+wc56rYKsit2Qy4w==
+      integrity: sha512-+j3UVImywlkdEOzjNCk379mEqqUEmHgCmUDQkmVVwDkBVopfk/TqrBrr8ZfKZSnCqW/sgyuACFVjBwoB5Mw56A==
   /responselike/1.0.2:
     dependencies:
-      lowercase-keys: 1.0.0
+      lowercase-keys: 1.0.1
     dev: true
     optional: true
     resolution:
@@ -11536,7 +11519,7 @@ packages:
       babel-plugin-styled-components: 1.10.6_styled-components@4.4.1
       css-to-react-native: 2.3.2
       memoize-one: 5.1.1
-      merge-anything: 2.4.1
+      merge-anything: 2.4.2
       prop-types: 15.7.2
       react: 16.12.0
       react-dom: 16.12.0_react@16.12.0
@@ -11676,15 +11659,15 @@ packages:
     dev: true
     resolution:
       integrity: sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q=
-  /svg-url-loader/3.0.2_webpack@4.41.2:
+  /svg-url-loader/3.0.3_webpack@4.41.2:
     dependencies:
-      file-loader: 4.2.0_webpack@4.41.2
+      file-loader: 4.3.0_webpack@4.41.2
       loader-utils: 1.2.3
     dev: true
     peerDependencies:
       webpack: '*'
     resolution:
-      integrity: sha512-MUJFVU2uuOTZW6Eq6NuXZxhaIyWiuKtZMcT90nCkcvIZPGGc0CYyZWYP/rtXUkja5qagNMpxDwdZ/tuC6ywfWg==
+      integrity: sha512-MKGiRNDs8fnHcZcPkhGcw9+130IXyFM9H8m6T7u3ScUuZYEeVzX0vNMru30D4MCF6vMYas5iw/Ru9lwFKBjaGw==
   /svgo/1.3.2:
     dependencies:
       chalk: 2.4.2
@@ -12463,7 +12446,7 @@ packages:
     dependencies:
       assert-plus: 1.0.0
       core-util-is: 1.0.2
-      extsprintf: 1.3.0
+      extsprintf: 1.4.0
     dev: true
     engines:
       '0': node >=0.6.0
@@ -12710,7 +12693,7 @@ packages:
       integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   /wide-align/1.1.3:
     dependencies:
-      string-width: 1.0.2
+      string-width: 2.1.1
     dev: true
     resolution:
       integrity: sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
@@ -13041,7 +13024,7 @@ specifiers:
   stylelint-config-recommended: 3.0.0
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.8.0
-  svg-url-loader: 3.0.2
+  svg-url-loader: 3.0.3
   terser-webpack-plugin: 2.2.1
   url-loader: 2.3.0
   webpack: 4.41.2
