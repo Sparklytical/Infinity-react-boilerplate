@@ -8,11 +8,15 @@ services:
   - xvfb
 
 script:
-  - npm run build
+  - pnpm run build
 
 before_install:
+  - curl -L https://unpkg.com/@pnpm/self-installer | node
   - export CHROME_BIN=chromium-browser
   - export DISPLAY=:99.0
+
+install:
+  - pnpm install
 
 notifications:
   email:

@@ -19,9 +19,9 @@ init:
 
 # Install scripts--runs after repo cloning
 install:
-  # Install the latest stable version of Node
   - ps: Install-Product node $env:nodejs_version
-  - npm ci
+  - curl -L https://unpkg.com/@pnpm/self-installer | node
+  - pnpm install
 
 # Disable automatic builds
 build: off

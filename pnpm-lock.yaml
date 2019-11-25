@@ -20,7 +20,7 @@ dependencies:
   react-app-polyfill: 1.0.4
   react-dom: 16.12.0_react@16.12.0
   react-helmet-async: 1.0.4_react-dom@16.12.0+react@16.12.0
-  react-redux: 7.1.3_react@16.12.0
+  react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
   react-router-dom: 5.1.2_react@16.12.0
   redux-injectors: 1.2.0_e5233c3f8d7ce8667da1daa3007bdff8
   redux-saga: 1.1.3
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-react: 7.16.0_eslint@6.7.1
   eslint-plugin-react-hooks: 2.3.0_eslint@6.7.1
   eslint-plugin-redux-saga: 1.1.1_eslint@6.7.1+redux-saga@1.1.3
-  file-loader: 5.0.1_webpack@4.41.2
+  file-loader: 5.0.2_webpack@4.41.2
   html-loader: 0.5.5
   html-webpack-plugin: 3.2.0_webpack@4.41.2
   husky: 3.1.0
@@ -87,7 +87,7 @@ devDependencies:
   stylelint-processor-styled-components: 1.9.0
   svg-url-loader: 3.0.3_webpack@4.41.2
   terser-webpack-plugin: 2.2.1_webpack@4.41.2
-  url-loader: 2.3.0_file-loader@5.0.1+webpack@4.41.2
+  url-loader: 2.3.0_file-loader@5.0.2+webpack@4.41.2
   webpack: 4.41.2_webpack@4.41.2
   webpack-cli: 3.3.10_webpack@4.41.2
   webpack-dev-middleware: 3.7.2_webpack@4.41.2
@@ -1542,7 +1542,7 @@ packages:
   /@types/request/2.48.3:
     dependencies:
       '@types/caseless': 0.12.2
-      '@types/node': 12.12.12
+      '@types/node': 8.10.59
       '@types/tough-cookie': 2.3.5
       form-data: 2.5.1
     dev: true
@@ -3156,7 +3156,7 @@ packages:
       immutable: 3.8.2
       prop-types: 15.7.2
       react: 16.12.0
-      react-redux: 7.1.3_react@16.12.0
+      react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
       seamless-immutable: 7.1.4
     dev: false
     peerDependencies:
@@ -4642,12 +4642,6 @@ packages:
       '0': node >=0.6.0
     resolution:
       integrity: sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=
-  /extsprintf/1.4.0:
-    dev: true
-    engines:
-      '0': node >=0.6.0
-    resolution:
-      integrity: sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
   /fast-deep-equal/2.0.1:
     dev: true
     resolution:
@@ -4755,7 +4749,7 @@ packages:
       webpack: ^4.0.0
     resolution:
       integrity: sha512-aKrYPYjF1yG3oX0kWRrqrSMfgftm7oJW5M+m4owoldH5C51C0RkIwB++JbRvEW3IU6/ZG5n8UvEcdgwOt2UOWA==
-  /file-loader/5.0.1_webpack@4.41.2:
+  /file-loader/5.0.2_webpack@4.41.2:
     dependencies:
       loader-utils: 1.2.3
       schema-utils: 2.5.0
@@ -4766,7 +4760,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-zj352SxrfyicIRCt0AwGQUexxrTKg6/BOgAmokUsy2RPQkvpZTwkiMyOqSZqBmieG6ApexxBsIU3xt4OMeWOaw==
+      integrity: sha512-QMiQ+WBkGLejKe81HU8SZ9PovsU/5uaLo0JdTCEXOYv7i7jfAjHZi1tcwp9tSASJPOmmHZtbdCervFmXMH/Dcg==
   /file-type/10.11.0:
     dev: true
     engines:
@@ -9133,7 +9127,7 @@ packages:
   /react-is/16.12.0:
     resolution:
       integrity: sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
-  /react-redux/7.1.3_react@16.12.0:
+  /react-redux/7.1.3_react-dom@16.12.0+react@16.12.0:
     dependencies:
       '@babel/runtime': 7.7.4
       hoist-non-react-statics: 3.3.1
@@ -9141,10 +9135,13 @@ packages:
       loose-envify: 1.4.0
       prop-types: 15.7.2
       react: 16.12.0
+      react-dom: 16.12.0_react@16.12.0
       react-is: 16.12.0
     dev: false
     peerDependencies:
       react: ^16.8.3
+      react-dom: '*'
+      react-native: '*'
       redux: ^2.0.0 || ^3.0.0 || ^4.0.0-0
     peerDependenciesMeta:
       react-dom:
@@ -9384,7 +9381,7 @@ packages:
       lodash: 4.17.15
       react: 16.12.0
       react-dom: 16.12.0_react@16.12.0
-      react-redux: 7.1.3_react@16.12.0
+      react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
       redux: 4.0.4
     dev: false
     peerDependencies:
@@ -9685,7 +9682,7 @@ packages:
       integrity: sha512-cAVTI2VLHWYsGOirfeYVVQ7ZDejtQ9fp4YhYckWDEkFfqbVjaT11iM8k6xSAfGFMM+gDpZjMnFssPu8we+mqFw==
   /responselike/1.0.2:
     dependencies:
-      lowercase-keys: 1.0.1
+      lowercase-keys: 1.0.0
     dev: true
     optional: true
     resolution:
@@ -11327,9 +11324,9 @@ packages:
     dev: true
     resolution:
       integrity: sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
-  /url-loader/2.3.0_file-loader@5.0.1+webpack@4.41.2:
+  /url-loader/2.3.0_file-loader@5.0.2+webpack@4.41.2:
     dependencies:
-      file-loader: 5.0.1_webpack@4.41.2
+      file-loader: 5.0.2_webpack@4.41.2
       loader-utils: 1.2.3
       mime: 2.4.4
       schema-utils: 2.5.0
@@ -11471,7 +11468,7 @@ packages:
     dependencies:
       assert-plus: 1.0.0
       core-util-is: 1.0.2
-      extsprintf: 1.4.0
+      extsprintf: 1.3.0
     dev: true
     engines:
       '0': node >=0.6.0
@@ -11676,7 +11673,7 @@ packages:
       integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   /wide-align/1.1.3:
     dependencies:
-      string-width: 2.1.1
+      string-width: 1.0.2
     dev: true
     resolution:
       integrity: sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
@@ -11927,7 +11924,7 @@ specifiers:
   eslint-plugin-react-hooks: 2.3.0
   eslint-plugin-redux-saga: 1.1.1
   express: 4.17.1
-  file-loader: 5.0.1
+  file-loader: 5.0.2
   fontfaceobserver: 2.1.0
   history: 4.10.1
   hoist-non-react-statics: 3.3.1
