@@ -69,7 +69,7 @@ devDependencies:
   husky: 3.1.0
   image-webpack-loader: 6.0.0
   imports-loader: 0.8.0
-  lint-staged: 9.4.3
+  lint-staged: 9.5.0
   ngrok: 3.2.5
   node-plop: 0.23.0
   node-sass: 4.13.0
@@ -134,7 +134,7 @@ packages:
       debug: 4.1.1
       json5: 2.1.1
       lodash: 4.17.15
-      resolve: 1.13.0
+      resolve: 1.13.1
       semver: 5.7.1
       source-map: 0.5.7
     dev: true
@@ -885,7 +885,7 @@ packages:
       '@babel/plugin-transform-unicode-regex': 7.7.4_@babel+core@7.7.4
       '@babel/types': 7.7.4
       browserslist: 4.7.3
-      core-js-compat: 3.4.2
+      core-js-compat: 3.4.3
       invariant: 2.2.4
       js-levenshtein: 1.1.6
       semver: 5.7.1
@@ -1757,13 +1757,13 @@ packages:
       acorn: ^6.0.0 || ^7.0.0
     resolution:
       integrity: sha512-tMUqwBWfLFbJbizRmEcWSLw6HnFzfdJs2sOJEOwwtVPMoH/0Ay+E703oZz78VSXZiiDcZrQ5XKjPIUQixhmgVw==
-  /acorn/6.3.0:
+  /acorn/6.4.0:
     dev: true
     engines:
       node: '>=0.4.0'
     hasBin: true
     resolution:
-      integrity: sha512-/czfa8BwS88b9gWQVhc8eknunSA2DoJpJyTQkhheIf5E48u1N0R4q/YxxsAeqRrmK9TQ/uYfgLDfZo91UlANIA==
+      integrity: sha512-gac8OEcQ2Li1dxIEWGZzsp2BitJxwkwcOm0zHAJLcPJaVvm58FRnk6RkuLRpU1EujipU2ZFODv2P9DLMfnV8mw==
   /acorn/7.1.0:
     dev: true
     engines:
@@ -2129,10 +2129,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=
-  /aws4/1.8.0:
+  /aws4/1.9.0:
     dev: true
     resolution:
-      integrity: sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
+      integrity: sha512-Uvq6hVe90D0B2WEnUqtdgY1bATGz3mw33nH9Y+dmA+w5DHvUmBgkr5rM/KCHpCsiFNRUfokW/szpPPgMK2hm4A==
   /axobject-query/2.0.2:
     dependencies:
       ast-types-flow: 0.0.7
@@ -2155,7 +2155,7 @@ packages:
       '@babel/types': 7.7.4
       eslint: 6.7.1
       eslint-visitor-keys: 1.1.0
-      resolve: 1.13.0
+      resolve: 1.13.1
     dev: true
     engines:
       node: '>=6'
@@ -3247,13 +3247,13 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
-  /core-js-compat/3.4.2:
+  /core-js-compat/3.4.3:
     dependencies:
       browserslist: 4.7.3
       semver: 6.3.0
     dev: true
     resolution:
-      integrity: sha512-W0Aj+LM3EAxxjD0Kp2o4be8UlnxIZHNupBv2znqrheR4aY2nOn91794k/xoSp+SxqqriiZpTsSwBtZr60cbkwQ==
+      integrity: sha512-HgW7pxjAdq6EMxT5uOhbTfjgZo8fvWn0D6QXVlWs3z1Eerux7tRrJ4gcgnZNn6S0OMPHlClJuIEPp0hnow44Sg==
   /core-js/2.6.10:
     deprecated: 'core-js@<3.0 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.'
     dev: true
@@ -3265,11 +3265,11 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-Qa5XSVefSVPRxy2XfUC13WbvqkxhkwB3ve+pgCQveNgYzbM/UxZeu1dcOX/xr4UmfUd+muuvsaxilQzCyUurMw==
-  /core-js/3.4.2:
+  /core-js/3.4.3:
     dev: true
     requiresBuild: true
     resolution:
-      integrity: sha512-bUTfqFWtNKWp73oNIfRkqwYZJeNT3lstzZcAkhhiuvDraRSgOH1/+F9ZklbpR4zpdKuo4cpXN8tKP7s61yjX+g==
+      integrity: sha512-BVvHidX8uAmLCYPfLpXTEex7jz1uZJ1mW+shhIsBdA716O8Fg6TOwSgenSyO/bvEtnGdOTpKRZPSh4bSVI1k9w==
   /core-util-is/1.0.2:
     dev: true
     resolution:
@@ -4146,7 +4146,7 @@ packages:
   /eslint-import-resolver-node/0.3.2:
     dependencies:
       debug: 2.6.9
-      resolve: 1.13.0
+      resolve: 1.13.1
     dev: true
     resolution:
       integrity: sha512-sfmTqJfPSizWu4aymbPr4Iidp5yKm8yDkHp+Ir3YiTHiiDfxh69mOUsmiqW6RZ9zRXFaF64GtYmN7e+8GHBv6Q==
@@ -4161,7 +4161,7 @@ packages:
       interpret: 1.2.0
       lodash: 4.17.15
       node-libs-browser: 2.2.1
-      resolve: 1.13.0
+      resolve: 1.13.1
       semver: 5.7.1
       webpack: 4.41.2_webpack@4.41.2
     dev: true
@@ -4192,7 +4192,7 @@ packages:
       minimatch: 3.0.4
       object.values: 1.1.0
       read-pkg-up: 2.0.0
-      resolve: 1.13.0
+      resolve: 1.13.1
     dev: true
     engines:
       node: '>=4'
@@ -4253,7 +4253,7 @@ packages:
       object.fromentries: 2.0.1
       object.values: 1.1.0
       prop-types: 15.7.2
-      resolve: 1.13.0
+      resolve: 1.13.1
     dev: true
     engines:
       node: '>=4'
@@ -6774,7 +6774,7 @@ packages:
       is-plain-object: 2.0.4
       object.map: 1.0.1
       rechoir: 0.6.2
-      resolve: 1.13.0
+      resolve: 1.13.1
     dev: true
     engines:
       node: '>= 0.8'
@@ -6784,7 +6784,7 @@ packages:
     dev: true
     resolution:
       integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
-  /lint-staged/9.4.3:
+  /lint-staged/9.5.0:
     dependencies:
       chalk: 2.4.2
       commander: 2.20.3
@@ -6803,7 +6803,7 @@ packages:
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-PejnI+rwOAmKAIO+5UuAZU9gxdej/ovSEOAY34yMfC3OS4Ac82vCBPzAWLReR9zCPOMqeVwQRaZ3bUBpAsaL2Q==
+      integrity: sha512-nawMob9cb/G1J98nb8v3VC/E8rcX1rryUYXVZ69aT9kde6YWX+uvNOEHY5yf2gcWcTJGiD0kqXmCnS3oD75GIA==
   /listr-silent-renderer/1.1.1:
     dev: true
     engines:
@@ -7653,7 +7653,7 @@ packages:
       '@types/inquirer': 6.0.1
       change-case: 3.1.0
       co: 4.6.0
-      core-js: 3.4.2
+      core-js: 3.4.3
       del: 5.1.0
       globby: 10.0.1
       handlebars: 4.5.3
@@ -7661,7 +7661,7 @@ packages:
       isbinaryfile: 4.0.2
       lodash.get: 4.4.2
       mkdirp: 0.5.1
-      resolve: 1.13.0
+      resolve: 1.13.1
     dev: true
     engines:
       node: '>=8.9.4'
@@ -7716,7 +7716,7 @@ packages:
   /normalize-package-data/2.5.0:
     dependencies:
       hosted-git-info: 2.8.5
-      resolve: 1.13.0
+      resolve: 1.13.1
       semver: 5.7.1
       validate-npm-package-license: 3.0.4
     dev: true
@@ -9329,7 +9329,7 @@ packages:
       integrity: sha1-RR/TAEqx5N+bTktmN2sqIZEkYtM=
   /rechoir/0.6.2:
     dependencies:
-      resolve: 1.13.0
+      resolve: 1.13.1
     dev: true
     engines:
       node: '>= 0.10'
@@ -9588,7 +9588,7 @@ packages:
   /request/2.88.0:
     dependencies:
       aws-sign2: 0.7.0
-      aws4: 1.8.0
+      aws4: 1.9.0
       caseless: 0.12.0
       combined-stream: 1.0.8
       extend: 3.0.2
@@ -9677,12 +9677,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
-  /resolve/1.13.0:
+  /resolve/1.13.1:
     dependencies:
       path-parse: 1.0.6
     dev: true
     resolution:
-      integrity: sha512-HHZ3hmOrk5SvybTb18xq4Ek2uLqLO5/goFCYUyvn26nWox4hdlKlfC/+dChIZ6qc4ZeYcN9ekTz0yyHsFgumMw==
+      integrity: sha512-CxqObCX8K8YtAhOBRg+lrcdn+LK+WYOS8tSjqSFbjtrI5PnS63QPhZl4+yKfrU9tdsbMu9Anr/amegT87M9Z6w==
   /responselike/1.0.2:
     dependencies:
       lowercase-keys: 1.0.1
@@ -11603,7 +11603,7 @@ packages:
       '@webassemblyjs/helper-module-context': 1.8.5
       '@webassemblyjs/wasm-edit': 1.8.5
       '@webassemblyjs/wasm-parser': 1.8.5
-      acorn: 6.3.0
+      acorn: 6.4.0
       ajv: 6.10.2
       ajv-keywords: 3.4.1_ajv@6.10.2
       chrome-trace-event: 1.0.2
@@ -11940,7 +11940,7 @@ specifiers:
   intl: 1.2.5
   invariant: 2.2.4
   ip: 1.1.5
-  lint-staged: 9.4.3
+  lint-staged: 9.5.0
   lodash: 4.17.15
   minimist: 1.2.0
   ngrok: 3.2.5
