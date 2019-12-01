@@ -53,7 +53,7 @@
     "babel-core": "7.0.0-bridge.0"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "1.0.4",
+    "@reduxjs/toolkit": "1.1.0",
     "chalk": "3.0.0",
     "compression": "1.7.4",
     "connected-react-router": "6.6.1",
