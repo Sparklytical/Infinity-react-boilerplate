@@ -51,7 +51,7 @@ devDependencies:
   circular-dependency-plugin: 5.2.0_webpack@4.41.2
   compare-versions: 3.5.1
   compression-webpack-plugin: 3.0.0_webpack@4.41.2
-  css-loader: 3.2.0_webpack@4.41.2
+  css-loader: 3.2.1_webpack@4.41.2
   eslint: 6.7.2
   eslint-config-airbnb: 18.0.1_8a344497cb03a38c569a3b4df5bbec19
   eslint-config-airbnb-base: 14.0.0_5e9070aea58cdfed41951c2cac23c677
@@ -920,6 +920,13 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-/fmONZqL6ZMl9KJUYajetCrID6m0xmL4odX7v+Xvoxcv0DdbP/oO0TWIeLUCHqczQ6L6njDMqmqHFy2cp3FFsA==
+  /@babel/runtime-corejs3/7.7.4:
+    dependencies:
+      core-js-pure: 3.4.5
+      regenerator-runtime: 0.13.3
+    dev: true
+    resolution:
+      integrity: sha512-BBIEhzk8McXDcB3IbOi8zQPzzINUp4zcLesVlBSOcyGhzPUU8Xezk5GAG7Sy5GVhGmAO0zGd2qRSeY2g4Obqxw==
   /@babel/runtime/7.7.4:
     dependencies:
       regenerator-runtime: 0.13.3
@@ -2113,7 +2120,7 @@ packages:
   /autoprefixer/9.7.3:
     dependencies:
       browserslist: 4.8.0
-      caniuse-lite: 1.0.30001012
+      caniuse-lite: 1.0.30001013
       chalk: 2.4.2
       normalize-range: 0.1.2
       num2fraction: 1.2.2
@@ -2133,12 +2140,16 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Uvq6hVe90D0B2WEnUqtdgY1bATGz3mw33nH9Y+dmA+w5DHvUmBgkr5rM/KCHpCsiFNRUfokW/szpPPgMK2hm4A==
-  /axobject-query/2.0.2:
+  /axobject-query/2.1.1_eslint@6.7.2:
     dependencies:
-      ast-types-flow: 0.0.7
+      '@babel/runtime': 7.7.4
+      '@babel/runtime-corejs3': 7.7.4
+      eslint: 6.7.2
     dev: true
+    peerDependencies:
+      eslint: ^5 || ^6
     resolution:
-      integrity: sha512-MCeek8ZH7hKyO1rWUbKNQBbl4l2eY0ntk7OGi+q0RlafrCnfPxC06WZA+uebCfmYp4mNU9jRBP1AhGyf8+W3ww==
+      integrity: sha512-lF98xa/yvy6j3fBHAgQXIYl+J4eZadOSqsPojemUqClzNbBV38wWGpUbQbVEyf4eUF5yF7eHmGgGA2JiHyjeqw==
   /babel-core/7.0.0-bridge.0_@babel+core@7.7.4:
     dependencies:
       '@babel/core': 7.7.4
@@ -2461,8 +2472,8 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/4.8.0:
     dependencies:
-      caniuse-lite: 1.0.30001012
-      electron-to-chromium: 1.3.320
+      caniuse-lite: 1.0.30001013
+      electron-to-chromium: 1.3.321
       node-releases: 1.1.41
     dev: true
     hasBin: true
@@ -2720,10 +2731,10 @@ packages:
   /camelize/1.0.0:
     resolution:
       integrity: sha1-FkpUg+Yw+kMh5a8HAg5TGDGyYJs=
-  /caniuse-lite/1.0.30001012:
+  /caniuse-lite/1.0.30001013:
     dev: true
     resolution:
-      integrity: sha512-7RR4Uh04t9K1uYRWzOJmzplgEOAXbfK72oVNokCdMzA67trrhPzy93ahKk1AWHiA0c58tD2P+NHqxrA8FZ+Trg==
+      integrity: sha512-hOAXaWKuq/UVFgYawxIOdPdyMQdYcwOCDOjnZcKn7wCgFUrhP7smuNZjGLuJlPSgE6aRA4cRJ+bGSrhtEt7ZAg==
   /caseless/0.12.0:
     dev: true
     resolution:
@@ -3254,6 +3265,11 @@ packages:
     dev: true
     resolution:
       integrity: sha512-rYVvzvKJDKoefdAC+q6VP63vp5hMmeVONCi9pVUbU1qRrtVrmAk/nPhnRg+i+XFd775m1hpG2Yd5RY3X45ccuw==
+  /core-js-pure/3.4.5:
+    dev: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-v3BoUOhmBvs4Z17jG/oM7qyv+tEEMvD1FYDDfxa6uD5W2rA/DpKvhvmyrBzxuMQTa/91UQKisaiqe0+0GuL2oA==
   /core-js/2.6.10:
     deprecated: 'core-js@<3.0 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.'
     dev: true
@@ -3396,7 +3412,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-/loXYOch1qU1biStIFsHH8SxTmOseh1IJqFvy8IujXOm1h+QjUdDhkzOrR5HG8K8mlxREj0yfi8ewCHx0eMxzA==
-  /css-loader/3.2.0_webpack@4.41.2:
+  /css-loader/3.2.1_webpack@4.41.2:
     dependencies:
       camelcase: 5.3.1
       cssesc: 3.0.0
@@ -3417,7 +3433,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0
     resolution:
-      integrity: sha512-QTF3Ud5H7DaZotgdcJjGMvyDj5F3Pn1j/sC6VBEOVp94cbwqyIBdcs/quzj4MC1BKQSrTpQznegH/5giYbhnCQ==
+      integrity: sha512-q40kYdcBNzMvkIImCL2O+wk8dh+RGwPPV9Dfz3n7XtOYPXqe2Z6VgtvoxjkLHz02gmhepG9sOAJOUlx+3hHsBg==
   /css-select-base-adapter/0.1.1:
     dev: true
     optional: true
@@ -3956,10 +3972,10 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
-  /electron-to-chromium/1.3.320:
+  /electron-to-chromium/1.3.321:
     dev: true
     resolution:
-      integrity: sha512-GVyRfGaKs/Vsf915WDaK5NG9vfud8nJFyapyQcrVS+sp8IeMpfml/YMvhthXsSOLlc0rzwdtnkNJE/+q4EPbTA==
+      integrity: sha512-jJy/BZK2s2eAjMPXVMSaCmo7/pSY2aKkfQ+LoAb5Wk39qAhyP9r8KU74c4qTgr9cD/lPUhJgReZxxqU0n5puog==
   /elegant-spinner/1.0.1:
     dev: true
     engines:
@@ -4216,7 +4232,7 @@ packages:
       aria-query: 3.0.0
       array-includes: 3.0.3
       ast-types-flow: 0.0.7
-      axobject-query: 2.0.2
+      axobject-query: 2.1.1_eslint@6.7.2
       damerau-levenshtein: 1.0.5
       emoji-regex: 7.0.3
       eslint: 6.7.2
@@ -11925,7 +11941,7 @@ specifiers:
   compression-webpack-plugin: 3.0.0
   connected-react-router: 6.6.1
   cross-env: 6.0.3
-  css-loader: 3.2.0
+  css-loader: 3.2.1
   eslint: 6.7.2
   eslint-config-airbnb: 18.0.1
   eslint-config-airbnb-base: 14.0.0
