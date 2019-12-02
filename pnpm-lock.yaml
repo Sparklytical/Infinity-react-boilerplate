@@ -1,5 +1,5 @@
 dependencies:
-  '@reduxjs/toolkit': 1.0.4
+  '@reduxjs/toolkit': 1.1.0
   chalk: 3.0.0
   compression: 1.7.4
   connected-react-router: 6.6.1_0fbb6e8bad94f843748e87c05fca4c10
@@ -1365,7 +1365,7 @@ packages:
   /@redux-saga/types/1.1.0:
     resolution:
       integrity: sha512-afmTuJrylUU/0OtqzaRkbyYFFNgCF73Bvel/sw90pvGrWIZ+vyoIJqA6eMSoA6+nb443kTmulmBtC9NerXboNg==
-  /@reduxjs/toolkit/1.0.4:
+  /@reduxjs/toolkit/1.1.0:
     dependencies:
       immer: 4.0.2
       redux: 4.0.4
@@ -1375,7 +1375,7 @@ packages:
       reselect: 4.0.0
     dev: false
     resolution:
-      integrity: sha512-nyCZ9/CpnMXFZ//0wm1mNPSEl0J0bCghY2qeHM8zuubaBBMBr6KsIaLLms1jThbOJ1O+Ej0Tl11z5naE9czfzA==
+      integrity: sha512-ttAoBieIxa/08MmL/SFKCx/xXJVF7ALolun5yNaPSixA73ueEUUYQhupmxlOJ/n6HgN3i4xs8HMgkm6XT4G6sA==
   /@samverschueren/stream-to-observable/0.3.0:
     dependencies:
       any-observable: 0.3.0
@@ -2462,7 +2462,7 @@ packages:
   /browserslist/4.8.0:
     dependencies:
       caniuse-lite: 1.0.30001012
-      electron-to-chromium: 1.3.317
+      electron-to-chromium: 1.3.320
       node-releases: 1.1.41
     dev: true
     hasBin: true
@@ -3956,10 +3956,10 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
-  /electron-to-chromium/1.3.317:
+  /electron-to-chromium/1.3.320:
     dev: true
     resolution:
-      integrity: sha512-C7sfpr1I1zqDurrfyVFhL450NFLeZrDYy5DeUuJBkEhBZbhyJ7JEZn741J+jcXCBaQ8S6j75XomLDHOLmLOdFQ==
+      integrity: sha512-GVyRfGaKs/Vsf915WDaK5NG9vfud8nJFyapyQcrVS+sp8IeMpfml/YMvhthXsSOLlc0rzwdtnkNJE/+q4EPbTA==
   /elegant-spinner/1.0.1:
     dev: true
     engines:
@@ -4680,7 +4680,7 @@ packages:
       node: '>=4.0.0'
     resolution:
       integrity: sha512-g1KuQwHOZAmOZMuBtHdxDtju+T2RT8jgCC9aANsbpdiDDTSnjgfuVsIBNKbUeJI3oKMRExcfNDtJl4OhbffMsw==
-  /fast-glob/3.1.0:
+  /fast-glob/3.1.1:
     dependencies:
       '@nodelib/fs.stat': 2.0.3
       '@nodelib/fs.walk': 1.2.4
@@ -4691,7 +4691,7 @@ packages:
     engines:
       node: '>=8'
     resolution:
-      integrity: sha512-TrUz3THiq2Vy3bjfQUB2wNyPdGBeGmdjbzzBLhfHN4YFurYptCKwGq/TfiRavbGywFRzY6U2CdmQ1zmsY5yYaw==
+      integrity: sha512-nTCREpBY8w8r+boyFYAx21iL6faSsQynliPHM4Uf56SbkyohCNxpVPEH9xrF5TXKy+IsjkPUHDKiUkzBVRXn9g==
   /fast-json-stable-stringify/2.0.0:
     dev: true
     resolution:
@@ -5358,7 +5358,7 @@ packages:
       '@types/glob': 7.1.1
       array-union: 2.1.0
       dir-glob: 3.0.1
-      fast-glob: 3.1.0
+      fast-glob: 3.1.1
       glob: 7.1.6
       ignore: 5.1.4
       merge2: 1.3.0
@@ -7267,11 +7267,11 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-CbTqYU17ABaLefO8vCU153ZZlprKYWDljcndKKDCFcYQITzWCXZAVk4QMFZPgvzrnUQ3uItnIE/LoUOwrT15Ig==
-  /merge-anything/2.4.2:
+  /merge-anything/2.4.3:
     dependencies:
       is-what: 3.4.0
     resolution:
-      integrity: sha512-/so+4seX7fdAhPI3m3bxwc60vhotzY9uM+1Z6C3GKeJBYzxt/lIrbs5uT9iwgM5aLi5kpJIPT7JzJfrrfloWHA==
+      integrity: sha512-jW6RU13cO5Va/TMuqpF2kMdea7QHpqDVnfprBHvl/3CXy5zduy1bFNZYaR/aA3PBZvqa/KigPzCkY8lUqtSdpA==
   /merge-descriptors/1.0.1:
     dev: false
     resolution:
@@ -10584,7 +10584,7 @@ packages:
       babel-plugin-styled-components: 1.10.6_styled-components@4.4.1
       css-to-react-native: 2.3.2
       memoize-one: 5.1.1
-      merge-anything: 2.4.2
+      merge-anything: 2.4.3
       prop-types: 15.7.2
       react: 16.12.0
       react-dom: 16.12.0_react@16.12.0
@@ -10838,7 +10838,7 @@ packages:
       schema-utils: 1.0.0
       serialize-javascript: 1.9.1
       source-map: 0.6.1
-      terser: 4.4.0
+      terser: 4.4.1
       webpack: 4.41.2_webpack@4.41.2
       webpack-sources: 1.4.3
       worker-farm: 1.7.0
@@ -10857,7 +10857,7 @@ packages:
       schema-utils: 2.6.1
       serialize-javascript: 2.1.0
       source-map: 0.6.1
-      terser: 4.4.0
+      terser: 4.4.1
       webpack: 4.41.2_webpack@4.41.2
       webpack-sources: 1.4.3
     dev: true
@@ -10867,7 +10867,7 @@ packages:
       webpack: ^4.0.0
     resolution:
       integrity: sha512-jwdauV5Al7zopR6OAYvIIRcxXCSvLjZjr7uZE8l2tIWb/ryrGN48sJftqGf5k9z09tWhajx53ldp0XPI080YnA==
-  /terser/4.4.0:
+  /terser/4.4.1:
     dependencies:
       commander: 2.20.3
       source-map: 0.6.1
@@ -10877,7 +10877,7 @@ packages:
       node: '>=6.0.0'
     hasBin: true
     resolution:
-      integrity: sha512-oDG16n2WKm27JO8h4y/w3iqBGAOSCtq7k8dRmrn4Wf9NouL0b2WpMHGChFGZq4nFAQy1FsNJrVQHfurXOSTmOA==
+      integrity: sha512-e05giplw+8sIYh50qXYHZmr0b76O5dOSm9JwSDebGFLri4ItYzxsnumiAK+yuI56R+H7uIjT9KbVEKNkrprzHw==
   /text-table/0.2.0:
     dev: true
     resolution:
@@ -11907,7 +11907,7 @@ specifiers:
   '@babel/preset-env': 7.7.4
   '@babel/preset-react': 7.7.4
   '@babel/register': 7.7.4
-  '@reduxjs/toolkit': 1.0.4
+  '@reduxjs/toolkit': 1.1.0
   '@testing-library/jest-dom': 4.2.4
   '@testing-library/react': 9.3.2
   add-asset-html-webpack-plugin: 3.1.3
