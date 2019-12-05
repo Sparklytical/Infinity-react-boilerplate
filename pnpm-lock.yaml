@@ -17,7 +17,7 @@ dependencies:
   offline-plugin: 5.0.7
   prop-types: 15.7.2
   react: 16.12.0
-  react-app-polyfill: 1.0.4
+  react-app-polyfill: 1.0.5
   react-dom: 16.12.0_react@16.12.0
   react-helmet-async: 1.0.4_react-dom@16.12.0+react@16.12.0
   react-redux: 7.1.3_react@16.12.0
@@ -885,7 +885,7 @@ packages:
       '@babel/plugin-transform-unicode-regex': 7.7.4_@babel+core@7.7.4
       '@babel/types': 7.7.4
       browserslist: 4.8.0
-      core-js-compat: 3.4.5
+      core-js-compat: 3.4.7
       invariant: 2.2.4
       js-levenshtein: 1.1.6
       semver: 5.7.1
@@ -922,7 +922,7 @@ packages:
       integrity: sha512-/fmONZqL6ZMl9KJUYajetCrID6m0xmL4odX7v+Xvoxcv0DdbP/oO0TWIeLUCHqczQ6L6njDMqmqHFy2cp3FFsA==
   /@babel/runtime-corejs3/7.7.4:
     dependencies:
-      core-js-pure: 3.4.5
+      core-js-pure: 3.4.7
       regenerator-runtime: 0.13.3
     dev: true
     resolution:
@@ -1535,17 +1535,17 @@ packages:
       integrity: sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
   /@types/react-dom/16.9.4:
     dependencies:
-      '@types/react': 16.9.13
+      '@types/react': 16.9.15
     dev: true
     resolution:
       integrity: sha512-fya9xteU/n90tda0s+FtN5Ym4tbgxpq/hb/Af24dvs6uYnYn+fspaxw5USlw0R8apDNwxsqumdRoCoKitckQqw==
-  /@types/react/16.9.13:
+  /@types/react/16.9.15:
     dependencies:
       '@types/prop-types': 15.7.3
       csstype: 2.6.7
     dev: true
     resolution:
-      integrity: sha512-LikzRslbiufJYHyzbHSW0GrAiff8QYLMBFeZmSxzCYGXKxi8m/1PHX+rsVOwhr7mJNq+VIu2Dhf7U6mjFERK6w==
+      integrity: sha512-WsmM1b6xQn1tG3X2Hx4F3bZwc2E82pJXt5OPs2YJgg71IzvUoKOSSSYOvLXYCg1ttipM+UuA4Lj3sfvqjVxyZw==
   /@types/request/2.48.3:
     dependencies:
       '@types/caseless': 0.12.2
@@ -2001,7 +2001,7 @@ packages:
   /array-includes/3.0.3:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.16.2
+      es-abstract: 1.16.3
     dev: true
     engines:
       node: '>= 0.4'
@@ -2120,7 +2120,7 @@ packages:
   /autoprefixer/9.7.3:
     dependencies:
       browserslist: 4.8.0
-      caniuse-lite: 1.0.30001013
+      caniuse-lite: 1.0.30001015
       chalk: 2.4.2
       normalize-range: 0.1.2
       num2fraction: 1.2.2
@@ -2472,9 +2472,9 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/4.8.0:
     dependencies:
-      caniuse-lite: 1.0.30001013
-      electron-to-chromium: 1.3.321
-      node-releases: 1.1.41
+      caniuse-lite: 1.0.30001015
+      electron-to-chromium: 1.3.322
+      node-releases: 1.1.42
     dev: true
     hasBin: true
     resolution:
@@ -2731,10 +2731,10 @@ packages:
   /camelize/1.0.0:
     resolution:
       integrity: sha1-FkpUg+Yw+kMh5a8HAg5TGDGyYJs=
-  /caniuse-lite/1.0.30001013:
+  /caniuse-lite/1.0.30001015:
     dev: true
     resolution:
-      integrity: sha512-hOAXaWKuq/UVFgYawxIOdPdyMQdYcwOCDOjnZcKn7wCgFUrhP7smuNZjGLuJlPSgE6aRA4cRJ+bGSrhtEt7ZAg==
+      integrity: sha512-/xL2AbW/XWHNu1gnIrO8UitBGoFthcsDgU9VLK1/dpsoxbaD5LscHozKze05R6WLsBvLhqv78dAPozMFQBYLbQ==
   /caseless/0.12.0:
     dev: true
     resolution:
@@ -3258,34 +3258,28 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
-  /core-js-compat/3.4.5:
+  /core-js-compat/3.4.7:
     dependencies:
       browserslist: 4.8.0
       semver: 6.3.0
     dev: true
     resolution:
-      integrity: sha512-rYVvzvKJDKoefdAC+q6VP63vp5hMmeVONCi9pVUbU1qRrtVrmAk/nPhnRg+i+XFd775m1hpG2Yd5RY3X45ccuw==
-  /core-js-pure/3.4.5:
+      integrity: sha512-57+mgz/P/xsGdjwQYkwtBZR3LuISaxD1dEwVDtbk8xJMqAmwqaxLOvnNT7kdJ7jYE/NjNptyzXi+IQFMi/2fCw==
+  /core-js-pure/3.4.7:
     dev: true
     requiresBuild: true
     resolution:
-      integrity: sha512-v3BoUOhmBvs4Z17jG/oM7qyv+tEEMvD1FYDDfxa6uD5W2rA/DpKvhvmyrBzxuMQTa/91UQKisaiqe0+0GuL2oA==
+      integrity: sha512-Am3uRS8WCdTFA3lP7LtKR0PxgqYzjAMGKXaZKSNSC/8sqU0Wfq8R/YzoRs2rqtOVEunfgH+0q3O0BKOg0AvjPw==
   /core-js/2.6.10:
     deprecated: 'core-js@<3.0 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.'
     dev: true
     requiresBuild: true
     resolution:
       integrity: sha512-I39t74+4t+zau64EN1fE5v2W31Adtc/REhzWN+gWRRXg6WH5qAsZm62DHpQ1+Yhe4047T55jvzz7MUqF/dBBlA==
-  /core-js/3.2.1:
-    dev: false
+  /core-js/3.4.7:
     requiresBuild: true
     resolution:
-      integrity: sha512-Qa5XSVefSVPRxy2XfUC13WbvqkxhkwB3ve+pgCQveNgYzbM/UxZeu1dcOX/xr4UmfUd+muuvsaxilQzCyUurMw==
-  /core-js/3.4.5:
-    dev: true
-    requiresBuild: true
-    resolution:
-      integrity: sha512-OuvejWH6vIaUo59Ndlh89purNm4DCIy/v3QoYlcGnn+PkYI8BhNHfCuAESrWX+ZPfq9JccVJ+XXgOMy77PJexg==
+      integrity: sha512-qaPVGw30J1wQ0GR3GvoPqlGf9GZfKKF4kFC7kiHlcsPTqH3txrs9crCp3ZiMAXuSenhz89Jnl4GZs/67S5VOSg==
   /core-util-is/1.0.2:
     dev: true
     resolution:
@@ -3972,10 +3966,10 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
-  /electron-to-chromium/1.3.321:
+  /electron-to-chromium/1.3.322:
     dev: true
     resolution:
-      integrity: sha512-jJy/BZK2s2eAjMPXVMSaCmo7/pSY2aKkfQ+LoAb5Wk39qAhyP9r8KU74c4qTgr9cD/lPUhJgReZxxqU0n5puog==
+      integrity: sha512-Tc8JQEfGQ1MzfSzI/bTlSr7btJv/FFO7Yh6tanqVmIWOuNCu6/D1MilIEgLtmWqIrsv+o4IjpLAhgMBr/ncNAA==
   /elegant-spinner/1.0.1:
     dev: true
     engines:
@@ -4070,7 +4064,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==
-  /es-abstract/1.16.2:
+  /es-abstract/1.16.3:
     dependencies:
       es-to-primitive: 1.2.1
       function-bind: 1.1.1
@@ -4086,7 +4080,7 @@ packages:
     engines:
       node: '>= 0.4'
     resolution:
-      integrity: sha512-jYo/J8XU2emLXl3OLwfwtuFfuF2w6DYPs+xy9ZfVyPkDcrauu6LYrw/q2TyCtrbc/KUdCiC5e9UajRhgNkVopA==
+      integrity: sha512-WtY7Fx5LiOnSYgF5eg/1T+GONaGmpvpPdCpSnYij+U2gDTL0UPfWrhDw7b2IYb+9NQJsYpCA0wOQvZfsd6YwRw==
   /es-to-primitive/1.2.1:
     dependencies:
       is-callable: 1.1.4
@@ -7283,11 +7277,11 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-CbTqYU17ABaLefO8vCU153ZZlprKYWDljcndKKDCFcYQITzWCXZAVk4QMFZPgvzrnUQ3uItnIE/LoUOwrT15Ig==
-  /merge-anything/2.4.3:
+  /merge-anything/2.4.4:
     dependencies:
       is-what: 3.4.0
     resolution:
-      integrity: sha512-jW6RU13cO5Va/TMuqpF2kMdea7QHpqDVnfprBHvl/3CXy5zduy1bFNZYaR/aA3PBZvqa/KigPzCkY8lUqtSdpA==
+      integrity: sha512-l5XlriUDJKQT12bH+rVhAHjwIuXWdAIecGwsYjv2LJo+dA1AeRTmeQS+3QBpO6lEthBMDi2IUMpLC1yyRvGlwQ==
   /merge-descriptors/1.0.1:
     dev: false
     resolution:
@@ -7680,7 +7674,7 @@ packages:
       '@types/inquirer': 6.0.1
       change-case: 3.1.0
       co: 4.6.0
-      core-js: 3.4.5
+      core-js: 3.4.7
       del: 5.1.0
       globby: 10.0.1
       handlebars: 4.5.3
@@ -7694,12 +7688,12 @@ packages:
       node: '>=8.9.4'
     resolution:
       integrity: sha512-HPtYicgUbQdvZvn5pjbTblT2jHFVAiJfhcqnKw2PR5dOVIzs/7hIeAkjUtX+PKLmJAQmZvjXJfk7ppJ2VHRLgw==
-  /node-releases/1.1.41:
+  /node-releases/1.1.42:
     dependencies:
       semver: 6.3.0
     dev: true
     resolution:
-      integrity: sha512-+IctMa7wIs8Cfsa8iYzeaLTFwv5Y4r5jZud+4AnfymzeEXKBCavFX0KBgzVaPVqf0ywa6PrO8/b+bPqdwjGBSg==
+      integrity: sha512-OQ/ESmUqGawI2PRX+XIRao44qWYBBfN54ImQYdWVTQqUckuejOg76ysSqDBK8NG3zwySRVnX36JwDQ6x+9GxzA==
   /node-sass/4.13.0:
     dependencies:
       async-foreach: 0.1.3
@@ -7909,7 +7903,7 @@ packages:
   /object.entries/1.1.0:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.16.2
+      es-abstract: 1.16.3
       function-bind: 1.1.1
       has: 1.0.3
     dev: true
@@ -7920,7 +7914,7 @@ packages:
   /object.fromentries/2.0.1:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.16.2
+      es-abstract: 1.16.3
       function-bind: 1.1.1
       has: 1.0.3
     dev: true
@@ -7931,7 +7925,7 @@ packages:
   /object.getownpropertydescriptors/2.0.3:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.16.2
+      es-abstract: 1.16.3
     dev: true
     engines:
       node: '>= 0.8'
@@ -7957,7 +7951,7 @@ packages:
   /object.values/1.1.0:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.16.2
+      es-abstract: 1.16.3
       function-bind: 1.1.1
       has: 1.0.3
     dev: true
@@ -9114,9 +9108,9 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha512-4Oz8DUIwdvoa5qMJelxipzi/iJIi40O5cGV1wNYp5hvZP8ZN0T+jiNkL0QepXs+EsQ9XJ8ipEDoiH70ySUJP3Q==
-  /react-app-polyfill/1.0.4:
+  /react-app-polyfill/1.0.5:
     dependencies:
-      core-js: 3.2.1
+      core-js: 3.4.7
       object-assign: 4.1.1
       promise: 8.0.3
       raf: 3.4.1
@@ -9126,7 +9120,7 @@ packages:
     engines:
       node: '>=6'
     resolution:
-      integrity: sha512-5Vte6ki7jpNsNCUKaboyofAhmURmCn2Y6Hu7ydJ6Iu4dct1CIGoh/1FT7gUZKAbowVX2lxVPlijvp1nKxfAl4w==
+      integrity: sha512-RcbV6+msbvZJZUIK/LX3UafPtoaDSJgUWu4sqBxHKTVmBsnlU2QWCKJRBRmgjxu+ivW/GPINbPWRM4Ppa6Lbgw==
   /react-dom/16.12.0_react@16.12.0:
     dependencies:
       loose-envify: 1.4.0
@@ -10600,7 +10594,7 @@ packages:
       babel-plugin-styled-components: 1.10.6_styled-components@4.4.1
       css-to-react-native: 2.3.2
       memoize-one: 5.1.1
-      merge-anything: 2.4.3
+      merge-anything: 2.4.4
       prop-types: 15.7.2
       react: 16.12.0
       react-dom: 16.12.0_react@16.12.0
@@ -10854,7 +10848,7 @@ packages:
       schema-utils: 1.0.0
       serialize-javascript: 1.9.1
       source-map: 0.6.1
-      terser: 4.4.1
+      terser: 4.4.2
       webpack: 4.41.2_webpack@4.41.2
       webpack-sources: 1.4.3
       worker-farm: 1.7.0
@@ -10873,7 +10867,7 @@ packages:
       schema-utils: 2.6.1
       serialize-javascript: 2.1.0
       source-map: 0.6.1
-      terser: 4.4.1
+      terser: 4.4.2
       webpack: 4.41.2_webpack@4.41.2
       webpack-sources: 1.4.3
     dev: true
@@ -10883,7 +10877,7 @@ packages:
       webpack: ^4.0.0
     resolution:
       integrity: sha512-jwdauV5Al7zopR6OAYvIIRcxXCSvLjZjr7uZE8l2tIWb/ryrGN48sJftqGf5k9z09tWhajx53ldp0XPI080YnA==
-  /terser/4.4.1:
+  /terser/4.4.2:
     dependencies:
       commander: 2.20.3
       source-map: 0.6.1
@@ -10893,7 +10887,7 @@ packages:
       node: '>=6.0.0'
     hasBin: true
     resolution:
-      integrity: sha512-e05giplw+8sIYh50qXYHZmr0b76O5dOSm9JwSDebGFLri4ItYzxsnumiAK+yuI56R+H7uIjT9KbVEKNkrprzHw==
+      integrity: sha512-Uufrsvhj9O1ikwgITGsZ5EZS6qPokUOkCegS7fYOdGTv+OA90vndUbU6PEjr5ePqHfNUbGyMO7xyIZv2MhsALQ==
   /text-table/0.2.0:
     dev: true
     resolution:
@@ -11979,7 +11973,7 @@ specifiers:
   prettier: 1.19.1
   prop-types: 15.7.2
   react: 16.12.0
-  react-app-polyfill: 1.0.4
+  react-app-polyfill: 1.0.5
   react-dom: 16.12.0
   react-helmet-async: 1.0.4
   react-redux: 7.1.3
