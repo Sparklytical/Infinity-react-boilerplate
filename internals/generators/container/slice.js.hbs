@@ -16,21 +16,20 @@ import { createSlice } from '@reduxjs/toolkit';
 export const initialState = {};
 
 const {{ camelCase name }}Slice = createSlice({
-  name: '{{ camelCase name }}',
-  initialState,
-  reducers: {
-    // eslint-disable-next-line no-unused-vars
-    defaultAction(state, action) {
-      /* Update your state here */
-      /* You can access action.payload to get data passed to the action */
-      /* See examples in containers/HomePage/saga.js in the react-boilerplate sample app */
-    },
-  },
+name: '{{ camelCase name }}',
+initialState,
+reducers: {
+// eslint-disable-next-line no-unused-vars
+defaultAction(state, action) {
+/* Update your state here */
+/* You can access action.payload to get data passed to the action */
+/* See examples in containers/HomePage/saga.js in the react-boilerplate sample app */
+},
+},
 });
 
 export const {
-  defaultAction,
+defaultAction,
 } = {{ camelCase name }}Slice.actions;
 
 export const { reducer } = {{ camelCase name }}Slice;
-

@@ -1,8 +1,8 @@
 /**
- *
- * {{properCase name }}
- *
- */
+*
+* {{properCase name }}
+*
+*/
 
 {{#if memo}}
 import React, { memo } from 'react';
@@ -22,15 +22,15 @@ import { createStructuredSelector } from 'reselect';
 {{/if}}
 
 {{#if wantActionsAndReducer}}
-  {{#if wantSaga}}
+{{#if wantSaga}}
 import { useInjectReducer, useInjectSaga } from 'redux-injectors';
-  {{else}}
-import { useInjectReducer } from 'redux-injectors';
-  {{/if}}
 {{else}}
-  {{#if wantSaga}}
+import { useInjectReducer } from 'redux-injectors';
+{{/if}}
+{{else}}
+{{#if wantSaga}}
 import { useInjectSaga } from 'redux-injectors';
-  {{/if}}
+{{/if}}
 {{/if}}
 {{#if wantActionsAndReducer}}
 import makeSelect{{properCase name}} from './selectors';
@@ -45,38 +45,38 @@ import messages from './messages';
 
 {{#if wantActionsAndReducer}}
 const stateSelector = createStructuredSelector({
-  {{camelCase name}}: makeSelect{{properCase name}}(),
+{{camelCase name}}: makeSelect{{properCase name}}(),
 });
 {{/if}}
 
 function {{ properCase name }}() {
-  {{#if wantActionsAndReducer}}
-  useInjectReducer({ key: '{{ camelCase name }}', reducer });
-  {{/if}}
-  {{#if wantSaga}}
-  useInjectSaga({ key: '{{ camelCase name }}', saga });
-  {{/if}}
-  {{#if wantActionsAndReducer}}
+{{#if wantActionsAndReducer}}
+useInjectReducer({ key: '{{ camelCase name }}', reducer });
+{{/if}}
+{{#if wantSaga}}
+useInjectSaga({ key: '{{ camelCase name }}', saga });
+{{/if}}
+{{#if wantActionsAndReducer}}
 
-  /* eslint-disable no-unused-vars */
-  const { {{camelCase name}} } = useSelector(stateSelector);
-  const dispatch = useDispatch();
-  /* eslint-enable no-unused-vars */
-  {{/if}}
+/* eslint-disable no-unused-vars */
+const { {{camelCase name}} } = useSelector(stateSelector);
+const dispatch = useDispatch();
+/* eslint-enable no-unused-vars */
+{{/if}}
 
-  return (
-    <div>
-    {{#if wantHeaders}}
-      <Helmet>
-        <title>{{properCase name}}</title>
-        <meta name="description" content="Description of {{properCase name}}" />
-      </Helmet>
-    {{/if}}
-    {{#if wantMessages}}
-      <FormattedMessage {...messages.header} />
-    {{/if}}
-    </div>
-  );
+return (
+<div>
+  {{#if wantHeaders}}
+  <Helmet>
+    <title>{{properCase name}}</title>
+    <meta name="description" content="Description of {{properCase name}}" />
+  </Helmet>
+  {{/if}}
+  {{#if wantMessages}}
+  <FormattedMessage {...messages.header} />
+  {{/if}}
+</div>
+);
 }
 
 {{ properCase name }}.propTypes = {};

@@ -47,6 +47,7 @@ module.exports = {
       default: true,
       message: 'Do you want sagas for asynchronous flows? (e.g. fetching data)',
     },
+
     {
       type: 'confirm',
       name: 'wantLoadable',
@@ -62,10 +63,9 @@ module.exports = {
         path: '../../app/containers/{{properCase name}}/index.js',
         templateFile: './container/index.js.hbs',
         abortOnFail: true,
-      },
+      }
     ];
 
-    // If component wants messages
 
     // If they want actions and a reducer, generate the slice,
     // the selectors and the corresponding tests
@@ -78,6 +78,7 @@ module.exports = {
         abortOnFail: true,
       });
 
+
       // Slice
       actions.push({
         type: 'add',
@@ -85,6 +86,7 @@ module.exports = {
         templateFile: './container/slice.js.hbs',
         abortOnFail: true,
       });
+
     }
 
     // Sagas
@@ -95,6 +97,7 @@ module.exports = {
         templateFile: './container/saga.js.hbs',
         abortOnFail: true,
       });
+
     }
 
     if (data.wantLoadable) {
