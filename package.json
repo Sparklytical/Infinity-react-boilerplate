@@ -85,14 +85,14 @@
     "styled-components": "4.4.1"
   },
   "devDependencies": {
-    "@babel/cli": "7.7.4",
-    "@babel/core": "7.7.4",
+    "@babel/cli": "7.7.5",
+    "@babel/core": "7.7.5",
     "@babel/plugin-proposal-class-properties": "7.7.4",
     "@babel/plugin-syntax-dynamic-import": "7.7.4",
-    "@babel/plugin-transform-modules-commonjs": "7.7.4",
+    "@babel/plugin-transform-modules-commonjs": "7.7.5",
     "@babel/plugin-transform-react-constant-elements": "7.7.4",
     "@babel/plugin-transform-react-inline-elements": "7.7.4",
-    "@babel/preset-env": "7.7.4",
+    "@babel/preset-env": "7.7.5",
     "@babel/preset-react": "7.7.4",
     "@babel/register": "7.7.4",
     "@testing-library/jest-dom": "4.2.4",
