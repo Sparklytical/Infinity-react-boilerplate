@@ -2,15 +2,17 @@
 
 <a name="1.0.0"></a>
 
-## 1.0.0 (2019-11-24)
+## 1.0.0 (2019-12-06)
 
 ### Added
 
+- ✨ Dependency Fixed [[4239f29](https://github.com/EvilSpark/react-redux-boilerplate/commit/4239f294150017df77ebae8d8dec5f71c63dca01)]
 - ✨ Changelog [[b29c706](https://github.com/EvilSpark/react-redux-boilerplate/commit/b29c70665c468b19db5b16e6107e98888ee9d0a0)]
 - ✨ Readme updated [[9498aa3](https://github.com/EvilSpark/react-redux-boilerplate/commit/9498aa3e92cd5f0f36c6bbc6077fd51e48757316)]
 
 ### Changed
 
+- ⬆️ connected-react-router 6.6.1 [[cc4b5e3](https://github.com/EvilSpark/react-redux-boilerplate/commit/cc4b5e3670c6bb6a984011b191b741a5f503ed56)]
 - ⬆️ Bump eslint from 6.6.0 to 6.7.0 [[767b0f8](https://github.com/EvilSpark/react-redux-boilerplate/commit/767b0f80b7c225d191ad1cc40ef1a3bd643d4731)]
 - ⬆️ Bump file-loader from 4.2.0 to 4.3.0 [[a8416b3](https://github.com/EvilSpark/react-redux-boilerplate/commit/a8416b32360de8303bd5ef8e44ab699ab6b3fb34)]
 - ⬆️ Bump url-loader from 2.2.0 to 2.3.0 [[307cb49](https://github.com/EvilSpark/react-redux-boilerplate/commit/307cb49a729da9e1a3025f83cb1cedfb7f92439c)]
@@ -26,14 +28,38 @@
 
 ### Fixed
 
+- 🐛 CI [[df82a2c](https://github.com/EvilSpark/react-redux-boilerplate/commit/df82a2c9e0e36155f87dcc24e9dd9bd46df4f330)]
+- 🐛 Husky Fixed [[ace782e](https://github.com/EvilSpark/react-redux-boilerplate/commit/ace782ec550070e51a145a1d589a5bc30993c7d5)]
 - 🚑 Maintenancee [[9a98b34](https://github.com/EvilSpark/react-redux-boilerplate/commit/9a98b340a2ada91facb0a6742e58add4ebbd95f0)]
 - 🚑 scripts removed [[9570279](https://github.com/EvilSpark/react-redux-boilerplate/commit/95702799e74f0b218ad1c9265e4d6c32638a603b)]
 - 🚑 packagelock [[ed63e3b](https://github.com/EvilSpark/react-redux-boilerplate/commit/ed63e3b6f3b0e9b4cb028d8a6622be3f8a433f05)]
 
 ### Miscellaneous
 
+- Merge pull request [#23](https://github.com/EvilSpark/react-redux-boilerplate/issues/23) from EvilSpark/renovate/react-app-polyfill-1.x [[ed0f9c9](https://github.com/EvilSpark/react-redux-boilerplate/commit/ed0f9c96e2836a83114922994938aec108998341)]
+- Update dependency react-app-polyfill to v1.0.5 [[4932bc5](https://github.com/EvilSpark/react-redux-boilerplate/commit/4932bc5def09deb2846254bce88d359b352452f9)]
+- Merge pull request [#22](https://github.com/EvilSpark/react-redux-boilerplate/issues/22) from EvilSpark/renovate/css-loader-3.x [[2c8262b](https://github.com/EvilSpark/react-redux-boilerplate/commit/2c8262bece822b32fc2840af65eee1788a0c3b56)]
+- Merge pull request [#21](https://github.com/EvilSpark/react-redux-boilerplate/issues/21) from EvilSpark/renovate/reduxjs-toolkit-1.x [[600c09b](https://github.com/EvilSpark/react-redux-boilerplate/commit/600c09baf75f3e788eb326a2bdc01f19b969e4a3)]
+- Update dependency css-loader to v3.2.1 [[aad35b2](https://github.com/EvilSpark/react-redux-boilerplate/commit/aad35b27b7ae863bb0c5730704716126d5a6d0b1)]
+- Update dependency @reduxjs/toolkit to v1.1.0 [[97bd8d5](https://github.com/EvilSpark/react-redux-boilerplate/commit/97bd8d5c29310af1324cfd1d61cac2d241a2053f)]
+- Merge pull request [#20](https://github.com/EvilSpark/react-redux-boilerplate/issues/20) from EvilSpark/renovate/eslint-6.x [[4549e5e](https://github.com/EvilSpark/react-redux-boilerplate/commit/4549e5e9ae07559042dbb9123d8a1f022bd84b6d)]
+- Update dependency eslint to v6.7.2 [[1eff162](https://github.com/EvilSpark/react-redux-boilerplate/commit/1eff16253f1b1072c55a6354983dd8a3e8683623)]
+- Merge pull request [#19](https://github.com/EvilSpark/react-redux-boilerplate/issues/19) from EvilSpark/renovate/eslint-plugin-react-7.x [[a8f3520](https://github.com/EvilSpark/react-redux-boilerplate/commit/a8f35202fd32343f2ffe9b9b380fbe025ad00588)]
+- Update dependency eslint-plugin-react to v7.17.0 [[ef8148f](https://github.com/EvilSpark/react-redux-boilerplate/commit/ef8148facc05516a7cf075d8ec6b6531d9f55518)]
+- Merge pull request [#18](https://github.com/EvilSpark/react-redux-boilerplate/issues/18) from EvilSpark/renovate/style-loader-1.x [[e4ca8d9](https://github.com/EvilSpark/react-redux-boilerplate/commit/e4ca8d9cb4c43c96dd4cf21b66caea53afd3ba00)]
+- Update dependency style-loader to v1.0.1 [[7d81ade](https://github.com/EvilSpark/react-redux-boilerplate/commit/7d81adef53c946766f11cb29d43f13aa3654ba6f)]
+- Merge pull request [#17](https://github.com/EvilSpark/react-redux-boilerplate/issues/17) from EvilSpark/renovate/lint-staged-9.x [[0ce3aa5](https://github.com/EvilSpark/react-redux-boilerplate/commit/0ce3aa5659bcd98f269163ecad65a4e40b981081)]
+- Update dependency lint-staged to v9.5.0 [[81df089](https://github.com/EvilSpark/react-redux-boilerplate/commit/81df089300f4a62b496858f0181f40402ba886df)]
+- Merge pull request [#16](https://github.com/EvilSpark/react-redux-boilerplate/issues/16) from EvilSpark/renovate/url-loader-3.x [[b7ee3b9](https://github.com/EvilSpark/react-redux-boilerplate/commit/b7ee3b979634c6cbd99e7b77bd2f89ef967c92ac)]
+- Update dependency url-loader to v3 [[b66f7a5](https://github.com/EvilSpark/react-redux-boilerplate/commit/b66f7a56ef774c930e6009b464abd04728e4762a)]
+- Merge pull request [#15](https://github.com/EvilSpark/react-redux-boilerplate/issues/15) from EvilSpark/renovate/file-loader-5.x [[56be2ea](https://github.com/EvilSpark/react-redux-boilerplate/commit/56be2ea31cbf38ebd023ef09c4a1f521e75e2335)]
+- Merge pull request [#13](https://github.com/EvilSpark/react-redux-boilerplate/issues/13) from EvilSpark/renovate/eslint-6.x [[2e7ca97](https://github.com/EvilSpark/react-redux-boilerplate/commit/2e7ca971798e70457cc0dd921416ceda3756e148)]
+- Update dependency file-loader to v5 [[ff03fbd](https://github.com/EvilSpark/react-redux-boilerplate/commit/ff03fbd5080a17f6014f87c0a5afb7713b6a0099)]
+- Update dependency eslint to v6.7.1 [[54b2125](https://github.com/EvilSpark/react-redux-boilerplate/commit/54b21256ead1ef781db6c53247bcab14cc8fb564)]
+- Merge pull request [#12](https://github.com/EvilSpark/react-redux-boilerplate/issues/12) from EvilSpark/renovate/stylelint-processor-styled-components-1.x [[79f4b7d](https://github.com/EvilSpark/react-redux-boilerplate/commit/79f4b7dab8620a18521ccdba0e357abaab88b504)]
 - Merge branch &#x27;master&#x27; of https://github.com/EvilSpark/react-redux-boilerplate [[9ac051b](https://github.com/EvilSpark/react-redux-boilerplate/commit/9ac051b7dac74e9a37c513f362ef2027f4102830)]
 - Generators added [[f7e3e6b](https://github.com/EvilSpark/react-redux-boilerplate/commit/f7e3e6b71e5622d08732e371d549e1c3c5395e09)]
+- Update dependency stylelint-processor-styled-components to v1.9.0 [[1becf2b](https://github.com/EvilSpark/react-redux-boilerplate/commit/1becf2b928de64ed6fbaa819a73b0c418110a6e7)]
 - Merge pull request [#11](https://github.com/EvilSpark/react-redux-boilerplate/issues/11) from EvilSpark/renovate/babel-monorepo [[9c8adf6](https://github.com/EvilSpark/react-redux-boilerplate/commit/9c8adf6e5a549db6881db6139aff7169bca386b3)]
 - Merge pull request [#10](https://github.com/EvilSpark/react-redux-boilerplate/issues/10) from EvilSpark/dependabot/npm_and_yarn/eslint-6.7.0 [[f70f0c6](https://github.com/EvilSpark/react-redux-boilerplate/commit/f70f0c6bbfacbf36875938b24ab21ff154eaf9ef)]
 - Update babel monorepo to v7.7.4 [[fd21892](https://github.com/EvilSpark/react-redux-boilerplate/commit/fd218920357cf797c0d9fc9e45e880f903615073)]
