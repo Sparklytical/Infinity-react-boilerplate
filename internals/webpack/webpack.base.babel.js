@@ -5,6 +5,8 @@
 const path = require('path');
 const webpack = require('webpack');
 const WebpackBar = require('webpackbar');
+require('pretty-error').start();
+const DashboardPlugin = require('webpack-dashboard/plugin');
 
 module.exports = options => ({
   mode: options.mode,
@@ -125,6 +127,7 @@ module.exports = options => ({
       NODE_ENV: 'development',
     }),
     new WebpackBar(),
+    new DashboardPlugin(),
   ]),
   resolve: {
     modules: ['node_modules', 'app'],
