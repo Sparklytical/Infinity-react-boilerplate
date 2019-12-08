@@ -2,10 +2,11 @@
 
 <a name="1.0.0"></a>
 
-## 1.0.0 (2019-12-06)
+## 1.0.0 (2019-12-08)
 
 ### Added
 
+- ✨ Pretty error and react dashboard [[284c16b](https://github.com/EvilSpark/react-redux-boilerplate/commit/284c16b3fac109c80f201d679c6c4b3ecdaf561c)]
 - ✨ Dependency Fixed [[4239f29](https://github.com/EvilSpark/react-redux-boilerplate/commit/4239f294150017df77ebae8d8dec5f71c63dca01)]
 - ✨ Changelog [[b29c706](https://github.com/EvilSpark/react-redux-boilerplate/commit/b29c70665c468b19db5b16e6107e98888ee9d0a0)]
 - ✨ Readme updated [[9498aa3](https://github.com/EvilSpark/react-redux-boilerplate/commit/9498aa3e92cd5f0f36c6bbc6077fd51e48757316)]
@@ -36,6 +37,17 @@
 
 ### Miscellaneous
 
+- Merge pull request [#28](https://github.com/EvilSpark/react-redux-boilerplate/issues/28) from EvilSpark/renovate/eslint-import-resolver-webpack-0.x [[605843e](https://github.com/EvilSpark/react-redux-boilerplate/commit/605843e84123efaec34a2a25ac5c8b0df6450dd1)]
+- Merge pull request [#27](https://github.com/EvilSpark/react-redux-boilerplate/issues/27) from EvilSpark/renovate/babel-monorepo [[d3450a0](https://github.com/EvilSpark/react-redux-boilerplate/commit/d3450a00a5982cef53a6eafbd9fbe0aa984fc4e4)]
+- Update dependency eslint-import-resolver-webpack to v0.12.0 [[f4833e7](https://github.com/EvilSpark/react-redux-boilerplate/commit/f4833e73085897416a5e9c448f604da5ade57e99)]
+- Update dependency @babel/preset-env to v7.7.6 [[c38eb46](https://github.com/EvilSpark/react-redux-boilerplate/commit/c38eb466b52c42d276c41221550f7be2984b6d65)]
+- Merge pull request [#26](https://github.com/EvilSpark/react-redux-boilerplate/issues/26) from EvilSpark/renovate/eslint-plugin-redux-saga-1.x [[9abb273](https://github.com/EvilSpark/react-redux-boilerplate/commit/9abb2730512e62636c89caf7a7c30e758293d029)]
+- Update dependency eslint-plugin-redux-saga to v1.1.3 [[44b5d96](https://github.com/EvilSpark/react-redux-boilerplate/commit/44b5d96d39e5dafdf0f7ad73ce37267c08238587)]
+- Merge pull request [#25](https://github.com/EvilSpark/react-redux-boilerplate/issues/25) from EvilSpark/renovate/terser-webpack-plugin-2.x [[efe5064](https://github.com/EvilSpark/react-redux-boilerplate/commit/efe5064d877c6f9d43b48651d80940511582d088)]
+- Merge pull request [#24](https://github.com/EvilSpark/react-redux-boilerplate/issues/24) from EvilSpark/renovate/babel-monorepo [[c8660d4](https://github.com/EvilSpark/react-redux-boilerplate/commit/c8660d4da2d0413d509b2c80a7a9cc5a74f1a6d5)]
+- Changelog [[6427516](https://github.com/EvilSpark/react-redux-boilerplate/commit/642751661a91529f7425e0384c4901a2e27bcb11)]
+- Update dependency terser-webpack-plugin to v2.2.2 [[a3226aa](https://github.com/EvilSpark/react-redux-boilerplate/commit/a3226aabd38f85638ea53fd5feaecf3758bf1cd2)]
+- Update babel monorepo to v7.7.5 [[eac8a32](https://github.com/EvilSpark/react-redux-boilerplate/commit/eac8a323020b843de144b04f922dc01ed0ff6936)]
 - Merge pull request [#23](https://github.com/EvilSpark/react-redux-boilerplate/issues/23) from EvilSpark/renovate/react-app-polyfill-1.x [[ed0f9c9](https://github.com/EvilSpark/react-redux-boilerplate/commit/ed0f9c96e2836a83114922994938aec108998341)]
 - Update dependency react-app-polyfill to v1.0.5 [[4932bc5](https://github.com/EvilSpark/react-redux-boilerplate/commit/4932bc5def09deb2846254bce88d359b352452f9)]
 - Merge pull request [#22](https://github.com/EvilSpark/react-redux-boilerplate/issues/22) from EvilSpark/renovate/css-loader-3.x [[2c8262b](https://github.com/EvilSpark/react-redux-boilerplate/commit/2c8262bece822b32fc2840af65eee1788a0c3b56)]

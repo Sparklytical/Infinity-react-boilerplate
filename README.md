@@ -29,7 +29,10 @@
   </a>
 <!-- Security Status -->
 <a href="https://snyk.io/test/github/EvilSpark/react-redux-boilerplate?targetFile=package.json"><img src="https://snyk.io/test/github/EvilSpark/react-redux-boilerplate/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/EvilSpark/react-redux-boilerplate?targetFile=package.json" style="max-width:100%;"></a>
+<a href="https://depshield.sonatype.org/badges/EvilSpark/react-redux-boilerplate/depshield.svg"><img src="https://depshield.github.io" /></a>
+
 <!-- maintenance Status -->
+
 <a href="https://codeclimate.com/github/EvilSpark/react-redux-boilerplate/maintainability"><img src="https://api.codeclimate.com/v1/badges/6787b5dca452dbc2a427/maintainability" /></a>
 </a>
 <a href="https://bettercodehub.com/results/EvilSpark/react-redux-boilerplate"><img src='https://bettercodehub.com/edge/badge/EvilSpark/react-redux-boilerplate?branch=master'></a>
