@@ -2,7 +2,7 @@
 
 <a name="1.0.0"></a>
 
-## 1.0.0 (2019-12-08)
+## 1.0.0 (2019-12-12)
 
 ### Added
 
@@ -13,6 +13,8 @@
 
 ### Changed
 
+- ⬆️ dependency [[b9ac7fb](https://github.com/EvilSpark/react-redux-boilerplate/commit/b9ac7fba65c42956c454f58db0fbbb18afd877b1)]
+- ⬆️ upgrading dependency [[7658c77](https://github.com/EvilSpark/react-redux-boilerplate/commit/7658c7799fa6a3fc443f1eecbe454a95df0b292c)]
 - ⬆️ connected-react-router 6.6.1 [[cc4b5e3](https://github.com/EvilSpark/react-redux-boilerplate/commit/cc4b5e3670c6bb6a984011b191b741a5f503ed56)]
 - ⬆️ Bump eslint from 6.6.0 to 6.7.0 [[767b0f8](https://github.com/EvilSpark/react-redux-boilerplate/commit/767b0f80b7c225d191ad1cc40ef1a3bd643d4731)]
 - ⬆️ Bump file-loader from 4.2.0 to 4.3.0 [[a8416b3](https://github.com/EvilSpark/react-redux-boilerplate/commit/a8416b32360de8303bd5ef8e44ab699ab6b3fb34)]
@@ -37,8 +39,13 @@
 
 ### Miscellaneous
 
+- Merge pull request [#41](https://github.com/EvilSpark/react-redux-boilerplate/issues/41) from EvilSpark/renovate/ngrok-3.x [[a849510](https://github.com/EvilSpark/react-redux-boilerplate/commit/a8495101eb55b80d862a7163277391ee923e53db)]
+- Update dependency ngrok to v3.2.7 [[1e97834](https://github.com/EvilSpark/react-redux-boilerplate/commit/1e97834938f2b810d9ad9641de625a9709232d34)]
+- Merge pull request [#29](https://github.com/EvilSpark/react-redux-boilerplate/issues/29) from EvilSpark/imgbot [[741ba88](https://github.com/EvilSpark/react-redux-boilerplate/commit/741ba88b45e596b2d23df5173a54d9536b8175e9)]
+- 📝 Testing a new badge [[a5301fe](https://github.com/EvilSpark/react-redux-boilerplate/commit/a5301fe7d5abfe9395debf53db10390a52b4c3fa)]
 - Merge pull request [#28](https://github.com/EvilSpark/react-redux-boilerplate/issues/28) from EvilSpark/renovate/eslint-import-resolver-webpack-0.x [[605843e](https://github.com/EvilSpark/react-redux-boilerplate/commit/605843e84123efaec34a2a25ac5c8b0df6450dd1)]
 - Merge pull request [#27](https://github.com/EvilSpark/react-redux-boilerplate/issues/27) from EvilSpark/renovate/babel-monorepo [[d3450a0](https://github.com/EvilSpark/react-redux-boilerplate/commit/d3450a00a5982cef53a6eafbd9fbe0aa984fc4e4)]
+- [ImgBot] Optimize images [[9ea8292](https://github.com/EvilSpark/react-redux-boilerplate/commit/9ea82927deca3e793a5ed4719ed438f6ba36784b)]
 - Update dependency eslint-import-resolver-webpack to v0.12.0 [[f4833e7](https://github.com/EvilSpark/react-redux-boilerplate/commit/f4833e73085897416a5e9c448f604da5ade57e99)]
 - Update dependency @babel/preset-env to v7.7.6 [[c38eb46](https://github.com/EvilSpark/react-redux-boilerplate/commit/c38eb466b52c42d276c41221550f7be2984b6d65)]
 - Merge pull request [#26](https://github.com/EvilSpark/react-redux-boilerplate/issues/26) from EvilSpark/renovate/eslint-plugin-redux-saga-1.x [[9abb273](https://github.com/EvilSpark/react-redux-boilerplate/commit/9abb2730512e62636c89caf7a7c30e758293d029)]
