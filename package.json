@@ -129,7 +129,7 @@
     "image-webpack-loader": "6.0.0",
     "imports-loader": "0.8.0",
     "lint-staged": "9.5.0",
-    "ngrok": "3.2.5",
+    "ngrok": "3.2.7",
     "node-plop": "0.23.0",
     "node-sass": "4.13.0",
     "null-loader": "3.0.0",
