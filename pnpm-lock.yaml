@@ -74,7 +74,7 @@ devDependencies:
   image-webpack-loader: 6.0.0
   imports-loader: 0.8.0
   lint-staged: 9.5.0
-  ngrok: 3.2.5
+  ngrok: 3.2.7
   node-plop: 0.23.0
   node-sass: 4.13.0
   null-loader: 3.0.0_webpack@4.41.2
@@ -1579,7 +1579,11 @@ packages:
   /@types/request/2.48.3:
     dependencies:
       '@types/caseless': 0.12.2
+<<<<<<< HEAD
       '@types/node': 8.10.59
+=======
+      '@types/node': 12.12.17
+>>>>>>> a8495101eb55b80d862a7163277391ee923e53db
       '@types/tough-cookie': 2.3.6
       form-data: 2.5.1
     dev: true
@@ -3201,7 +3205,11 @@ packages:
       integrity: sha512-BGHeLCK1GV7j1bSmQQAi26X+GgWcTjLr/0tzSvMCl3LH1w1IJ4PFSPoV5316b30cneTziC+B1a+3OjoSUcQYmw==
   /compression-webpack-plugin/3.0.1_webpack@4.41.2:
     dependencies:
+<<<<<<< HEAD
       cacache: 13.0.1
+=======
+      cacache: 11.3.3
+>>>>>>> a8495101eb55b80d862a7163277391ee923e53db
       find-cache-dir: 3.2.0
       neo-async: 2.6.1
       schema-utils: 2.6.1
@@ -4392,7 +4400,10 @@ packages:
   /eslint-plugin-import/2.19.1_eslint@6.7.2:
     dependencies:
       array-includes: 3.1.0
+<<<<<<< HEAD
       array.prototype.flat: 1.2.2
+=======
+>>>>>>> a8495101eb55b80d862a7163277391ee923e53db
       contains-path: 0.1.0
       debug: 2.6.9
       doctrine: 1.5.0
@@ -7955,7 +7966,7 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-C2kC4K+G2QnNQFXUIxTQvqmrdSIzGTX1ZRKeDW6ChmvPRw8rTkTEJzbEQHiHy06d36PCl/yMOCjquCRV8SpSQw==
-  /ngrok/3.2.5:
+  /ngrok/3.2.7:
     dependencies:
       '@types/node': 8.10.59
       '@types/request': 2.48.3
@@ -7969,7 +7980,7 @@ packages:
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-FWWQJSg8A1L6prZmT53onZMiFiaY+CfDgS9YStKjbE3qf2WDmRdi6kNBFvQKD2ARSv/te+rqeizAOGSUH5X56w==
+      integrity: sha512-B7K15HM0qRZplL2aO/yfxixYubH0M50Pfu0fa4PDcmXP7RC+wyYzu6YtX77BBHHCfbwCzkObX6YdO8ThpCR6Lg==
   /nice-try/1.0.5:
     dev: true
     resolution:
@@ -10448,6 +10459,13 @@ packages:
     dev: true
     resolution:
       integrity: sha1-H24t2jnBaL+S0T+G1KkYkz9mftQ=
+<<<<<<< HEAD
+=======
+  /serialize-javascript/1.9.1:
+    dev: true
+    resolution:
+      integrity: sha512-0Vb/54WJ6k5v8sSWN09S0ora+Hnr+cX40r9F170nT+mSkaxltoE/7R3OrIdBSUv1OoiobH1QoWQbCnAO+e8J1A==
+>>>>>>> a8495101eb55b80d862a7163277391ee923e53db
   /serialize-javascript/2.1.2:
     dev: true
     resolution:
@@ -11409,7 +11427,11 @@ packages:
       webpack: ^4.0.0
     resolution:
       integrity: sha512-QMxecFz/gHQwteWwSo5nTc6UaICqN1bMedC5sMtUc7y3Ha3Q8y6ZO0iCR8pq4RJC8Hjf0FEPEHZqcMB/+DFCrA==
+<<<<<<< HEAD
   /terser-webpack-plugin/2.3.0_webpack@4.41.2:
+=======
+  /terser-webpack-plugin/2.2.2_webpack@4.41.2:
+>>>>>>> a8495101eb55b80d862a7163277391ee923e53db
     dependencies:
       cacache: 13.0.1
       find-cache-dir: 3.2.0
@@ -12604,7 +12626,7 @@ specifiers:
   lint-staged: 9.5.0
   lodash: 4.17.15
   minimist: 1.2.0
-  ngrok: 3.2.5
+  ngrok: 3.2.7
   node-plop: 0.23.0
   node-sass: 4.13.0
   null-loader: 3.0.0
