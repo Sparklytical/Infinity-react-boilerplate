@@ -23,7 +23,7 @@ dependencies:
   react-dom: 16.12.0_react@16.12.0
   react-helmet-async: 1.0.4_react-dom@16.12.0+react@16.12.0
   react-hot-loader: 4.12.18_react-dom@16.12.0+react@16.12.0
-  react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
+  react-redux: 7.1.3_react@16.12.0
   react-router-dom: 5.1.2_react@16.12.0
   redux-injectors: 1.2.0_e5233c3f8d7ce8667da1daa3007bdff8
   redux-saga: 1.1.3
@@ -42,7 +42,7 @@ devDependencies:
   '@babel/preset-react': 7.7.4_@babel+core@7.7.5
   '@babel/register': 7.7.4_@babel+core@7.7.5
   '@testing-library/jest-dom': 4.2.4
-  '@testing-library/react': 9.3.3_react-dom@16.12.0+react@16.12.0
+  '@testing-library/react': 9.4.0_react-dom@16.12.0+react@16.12.0
   add-asset-html-webpack-plugin: 3.1.3_49cba7999ad0eb00619873c8c1b7827b
   babel-core: 7.0.0-bridge.0_@babel+core@7.7.5
   babel-eslint: 10.0.3_eslint@6.7.2
@@ -1432,7 +1432,7 @@ packages:
     optional: true
     resolution:
       integrity: sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
-  /@testing-library/dom/6.10.1:
+  /@testing-library/dom/6.11.0:
     dependencies:
       '@babel/runtime': 7.7.6
       '@sheerun/mutationobserver-shim': 0.3.2
@@ -1444,7 +1444,7 @@ packages:
     engines:
       node: '>=8'
     resolution:
-      integrity: sha512-5BPKxaO+zSJDUbVZBRNf9KrmDkm/EcjjaHSg3F9+031VZyPACKXlwLBjVzZxheunT9m72DoIq7WvyE457/Xweg==
+      integrity: sha512-Pkx9LMIGshyNbfmecjt18rrAp/ayMqGH674jYER0SXj0iG9xZc+zWRjk2Pg9JgPBDvwI//xGrI/oOQkAi4YEew==
   /@testing-library/jest-dom/4.2.4:
     dependencies:
       '@babel/runtime': 7.7.6
@@ -1462,10 +1462,10 @@ packages:
       npm: '>=6'
     resolution:
       integrity: sha512-j31Bn0rQo12fhCWOUWy9fl7wtqkp7In/YP2p5ZFyRuiiB9Qs3g+hS4gAmDWONbAHcRmVooNJ5eOHQDCOmUFXHg==
-  /@testing-library/react/9.3.3_react-dom@16.12.0+react@16.12.0:
+  /@testing-library/react/9.4.0_react-dom@16.12.0+react@16.12.0:
     dependencies:
       '@babel/runtime': 7.7.6
-      '@testing-library/dom': 6.10.1
+      '@testing-library/dom': 6.11.0
       '@types/testing-library__react': 9.1.2
       react: 16.12.0
       react-dom: 16.12.0_react@16.12.0
@@ -1476,7 +1476,7 @@ packages:
       react: '*'
       react-dom: '*'
     resolution:
-      integrity: sha512-IuoiJR/NAzu9EuT3Fqs92sRHe/9egCipar92wTnXe3fMloWy0Q7JdAXaszzbv2ogH30ztb6Axp5XW63vOTd4jA==
+      integrity: sha512-XdhDWkI4GktUPsz0AYyeQ8M9qS/JFie06kcSnUVcpgOwFjAu9vhwR83qBl+lw9yZWkbECjL8Hd+n5hH6C0oWqg==
   /@types/caseless/0.12.2:
     dev: true
     resolution:
@@ -1579,11 +1579,7 @@ packages:
   /@types/request/2.48.3:
     dependencies:
       '@types/caseless': 0.12.2
-<<<<<<< HEAD
-      '@types/node': 8.10.59
-=======
       '@types/node': 12.12.17
->>>>>>> a8495101eb55b80d862a7163277391ee923e53db
       '@types/tough-cookie': 2.3.6
       form-data: 2.5.1
     dev: true
@@ -2081,16 +2077,15 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=
-  /array.prototype.flat/1.2.2:
+  /array.prototype.flat/1.2.3:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.16.3
-      function-bind: 1.1.1
+      es-abstract: 1.17.0-next.1
     dev: true
     engines:
       node: '>= 0.4'
     resolution:
-      integrity: sha512-VXjh7lAL4KXKF2hY4FnEW9eRW6IhdvFW1sN/JwLbmECbCgACCnBHNyP3lFiYuttr0jxRN9Bsc5+G27dMseSWqQ==
+      integrity: sha512-gBlRZV0VSmfPIeWfuuy56XZMvbVfbEUnOXUvt3F/eUUUSyzlgLxhEX4YAEpxNAogRGehPSnfXyPtYyKAhkzQhQ==
   /arraybuffer.slice/0.0.7:
     dev: true
     resolution:
@@ -2934,7 +2929,7 @@ packages:
       upath: 1.2.0
     dev: true
     optionalDependencies:
-      fsevents: 1.2.9
+      fsevents: 1.2.10
     resolution:
       integrity: sha512-ZmZUazfOzf0Nve7duiCKD23PFSCs4JPoYyccjUFF3aQkQadqBhfzhjkwBH2mNOG9cTBwhamM37EIsIkZw3nRgg==
   /chownr/1.1.3:
@@ -3205,11 +3200,7 @@ packages:
       integrity: sha512-BGHeLCK1GV7j1bSmQQAi26X+GgWcTjLr/0tzSvMCl3LH1w1IJ4PFSPoV5316b30cneTziC+B1a+3OjoSUcQYmw==
   /compression-webpack-plugin/3.0.1_webpack@4.41.2:
     dependencies:
-<<<<<<< HEAD
       cacache: 13.0.1
-=======
-      cacache: 11.3.3
->>>>>>> a8495101eb55b80d862a7163277391ee923e53db
       find-cache-dir: 3.2.0
       neo-async: 2.6.1
       schema-utils: 2.6.1
@@ -3269,7 +3260,7 @@ packages:
       immutable: 3.8.2
       prop-types: 15.7.2
       react: 16.12.0
-      react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
+      react-redux: 7.1.3_react@16.12.0
       seamless-immutable: 7.1.4
     dev: false
     peerDependencies:
@@ -4244,23 +4235,6 @@ packages:
       webpack: ^4.0.0
     resolution:
       integrity: sha512-1SyHaKmggmEN9yt8aQeh/hKV3moXpqpOK1p5EEP/u9U0KngBdRHoiVRQLV8ZunUYRA/mSA0HB00KY+eeM9YKxw==
-  /es-abstract/1.16.3:
-    dependencies:
-      es-to-primitive: 1.2.1
-      function-bind: 1.1.1
-      has: 1.0.3
-      has-symbols: 1.0.1
-      is-callable: 1.1.4
-      is-regex: 1.0.4
-      object-inspect: 1.7.0
-      object-keys: 1.1.1
-      string.prototype.trimleft: 2.1.0
-      string.prototype.trimright: 2.1.0
-    dev: true
-    engines:
-      node: '>= 0.4'
-    resolution:
-      integrity: sha512-WtY7Fx5LiOnSYgF5eg/1T+GONaGmpvpPdCpSnYij+U2gDTL0UPfWrhDw7b2IYb+9NQJsYpCA0wOQvZfsd6YwRw==
   /es-abstract/1.17.0-next.1:
     dependencies:
       es-to-primitive: 1.2.1
@@ -4311,7 +4285,7 @@ packages:
       eslint: 6.7.2
       eslint-plugin-import: 2.19.1_eslint@6.7.2
       object.assign: 4.1.0
-      object.entries: 1.1.0
+      object.entries: 1.1.1
     dev: true
     engines:
       node: '>= 6'
@@ -4329,7 +4303,7 @@ packages:
       eslint-plugin-react: 7.17.0_eslint@6.7.2
       eslint-plugin-react-hooks: 2.3.0_eslint@6.7.2
       object.assign: 4.1.0
-      object.entries: 1.1.0
+      object.entries: 1.1.1
     dev: true
     engines:
       node: '>= 6'
@@ -4400,10 +4374,7 @@ packages:
   /eslint-plugin-import/2.19.1_eslint@6.7.2:
     dependencies:
       array-includes: 3.1.0
-<<<<<<< HEAD
-      array.prototype.flat: 1.2.2
-=======
->>>>>>> a8495101eb55b80d862a7163277391ee923e53db
+      array.prototype.flat: 1.2.3
       contains-path: 0.1.0
       debug: 2.6.9
       doctrine: 1.5.0
@@ -4412,7 +4383,7 @@ packages:
       eslint-module-utils: 2.5.0
       has: 1.0.3
       minimatch: 3.0.4
-      object.values: 1.1.0
+      object.values: 1.1.1
       read-pkg-up: 2.0.0
       resolve: 1.13.1
     dev: true
@@ -4472,9 +4443,9 @@ packages:
       eslint-plugin-eslint-plugin: 2.1.0_eslint@6.7.2
       has: 1.0.3
       jsx-ast-utils: 2.2.3
-      object.entries: 1.1.0
-      object.fromentries: 2.0.1
-      object.values: 1.1.0
+      object.entries: 1.1.1
+      object.fromentries: 2.0.2
+      object.values: 1.1.1
       prop-types: 15.7.2
       resolve: 1.13.1
     dev: true
@@ -4873,6 +4844,12 @@ packages:
       '0': node >=0.6.0
     resolution:
       integrity: sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=
+  /extsprintf/1.4.0:
+    dev: true
+    engines:
+      '0': node >=0.6.0
+    resolution:
+      integrity: sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
   /fast-deep-equal/2.0.1:
     dev: true
     resolution:
@@ -5357,19 +5334,18 @@ packages:
     dev: true
     resolution:
       integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
-  /fsevents/1.2.9:
+  /fsevents/1.2.10:
     bundledDependencies:
       - node-pre-gyp
     dependencies:
       nan: 2.14.0
-    deprecated: 'One of your dependencies needs to upgrade to fsevents v2: 1) Proper nodejs v10+ support 2) No more fetching binaries from AWS, smaller package size'
     dev: true
     engines:
       node: '>=4.0'
     optional: true
     requiresBuild: true
     resolution:
-      integrity: sha512-oeyj2H3EjjonWcFjD5NvZNE9Rqe4UW+nQBU2HNeKw0koVLEFIhtyETyAakeAM3de7Z/SW5kcA+fZUait9EApnw==
+      integrity: sha512-Dw5DScF/8AWhWzWRbnQrFJfeR/TOJZjRr9Du9kfmd8t234ICcVeDBlauFl/jVcE5ZewhlPoCFvIqp0SE3kAVxA==
   /fstream/1.0.12:
     dependencies:
       graceful-fs: 4.2.3
@@ -8281,37 +8257,37 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-On+GgzS0B96gbaFtiNXNKeQ1/s8=
-  /object.entries/1.1.0:
+  /object.entries/1.1.1:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.16.3
+      es-abstract: 1.17.0-next.1
       function-bind: 1.1.1
       has: 1.0.3
     dev: true
     engines:
       node: '>= 0.4'
     resolution:
-      integrity: sha512-l+H6EQ8qzGRxbkHOd5I/aHRhHDKoQXQ8g0BYt4uSweQU1/J6dZUOyWh9a2Vky35YCKjzmgxOzta2hH6kf9HuXA==
-  /object.fromentries/2.0.1:
+      integrity: sha512-ilqR7BgdyZetJutmDPfXCDffGa0/Yzl2ivVNpbx/g4UeWrCdRnFDUBrKJGLhGieRHDATnyZXWBeCb29k9CJysQ==
+  /object.fromentries/2.0.2:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.16.3
+      es-abstract: 1.17.0-next.1
       function-bind: 1.1.1
       has: 1.0.3
     dev: true
     engines:
       node: '>= 0.4'
     resolution:
-      integrity: sha512-PUQv8Hbg3j2QX0IQYv3iAGCbGcu4yY4KQ92/dhA4sFSixBmSmp13UpDLs6jGK8rBtbmhNNIK99LD2k293jpiGA==
-  /object.getownpropertydescriptors/2.0.3:
+      integrity: sha512-r3ZiBH7MQppDJVLx6fhD618GKNG40CZYH9wgwdhKxBDDbQgjeWGGd4AtkZad84d291YxvWe7bJGuE65Anh0dxQ==
+  /object.getownpropertydescriptors/2.1.0:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.16.3
+      es-abstract: 1.17.0-next.1
     dev: true
     engines:
       node: '>= 0.8'
     resolution:
-      integrity: sha1-h1jIRvW0B62rDyNuCYbxSwUcqhY=
+      integrity: sha512-Z53Oah9A3TdLoblT7VKJaTDdXdT+lQO+cNpKVnya5JDe9uLvzu1YyY1yFDFrcxrlRgWrEFH0jJtD/IbuwjcEVg==
   /object.map/1.0.1:
     dependencies:
       for-own: 1.0.0
@@ -8329,17 +8305,17 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-h6EKxMFpS9Lhy/U1kaZhQftd10c=
-  /object.values/1.1.0:
+  /object.values/1.1.1:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.16.3
+      es-abstract: 1.17.0-next.1
       function-bind: 1.1.1
       has: 1.0.3
     dev: true
     engines:
       node: '>= 0.4'
     resolution:
-      integrity: sha512-8mf0nKLAoFX6VlNVdhGj31SVYpaNFtUnuoOXWyFEstsWRgU837AK+JYM0iAxwkSzGRbwn8cbFmgbyxj1j4VbXg==
+      integrity: sha512-WTa54g2K8iu0kmS/us18jEmdv1a4Wi//BZ/DTVYEcH0XhLM5NYdpDHja3gt57VrZLcNAO2WGA+KpWsDBaHt6eA==
   /offline-plugin/5.0.7:
     dependencies:
       deep-extend: 0.5.1
@@ -9632,7 +9608,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
-  /react-redux/7.1.3_react-dom@16.12.0+react@16.12.0:
+  /react-redux/7.1.3_react@16.12.0:
     dependencies:
       '@babel/runtime': 7.7.6
       hoist-non-react-statics: 3.3.1
@@ -9640,13 +9616,10 @@ packages:
       loose-envify: 1.4.0
       prop-types: 15.7.2
       react: 16.12.0
-      react-dom: 16.12.0_react@16.12.0
       react-is: 16.12.0
     dev: false
     peerDependencies:
       react: ^16.8.3
-      react-dom: '*'
-      react-native: '*'
       redux: ^2.0.0 || ^3.0.0 || ^4.0.0-0
     peerDependenciesMeta:
       react-dom:
@@ -9893,7 +9866,7 @@ packages:
       lodash: 4.17.15
       react: 16.12.0
       react-dom: 16.12.0_react@16.12.0
-      react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
+      react-redux: 7.1.3_react@16.12.0
       redux: 4.0.4
     dev: false
     peerDependencies:
@@ -9958,7 +9931,7 @@ packages:
       regenerate: 1.4.0
       regenerate-unicode-properties: 8.1.0
       regjsgen: 0.5.1
-      regjsparser: 0.6.0
+      regjsparser: 0.6.1
       unicode-match-property-ecmascript: 1.0.4
       unicode-match-property-value-ecmascript: 1.1.0
     dev: true
@@ -9970,13 +9943,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-5qxzGZjDs9w4tzT3TPhCJqWdCc3RLYwy9J2NB0nm5Lz+S273lvWcpjaTGHsT1dc6Hhfq41uSEOw8wBmxrKOuyg==
-  /regjsparser/0.6.0:
+  /regjsparser/0.6.1:
     dependencies:
       jsesc: 0.5.0
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-RQ7YyokLiQBomUJuUG8iGVvkgOLxwyZM8k6d3q5SAXpg4r5TZJZigKFvC6PpD+qQ98bCDC5YelPeA3EucDoNeQ==
+      integrity: sha512-7LutE94sz/NKSYegK+/4E77+8DipxF+Qn2Tmu362AcmsF2NYq/wx3+ObvU90TKEhjf7hQoFXo23ajjrXP7eUgg==
   /relateurl/0.2.7:
     dev: true
     engines:
@@ -10197,7 +10170,7 @@ packages:
       integrity: sha512-CxqObCX8K8YtAhOBRg+lrcdn+LK+WYOS8tSjqSFbjtrI5PnS63QPhZl4+yKfrU9tdsbMu9Anr/amegT87M9Z6w==
   /responselike/1.0.2:
     dependencies:
-      lowercase-keys: 1.0.0
+      lowercase-keys: 1.0.1
     dev: true
     optional: true
     resolution:
@@ -10459,13 +10432,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-H24t2jnBaL+S0T+G1KkYkz9mftQ=
-<<<<<<< HEAD
-=======
-  /serialize-javascript/1.9.1:
-    dev: true
-    resolution:
-      integrity: sha512-0Vb/54WJ6k5v8sSWN09S0ora+Hnr+cX40r9F170nT+mSkaxltoE/7R3OrIdBSUv1OoiobH1QoWQbCnAO+e8J1A==
->>>>>>> a8495101eb55b80d862a7163277391ee923e53db
   /serialize-javascript/2.1.2:
     dev: true
     resolution:
@@ -11321,7 +11287,7 @@ packages:
       csso: 4.0.2
       js-yaml: 3.13.1
       mkdirp: 0.5.1
-      object.values: 1.1.0
+      object.values: 1.1.1
       sax: 1.2.4
       stable: 0.1.8
       unquote: 1.1.1
@@ -11427,11 +11393,7 @@ packages:
       webpack: ^4.0.0
     resolution:
       integrity: sha512-QMxecFz/gHQwteWwSo5nTc6UaICqN1bMedC5sMtUc7y3Ha3Q8y6ZO0iCR8pq4RJC8Hjf0FEPEHZqcMB/+DFCrA==
-<<<<<<< HEAD
   /terser-webpack-plugin/2.3.0_webpack@4.41.2:
-=======
-  /terser-webpack-plugin/2.2.2_webpack@4.41.2:
->>>>>>> a8495101eb55b80d862a7163277391ee923e53db
     dependencies:
       cacache: 13.0.1
       find-cache-dir: 3.2.0
@@ -12006,7 +11968,7 @@ packages:
   /util.promisify/1.0.0:
     dependencies:
       define-properties: 1.1.3
-      object.getownpropertydescriptors: 2.0.3
+      object.getownpropertydescriptors: 2.1.0
     dev: true
     resolution:
       integrity: sha512-i+6qA2MPhvoKLuxnJNpXAGhg7HphQOSUq2LKMZD0m15EiskXUkMvKdF4Uui0WYeCUGea+o2cw/ZuwehtfsrNkA==
@@ -12073,7 +12035,7 @@ packages:
     dependencies:
       assert-plus: 1.0.0
       core-util-is: 1.0.2
-      extsprintf: 1.3.0
+      extsprintf: 1.4.0
     dev: true
     engines:
       '0': node >=0.6.0
@@ -12314,7 +12276,7 @@ packages:
       integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   /wide-align/1.1.3:
     dependencies:
-      string-width: 1.0.2
+      string-width: 2.1.1
     dev: true
     resolution:
       integrity: sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
@@ -12580,7 +12542,7 @@ specifiers:
   '@hot-loader/react-dom': 16.11.0
   '@reduxjs/toolkit': 1.1.0
   '@testing-library/jest-dom': 4.2.4
-  '@testing-library/react': 9.3.3
+  '@testing-library/react': 9.4.0
   add-asset-html-webpack-plugin: 3.1.3
   babel-core: 7.0.0-bridge.0
   babel-eslint: 10.0.3
