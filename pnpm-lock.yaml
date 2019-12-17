@@ -23,7 +23,7 @@ dependencies:
   react-dom: 16.12.0_react@16.12.0
   react-helmet-async: 1.0.4_react-dom@16.12.0+react@16.12.0
   react-hot-loader: 4.12.18_react-dom@16.12.0+react@16.12.0
-  react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
+  react-redux: 7.1.3_react@16.12.0
   react-router-dom: 5.1.2_react@16.12.0
   redux-injectors: 1.2.0_e5233c3f8d7ce8667da1daa3007bdff8
   redux-saga: 1.1.3
@@ -90,7 +90,7 @@ devDependencies:
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.9.0
   svg-url-loader: 3.0.3_webpack@4.41.2
-  terser-webpack-plugin: 2.3.0_webpack@4.41.2
+  terser-webpack-plugin: 2.3.1_webpack@4.41.2
   url-loader: 3.0.0_file-loader@5.0.2+webpack@4.41.2
   webpack: 4.41.2_webpack@4.41.2
   webpack-cli: 3.3.10_webpack@4.41.2
@@ -3267,7 +3267,7 @@ packages:
       immutable: 3.8.2
       prop-types: 15.7.2
       react: 16.12.0
-      react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
+      react-redux: 7.1.3_react@16.12.0
       seamless-immutable: 7.1.4
     dev: false
     peerDependencies:
@@ -9615,7 +9615,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
-  /react-redux/7.1.3_react-dom@16.12.0+react@16.12.0:
+  /react-redux/7.1.3_react@16.12.0:
     dependencies:
       '@babel/runtime': 7.7.6
       hoist-non-react-statics: 3.3.1
@@ -9623,13 +9623,10 @@ packages:
       loose-envify: 1.4.0
       prop-types: 15.7.2
       react: 16.12.0
-      react-dom: 16.12.0_react@16.12.0
       react-is: 16.12.0
     dev: false
     peerDependencies:
       react: ^16.8.3
-      react-dom: '*'
-      react-native: '*'
       redux: ^2.0.0 || ^3.0.0 || ^4.0.0-0
     peerDependenciesMeta:
       react-dom:
@@ -9876,7 +9873,7 @@ packages:
       lodash: 4.17.15
       react: 16.12.0
       react-dom: 16.12.0_react@16.12.0
-      react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
+      react-redux: 7.1.3_react@16.12.0
       redux: 4.0.4
     dev: false
     peerDependencies:
@@ -10323,6 +10320,13 @@ packages:
       node-sass: ^4.0.0
       sass: ^1.3.0
       webpack: ^4.36.0
+    peerDependenciesMeta:
+      fibers:
+        optional: true
+      node-sass:
+        optional: true
+      sass:
+        optional: true
     resolution:
       integrity: sha512-+qeMu563PN7rPdit2+n5uuYVR0SSVwm0JsOUsaJXzgYcClWSlmX0iHDnmeOobPkf5kUglVot3QS6SyLyaQoJ4w==
   /sax/1.2.4:
@@ -11403,7 +11407,7 @@ packages:
       webpack: ^4.0.0
     resolution:
       integrity: sha512-QMxecFz/gHQwteWwSo5nTc6UaICqN1bMedC5sMtUc7y3Ha3Q8y6ZO0iCR8pq4RJC8Hjf0FEPEHZqcMB/+DFCrA==
-  /terser-webpack-plugin/2.3.0_webpack@4.41.2:
+  /terser-webpack-plugin/2.3.1_webpack@4.41.2:
     dependencies:
       cacache: 13.0.1
       find-cache-dir: 3.2.0
@@ -11411,7 +11415,7 @@ packages:
       schema-utils: 2.6.1
       serialize-javascript: 2.1.2
       source-map: 0.6.1
-      terser: 4.4.2
+      terser: 4.4.3
       webpack: 4.41.2_webpack@4.41.2
       webpack-sources: 1.4.3
     dev: true
@@ -11420,7 +11424,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-yez0HdpDf/iQVYGf+e/o8ZYWLb1g9d1nRRi5FIOZ4KfXbfSPT259UoqxPiSLhCnr0mlDoh+bucpYQSFbU0cEsQ==
+      integrity: sha512-dNxivOXmDgZqrGxOttBH6B4xaxT4zNC+Xd+2K8jwGDMK5q2CZI+KZMA1AAnSRT+BTRvuzKsDx+fpxzPAmAMVcA==
   /terser/4.4.2:
     dependencies:
       commander: 2.20.3
@@ -11432,6 +11436,17 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-Uufrsvhj9O1ikwgITGsZ5EZS6qPokUOkCegS7fYOdGTv+OA90vndUbU6PEjr5ePqHfNUbGyMO7xyIZv2MhsALQ==
+  /terser/4.4.3:
+    dependencies:
+      commander: 2.20.3
+      source-map: 0.6.1
+      source-map-support: 0.5.16
+    dev: true
+    engines:
+      node: '>=6.0.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-0ikKraVtRDKGzHrzkCv5rUNDzqlhmhowOBqC0XqUHFpW+vJ45+20/IFBcebwKfiS2Z9fJin6Eo+F1zLZsxi8RA==
   /text-table/0.2.0:
     dev: true
     resolution:
@@ -12637,7 +12652,7 @@ specifiers:
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.9.0
   svg-url-loader: 3.0.3
-  terser-webpack-plugin: 2.3.0
+  terser-webpack-plugin: 2.3.1
   url-loader: 3.0.0
   webpack: 4.41.2
   webpack-cli: 3.3.10
