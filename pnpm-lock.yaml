@@ -23,7 +23,7 @@ dependencies:
   react-dom: 16.12.0_react@16.12.0
   react-helmet-async: 1.0.4_react-dom@16.12.0+react@16.12.0
   react-hot-loader: 4.12.18_react-dom@16.12.0+react@16.12.0
-  react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
+  react-redux: 7.1.3_react@16.12.0
   react-router-dom: 5.1.2_react@16.12.0
   redux-injectors: 1.2.0_e5233c3f8d7ce8667da1daa3007bdff8
   redux-saga: 1.1.3
@@ -84,7 +84,7 @@ devDependencies:
   rimraf: 3.0.0
   sass-loader: 8.0.0_node-sass@4.13.0+webpack@4.41.2
   shelljs: 0.8.3
-  style-loader: 1.0.1_webpack@4.41.2
+  style-loader: 1.0.2_webpack@4.41.2
   stylelint: 12.0.0
   stylelint-config-recommended: 3.0.0_stylelint@12.0.0
   stylelint-config-styled-components: 0.1.1
@@ -3267,7 +3267,7 @@ packages:
       immutable: 3.8.2
       prop-types: 15.7.2
       react: 16.12.0
-      react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
+      react-redux: 7.1.3_react@16.12.0
       seamless-immutable: 7.1.4
     dev: false
     peerDependencies:
@@ -9615,7 +9615,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
-  /react-redux/7.1.3_react-dom@16.12.0+react@16.12.0:
+  /react-redux/7.1.3_react@16.12.0:
     dependencies:
       '@babel/runtime': 7.7.6
       hoist-non-react-statics: 3.3.1
@@ -9623,13 +9623,10 @@ packages:
       loose-envify: 1.4.0
       prop-types: 15.7.2
       react: 16.12.0
-      react-dom: 16.12.0_react@16.12.0
       react-is: 16.12.0
     dev: false
     peerDependencies:
       react: ^16.8.3
-      react-dom: '*'
-      react-native: '*'
       redux: ^2.0.0 || ^3.0.0 || ^4.0.0-0
     peerDependenciesMeta:
       react-dom:
@@ -9876,7 +9873,7 @@ packages:
       lodash: 4.17.15
       react: 16.12.0
       react-dom: 16.12.0_react@16.12.0
-      react-redux: 7.1.3_react-dom@16.12.0+react@16.12.0
+      react-redux: 7.1.3_react@16.12.0
       redux: 4.0.4
     dev: false
     peerDependencies:
@@ -10323,6 +10320,13 @@ packages:
       node-sass: ^4.0.0
       sass: ^1.3.0
       webpack: ^4.36.0
+    peerDependenciesMeta:
+      fibers:
+        optional: true
+      node-sass:
+        optional: true
+      sass:
+        optional: true
     resolution:
       integrity: sha512-+qeMu563PN7rPdit2+n5uuYVR0SSVwm0JsOUsaJXzgYcClWSlmX0iHDnmeOobPkf5kUglVot3QS6SyLyaQoJ4w==
   /sax/1.2.4:
@@ -11113,7 +11117,7 @@ packages:
     optional: true
     resolution:
       integrity: sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg==
-  /style-loader/1.0.1_webpack@4.41.2:
+  /style-loader/1.0.2_webpack@4.41.2:
     dependencies:
       loader-utils: 1.2.3
       schema-utils: 2.6.1
@@ -11124,7 +11128,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0
     resolution:
-      integrity: sha512-CnpEkSR1C+REjudiTWCv4+ssP7SCiuaQZJTZDWBRwTJoS90mdqkB8uOGMHKgVeUzpaU7IfLWoyQbvvs5Joj3Xw==
+      integrity: sha512-xehHGWeCPrr+R/bU82To0j7L7ENzH30RHYmMhmAumbuIpQ/bHmv3SAj1aTRfBSszkXoqNtpKnJyWXEDydS+KeA==
   /style-search/0.1.0:
     dev: true
     resolution:
@@ -12630,7 +12634,7 @@ specifiers:
   sanitize.css: 11.0.0
   sass-loader: 8.0.0
   shelljs: 0.8.3
-  style-loader: 1.0.1
+  style-loader: 1.0.2
   styled-components: 4.4.1
   stylelint: 12.0.0
   stylelint-config-recommended: 3.0.0
