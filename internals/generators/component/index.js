@@ -27,6 +27,11 @@ module.exports = {
       name: 'memo',
       default: false,
       message: 'Do you want to wrap your component in React.memo?',
+    },{
+      type: 'confirm',
+      name: 'universal',
+      default: true,
+      message: 'Do you want to universal import to your component?',
     },
     {
       type: 'confirm',
@@ -34,14 +39,18 @@ module.exports = {
       default: false,
       message: 'Do you want to load the component asynchronously?',
     },
+    {type: 'confirm',
+      name: 'scss',
+      default: true,
+      message: 'Do you want to add scss file?',},
   ],
   actions: data => {
     // Generate index.js and index.test.js
     const actions = [
       {
         type: 'add',
-        path: '../../app/components/{{properCase name}}/index.js',
-        templateFile: './component/index.js.hbs',
+        path: '../../app/components/{{properCase name}}/{{properCase name}}.js',
+        templateFile: './component/component.js.hbs',
         abortOnFail: true,
       },
     ];
@@ -58,7 +67,22 @@ module.exports = {
         abortOnFail: true,
       });
     }
-
+    if (data.universal) {
+      actions.push({
+        type: 'add',
+        path: '../../app/components/{{properCase name}}/index.js',
+        templateFile: './component/index.js.hbs',
+        abortOnFail: true,
+      });
+    }
+    if (data.scss) {
+      actions.push({
+        type: 'add',
+        path: '../../app/components/{{properCase name}}/{{properCase name}}.scss',
+        templateFile: './component/style.scss.hbs',
+        abortOnFail: true,
+      });
+    }
     actions.push({
       type: 'prettify',
       path: '/components/',
