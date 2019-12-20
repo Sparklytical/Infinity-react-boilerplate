@@ -10,35 +10,35 @@
 
 <div align="center">
   <!-- Dependency Status -->
-  <a href="https://david-dm.org/EvilSpark/react-redux-boilerplate">
-    <img src="https://david-dm.org/EvilSpark/react-redux-boilerplate.svg" alt="Dependency Status" />
+  <a href="https://david-dm.org/EvilSpark/Infinity-react-boilerplate">
+    <img src="https://david-dm.org/EvilSpark/Infinity-react-boilerplate.svg" alt="Dependency Status" />
   </a>
   <!-- devDependency Status -->
-  <a href="https://david-dm.org/EvilSpark/react-redux-boilerplate#info=devDependencies">
-    <img src="https://david-dm.org/EvilSpark/react-redux-boilerplate/dev-status.svg" alt="devDependency Status" />
+  <a href="https://david-dm.org/EvilSpark/Infinity-react-boilerplate#info=devDependencies">
+    <img src="https://david-dm.org/EvilSpark/Infinity-react-boilerplate/dev-status.svg" alt="devDependency Status" />
   </a>
   <!-- Build Status -->
-  <a href="https://travis-ci.com/EvilSpark/react-redux-boilerplate">
-    <img src="https://travis-ci.com/EvilSpark/react-redux-boilerplate.svg" alt="Build Status" />
+  <a href="https://travis-ci.com/EvilSpark/Infinity-react-boilerplate">
+    <img src="https://travis-ci.com/EvilSpark/Infinity-react-boilerplate.svg" alt="Build Status" />
   </a>
-  <a href="https://ci.appveyor.com/project/EvilSpark/react-redux-boilerplate/">
+  <a href="https://ci.appveyor.com/project/EvilSpark/Infinity-react-boilerplate/">
     <img src="https://ci.appveyor.com/api/projects/status/27e8kknj4cm6a4ui?svg=true" alt="Build Status" />
   </a>
   <a href="https://github.com/frinyvonnick/gitmoji-changelog">
     <img src="https://img.shields.io/badge/Changelog-gitmoji-brightgreen.svg" alt="Changelog" />
   </a>
 <!-- Security Status -->
-<a href="https://snyk.io/test/github/EvilSpark/react-redux-boilerplate?targetFile=package.json"><img src="https://snyk.io/test/github/EvilSpark/react-redux-boilerplate/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/EvilSpark/react-redux-boilerplate?targetFile=package.json" style="max-width:100%;"></a>
-<a href="https://depshield.sonatype.org/badges/EvilSpark/react-redux-boilerplate/depshield.svg"><img src="https://depshield.github.io" /></a>
+<a href="https://snyk.io/test/github/EvilSpark/Infinity-react-boilerplate?targetFile=package.json"><img src="https://snyk.io/test/github/EvilSpark/Infinity-react-boilerplate/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/EvilSpark/Infinity-react-boilerplate?targetFile=package.json" style="max-width:100%;"></a>
+<a href="https://depshield.sonatype.org/badges/EvilSpark/Infinity-react-boilerplate/depshield.svg"><img src="https://depshield.github.io" /></a>
 
 <!-- maintenance Status -->
 
-<a href="https://codeclimate.com/github/EvilSpark/react-redux-boilerplate/maintainability"><img src="https://api.codeclimate.com/v1/badges/6787b5dca452dbc2a427/maintainability" /></a>
+<a href="https://codeclimate.com/github/EvilSpark/Infinity-react-boilerplate/maintainability"><img src="https://api.codeclimate.com/v1/badges/6787b5dca452dbc2a427/maintainability" /></a>
 </a>
-<a href="https://bettercodehub.com/results/EvilSpark/react-redux-boilerplate"><img src='https://bettercodehub.com/edge/badge/EvilSpark/react-redux-boilerplate?branch=master'></a>
+<a href="https://bettercodehub.com/results/EvilSpark/Infinity-react-boilerplate"><img src='https://bettercodehub.com/edge/badge/EvilSpark/Infinity-react-boilerplate?branch=master'></a>
 </a>
-<a href="https://www.codacy.com/manual/kamrantahir25/react-redux-boilerplate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EvilSpark/react-redux-boilerplate&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/52515b479e684f14825366684a13a910"/></a>
-<a href="https://www.codefactor.io/repository/github/evilspark/react-redux-boilerplate"><img src="https://www.codefactor.io/repository/github/evilspark/react-redux-boilerplate/badge" alt="CodeFactor" /></a>
+<a href="https://www.codacy.com/manual/kamrantahir25/Infinity-react-boilerplate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EvilSpark/Infinity-react-boilerplate&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/52515b479e684f14825366684a13a910"/></a>
+<a href="https://www.codefactor.io/repository/github/evilspark/Infinity-react-boilerplate"><img src="https://www.codefactor.io/repository/github/evilspark/Infinity-react-boilerplate/badge" alt="CodeFactor" /></a>
 
 </div>
 
