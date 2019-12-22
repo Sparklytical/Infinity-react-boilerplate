@@ -90,21 +90,31 @@ But wait... there's more!
 - _Catch problems:_ AppVeyor and TravisCI setups included by default, so your
   tests get run automatically on Windows and Unix.
 
-<sub><i>Keywords: React.js, Redux, Hot Reloading, ESNext, Babel, react-router, Offline First, ServiceWorker, `styled-components`, redux-saga, FontFaceObserver</i></sub>
+<sub><i>Keywords: React.js, Redux, Hot Reloading, ESNext, Babel, react-router,
+Offline First, ServiceWorker, `styled-components`, redux-saga,
+FontFaceObserver</i></sub>
 
 ## Quick start
 
 1.  Make sure that you have Node.js v8.15.1 and npm v5 or above installed.
-2.  Clone this repo using `git clone --depth=1 https://github.com/EvilSpark/react-redux-boilerplate.git <YOUR_PROJECT_NAME>`
+2.  Clone this repo using
+    `git clone --depth=1 https://github.com/EvilSpark/react-redux-boilerplate.git <YOUR_PROJECT_NAME>`
 3.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.<br />
-4.  Run `npm run setup` in order to install dependencies and clean the git repo.<br />
-    _At this point you can run `npm start` to see the example app at `http://localhost:3000`._
-5.  Although I prefer using <a href="https://pnpm.js.org/">PNPM</a> instead of NPM.
+4.  Run `npm run setup` in order to install dependencies and clean the git
+    repo.<br /> _At this point you can run `npm start` to see the example app at
+    `http://localhost:3000`._
+5.  Although I prefer using <a href="https://pnpm.js.org/">PNPM</a> instead of
+    NPM.
 
 Now you're ready to rumble!
 
-> Please note that this boilerplate is **production-ready and not meant for beginners**! If you're just starting out with react or redux, please refer to https://github.com/petehunt/react-howto instead. If you want a solid, battle-tested base to build your next product upon and have some experience with react, this is the perfect start for you.
+> Please note that this boilerplate is **production-ready and not meant for
+> beginners**! If you're just starting out with react or redux, please refer to
+> https://github.com/petehunt/react-howto instead. If you want a solid,
+> battle-tested base to build your next product upon and have some experience
+> with react, this is the perfect start for you.
 
 ## License
 
-This project is licensed under the MIT license, Copyright (c) 2019 EvilSpark. For more information see `LICENSE.md`.
+This project is licensed under the MIT license, Copyright (c) 2019 EvilSpark.
+For more information see `LICENSE.md`.
