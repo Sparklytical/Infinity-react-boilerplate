@@ -1,6 +1,6 @@
 dependencies:
   '@hot-loader/react-dom': 16.11.0_react@16.12.0
-  '@reduxjs/toolkit': 1.1.0
+  '@reduxjs/toolkit': 1.2.0
   chalk: 3.0.0
   compression: 1.7.4
   connected-react-router: 6.6.1_0fbb6e8bad94f843748e87c05fca4c10
@@ -1427,17 +1427,17 @@ packages:
   /@redux-saga/types/1.1.0:
     resolution:
       integrity: sha512-afmTuJrylUU/0OtqzaRkbyYFFNgCF73Bvel/sw90pvGrWIZ+vyoIJqA6eMSoA6+nb443kTmulmBtC9NerXboNg==
-  /@reduxjs/toolkit/1.1.0:
+  /@reduxjs/toolkit/1.2.0:
     dependencies:
       immer: 4.0.2
-      redux: 4.0.4
-      redux-devtools-extension: 2.13.8_redux@4.0.4
+      redux: 4.0.5
+      redux-devtools-extension: 2.13.8_redux@4.0.5
       redux-immutable-state-invariant: 2.1.0
       redux-thunk: 2.3.0
       reselect: 4.0.0
     dev: false
     resolution:
-      integrity: sha512-ttAoBieIxa/08MmL/SFKCx/xXJVF7ALolun5yNaPSixA73ueEUUYQhupmxlOJ/n6HgN3i4xs8HMgkm6XT4G6sA==
+      integrity: sha512-Puikaxp52+wHDzIGaW6QE5luiSCxh0l3DZHv385Cmbtl4IWA3k08iHCocnEcMAT/Fh1xa+FhTmgQvgtRvZgSZg==
   /@samverschueren/stream-to-observable/0.3.0:
     dependencies:
       any-observable: 0.3.0
@@ -9693,9 +9693,9 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-wbIAe0LVfrE4kHmzyDM2OdXhzKo=
-  /redux-devtools-extension/2.13.8_redux@4.0.4:
+  /redux-devtools-extension/2.13.8_redux@4.0.5:
     dependencies:
-      redux: 4.0.4
+      redux: 4.0.5
     dev: false
     peerDependencies:
       redux: ^3.1.0 || ^4.0.0
@@ -9739,6 +9739,13 @@ packages:
       symbol-observable: 1.2.0
     resolution:
       integrity: sha512-vKv4WdiJxOWKxK0yRoaK3Y4pxxB0ilzVx6dszU2W8wLxlb2yikRph4iV/ymtdJ6ZxpBLFbyrxklnT5yBbQSl3Q==
+  /redux/4.0.5:
+    dependencies:
+      loose-envify: 1.4.0
+      symbol-observable: 1.2.0
+    dev: false
+    resolution:
+      integrity: sha512-VSz1uMAH24DM6MF72vcojpYPtrTUu3ByVWfPL1nPfVRb5mZVTve5GnNCUV53QM/BZ66xfWrm0CTWoM+Xlz8V1w==
   /regenerate-unicode-properties/8.1.0:
     dependencies:
       regenerate: 1.4.0
@@ -12403,7 +12410,7 @@ specifiers:
   '@babel/preset-react': 7.7.4
   '@babel/register': 7.7.7
   '@hot-loader/react-dom': 16.11.0
-  '@reduxjs/toolkit': 1.1.0
+  '@reduxjs/toolkit': 1.2.0
   add-asset-html-webpack-plugin: 3.1.3
   babel-core: 7.0.0-bridge.0
   babel-eslint: 10.0.3
