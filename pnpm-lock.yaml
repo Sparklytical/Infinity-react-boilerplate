@@ -83,8 +83,8 @@ devDependencies:
   sass-loader: 8.0.0_node-sass@4.13.0+webpack@4.41.4
   shelljs: 0.8.3
   style-loader: 1.1.2_webpack@4.41.4
-  stylelint: 12.0.0
-  stylelint-config-recommended: 3.0.0_stylelint@12.0.0
+  stylelint: 12.0.1
+  stylelint-config-recommended: 3.0.0_stylelint@12.0.1
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.9.0
   svg-url-loader: 3.0.3_webpack@4.41.4
@@ -124,27 +124,6 @@ packages:
       '@babel/highlight': 7.5.0
     resolution:
       integrity: sha512-27d4lZoomVyo51VegxI20xZPuSHusqbQag/ztrBC7wegWoQ1nLREPVSKSW8byhTlzTKyNE4ifaTA6lCp7JjpFw==
-  /@babel/core/7.7.5:
-    dependencies:
-      '@babel/code-frame': 7.5.5
-      '@babel/generator': 7.7.4
-      '@babel/helpers': 7.7.4
-      '@babel/parser': 7.7.5
-      '@babel/template': 7.7.4
-      '@babel/traverse': 7.7.4
-      '@babel/types': 7.7.4
-      convert-source-map: 1.7.0
-      debug: 4.1.1
-      json5: 2.1.1
-      lodash: 4.17.15
-      resolve: 1.13.1
-      semver: 5.7.1
-      source-map: 0.5.7
-    dev: true
-    engines:
-      node: '>=6.9.0'
-    resolution:
-      integrity: sha512-M42+ScN4+1S9iB6f+TL7QBpoQETxbclx+KNoKJABghnKYE+fMzSGqst0BZJc8CpI625bwPwYgUyRvxZ+0mZzpw==
   /@babel/core/7.7.7:
     dependencies:
       '@babel/code-frame': 7.5.5
@@ -972,6 +951,12 @@ packages:
       regenerator-runtime: 0.13.3
     resolution:
       integrity: sha512-BWAJxpNVa0QlE5gZdWjSxXtemZyZ9RmrmVozxt3NUXeZhVIJ5ANyqmMc0JDrivBZyxUuQvFxlvH4OWWOogGfUw==
+  /@babel/runtime/7.7.7:
+    dependencies:
+      regenerator-runtime: 0.13.3
+    dev: true
+    resolution:
+      integrity: sha512-uCnC2JEVAu8AKB5do1WRIsvrdJ0flYx/A/9f/6chdacnEZ7LmavjdsDXr5ksYBegxtuTPR5Va9/+13QF/kFkCA==
   /@babel/template/7.7.4:
     dependencies:
       '@babel/code-frame': 7.5.5
@@ -1501,6 +1486,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-VAe+DiwpnC/g448uN+/3gRl4th0BTdrR9gSLIOHA+SUQskaYZQDOHG7xmjiE7JUhjbXnbXytf6Ih+/pA6CtMFQ==
+  /@types/node/13.1.1:
+    dev: true
+    resolution:
+      integrity: sha512-hx6zWtudh3Arsbl3cXay+JnkvVgCKzCWKv42C9J01N2T2np4h8w5X8u6Tpz5mj38kE3M9FM0Pazx8vKFFMnjLQ==
   /@types/node/8.10.59:
     dev: true
     resolution:
@@ -1550,7 +1539,7 @@ packages:
       integrity: sha512-GpTIuDpb9u4zIO165fUy9+fXcULdD8HFRNli04GehoMVbeNq7D6OBnqSmg3lxZnC+UvgUhEWKxdKiwYUkGltIw==
   /@types/vfile/3.0.2:
     dependencies:
-      '@types/node': 12.12.20
+      '@types/node': 13.1.1
       '@types/unist': 2.0.3
       '@types/vfile-message': 2.0.0
     dev: true
@@ -8957,7 +8946,7 @@ packages:
       integrity: sha512-HeiOxGcuwID0AFsNAL0ox3mW6MHH5cstWN1Z3Y+n6H+g12ih7LHdYxWwEA/QmrebctLjo79xz9ouK3MroHwOJw==
   /postcss-jsx/0.36.3_cc389c5ac34832273f0e435968fd2736:
     dependencies:
-      '@babel/core': 7.7.5
+      '@babel/core': 7.7.7
       postcss: 7.0.25
       postcss-syntax: 0.36.2_postcss@7.0.25
     dev: true
@@ -11009,9 +10998,9 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-RNqj14kYzw++6Sr38n7197xG33ipEOktGElty4I70IKzQF1jzaD1U4xQ+Ny/i03UUhHlC5NWEO+d8olRCDji6g==
-  /stylelint-config-recommended/3.0.0_stylelint@12.0.0:
+  /stylelint-config-recommended/3.0.0_stylelint@12.0.1:
     dependencies:
-      stylelint: 12.0.0
+      stylelint: 12.0.1
     dev: true
     peerDependencies:
       stylelint: '>=10.1.0'
@@ -11030,7 +11019,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-tWsCnURm8uqqVySWsGfXdto1qR/0MaATGx2ovWu/hqG+gnrjGZZOdeNEIEb12tpIbCnLV0a6q1Bb3yhDjGGzSQ==
-  /stylelint/12.0.0:
+  /stylelint/12.0.1:
     dependencies:
       autoprefixer: 9.7.3
       balanced-match: 1.0.0
@@ -11085,7 +11074,7 @@ packages:
       node: '>=8.7.0'
     hasBin: true
     resolution:
-      integrity: sha512-TwqtATrFOT07SPlUGyHN7tVhWqxwitn5BlAvyBQy/ekA+Nwu4mLU9L1dvGQPNxHUBLowjvkSW18QzHHR6/FVVQ==
+      integrity: sha512-1mn39pqZiC/e8KUPoRMc1WMM83Upb2ILaSGxkCvKxALHutEOs2txcPQocJiXdO4Zx4FY4prGqjlkwrbthAxqig==
   /stylis-rule-sheet/0.0.10_stylis@3.5.4:
     dependencies:
       stylis: 3.5.4
@@ -12312,7 +12301,7 @@ packages:
       integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
   /yaml/1.7.2:
     dependencies:
-      '@babel/runtime': 7.7.6
+      '@babel/runtime': 7.7.7
     dev: true
     engines:
       node: '>= 6'
@@ -12482,7 +12471,7 @@ specifiers:
   shelljs: 0.8.3
   style-loader: 1.1.2
   styled-components: 4.4.1
-  stylelint: 12.0.0
+  stylelint: 12.0.1
   stylelint-config-recommended: 3.0.0
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.9.0
