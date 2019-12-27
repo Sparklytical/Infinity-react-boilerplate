@@ -82,7 +82,7 @@ devDependencies:
   rimraf: 3.0.0
   sass-loader: 8.0.0_node-sass@4.13.0+webpack@4.41.4
   shelljs: 0.8.3
-  style-loader: 1.1.1_webpack@4.41.4
+  style-loader: 1.1.2_webpack@4.41.4
   stylelint: 12.0.0
   stylelint-config-recommended: 3.0.0_stylelint@12.0.0
   stylelint-config-styled-components: 0.1.1
@@ -10962,7 +10962,7 @@ packages:
     optional: true
     resolution:
       integrity: sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg==
-  /style-loader/1.1.1_webpack@4.41.4:
+  /style-loader/1.1.2_webpack@4.41.4:
     dependencies:
       loader-utils: 1.2.3
       schema-utils: 2.6.1
@@ -10973,7 +10973,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-oIVF12trRq0od4Yojg7q0K3Lq/O6Ix/AYgVosykrVg+kWxxxUyk8KhKCCmekyGSUiVK1xxlAQymLWWdh6S9lOg==
+      integrity: sha512-0Mpq1ZHFDCNq1F+6avNBgv+7q8V+mWRuzehxyJT+aKgzyN/yfKTwjYqaYwBgx+11UpQxL21zNQfzzlz+JcGURw==
   /style-search/0.1.0:
     dev: true
     resolution:
@@ -12473,7 +12473,7 @@ specifiers:
   sanitize.css: 11.0.0
   sass-loader: 8.0.0
   shelljs: 0.8.3
-  style-loader: 1.1.1
+  style-loader: 1.1.2
   styled-components: 4.4.1
   stylelint: 12.0.0
   stylelint-config-recommended: 3.0.0
