@@ -111,11 +111,11 @@ module.exports = require('./webpack.base.babel')({
     }),
 
     new WebpackPwaManifest({
-      name: 'React Boilerplate',
+      name: 'Infinity-react-boilerplate',
       short_name: 'React BP',
-      description: 'My React Boilerplate-based project!',
+      description: 'My Infinity-react-boilerplate-based project!',
       background_color: '#fafafa',
-      theme_color: '#b1624d',
+      theme_color: '#10C697',
       inject: true,
       ios: true,
       icons: [

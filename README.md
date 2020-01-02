@@ -9,37 +9,48 @@
 <br />
 
 <div align="center">
+<div align="center">
   <!-- Dependency Status -->
-  <a href="https://david-dm.org/EvilSpark/Infinity-react-boilerplate">
-    <img src="https://david-dm.org/EvilSpark/Infinity-react-boilerplate.svg" alt="Dependency Status" />
-  </a>
+ <img alt="David" src="https://img.shields.io/david/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=Dependabot">
   <!-- devDependency Status -->
-  <a href="https://david-dm.org/EvilSpark/Infinity-react-boilerplate#info=devDependencies">
-    <img src="https://david-dm.org/EvilSpark/Infinity-react-boilerplate/dev-status.svg" alt="devDependency Status" />
-  </a>
+
+ <img alt="David" src="https://img.shields.io/david/dev/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=Dependabot">
+
   <!-- Build Status -->
-  <a href="https://travis-ci.com/EvilSpark/Infinity-react-boilerplate">
-    <img src="https://travis-ci.com/EvilSpark/Infinity-react-boilerplate.svg" alt="Build Status" />
-  </a>
-  <a href="https://ci.appveyor.com/project/EvilSpark/Infinity-react-boilerplate/">
-    <img src="https://ci.appveyor.com/api/projects/status/27e8kknj4cm6a4ui?svg=true" alt="Build Status" />
-  </a>
+
+<img alt="Travis (.com)" src="https://img.shields.io/travis/com/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=travis">
+  
+  <img alt="AppVeyor" src="https://img.shields.io/appveyor/ci/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=appveyor">
+
+  <!-- Gitmoji -->
+
   <a href="https://github.com/frinyvonnick/gitmoji-changelog">
-    <img src="https://img.shields.io/badge/Changelog-gitmoji-brightgreen.svg" alt="Changelog" />
+    <img src="https://img.shields.io/badge/Changelog-gitmoji-brightgreen.svg?style=for-the-badge&logo=github" alt="Changelog" />
+
   </a>
-<!-- Security Status -->
-<a href="https://snyk.io/test/github/EvilSpark/Infinity-react-boilerplate?targetFile=package.json"><img src="https://snyk.io/test/github/EvilSpark/Infinity-react-boilerplate/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/EvilSpark/Infinity-react-boilerplate?targetFile=package.json" style="max-width:100%;"></a>
-<a href="https://depshield.sonatype.org/badges/EvilSpark/Infinity-react-boilerplate/depshield.svg"><img src="https://depshield.github.io" /></a>
 
-<!-- maintenance Status -->
+  <!-- Maintenance -->
 
-<a href="https://codeclimate.com/github/EvilSpark/Infinity-react-boilerplate/maintainability"><img src="https://api.codeclimate.com/v1/badges/6787b5dca452dbc2a427/maintainability" /></a>
+<img alt="Code Climate maintainability" src="https://img.shields.io/codeclimate/maintainability/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=code-climate">
+
+  <!-- Codacy -->
+
+<img alt="Codacy grade" src="https://img.shields.io/codacy/grade/f748eb00985e46e08bbc77fa92c50313?style=for-the-badge&logo=codacy">
+
+  <!-- Codefactor -->
+
+<img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/evilspark/Infinity-react-boilerplate?style=for-the-badge&logo=codefactor">
+
+  <!-- Netlify -->
+
+<img alt="Netlify" src="https://img.shields.io/netlify/069a4fac-25fc-4413-bc0a-631770514735?style=for-the-badge&logo=netlify">
 </a>
-<a href="https://bettercodehub.com/results/EvilSpark/Infinity-react-boilerplate"><img src='https://bettercodehub.com/edge/badge/EvilSpark/Infinity-react-boilerplate?branch=master'></a>
-</a>
-<a href="https://www.codacy.com/manual/kamrantahir25/Infinity-react-boilerplate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EvilSpark/Infinity-react-boilerplate&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/52515b479e684f14825366684a13a910"/></a>
-<a href="https://www.codefactor.io/repository/github/evilspark/Infinity-react-boilerplate"><img src="https://www.codefactor.io/repository/github/evilspark/Infinity-react-boilerplate/badge" alt="CodeFactor" /></a>
-
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=github">
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=github">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=github">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=github">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=github">
+</div>
 </div>
 
 <br />
