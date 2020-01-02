@@ -7,6 +7,7 @@ const webpack = require('webpack');
 const WebpackBar = require('webpackbar');
 require('pretty-error').start();
 const DashboardPlugin = require('webpack-dashboard/plugin');
+const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
 
 module.exports = options => ({
   mode: options.mode,
@@ -128,6 +129,7 @@ module.exports = options => ({
     }),
     new WebpackBar(),
     new DashboardPlugin(),
+    new HardSourceWebpackPlugin(),
   ]),
   resolve: {
     modules: ['node_modules', 'app'],
