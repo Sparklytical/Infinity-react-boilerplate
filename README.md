@@ -61,7 +61,7 @@
 
 ## Features
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/EvilSpark/Infinity-react-boilerplate.svg)](https://greenkeeper.io/)
+
 
 <dl>
   <dt>Quick scaffolding</dt>
@@ -84,7 +84,8 @@
 
   <dt>Offline-first</dt>
   <dd>The next frontier in performant web apps: availability without a network connection from the instant your users load the app.</dd>
-
+<dt>Additional Features</dt>
+<dd>Improved Generator, Cache for faster startup</dd>
   <dt>Static code analysis</dt>
   <dd>Focus on writing new features without worrying about formatting or code quality. With the right editor setup, your code will automatically be formatted and linted as you work.</dd>
 
