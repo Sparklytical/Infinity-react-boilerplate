@@ -51,7 +51,7 @@ devDependencies:
   babel-plugin-transform-react-remove-prop-types: 0.4.24
   circular-dependency-plugin: 5.2.0_webpack@4.41.5
   compare-versions: 3.5.1
-  compression-webpack-plugin: 3.0.1_webpack@4.41.5
+  compression-webpack-plugin: 3.1.0_webpack@4.41.5
   css-loader: 3.4.1_webpack@4.41.5
   error-overlay-webpack-plugin: 0.4.1_webpack@4.41.5
   eslint: 6.8.0
@@ -3110,7 +3110,7 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha512-BGHeLCK1GV7j1bSmQQAi26X+GgWcTjLr/0tzSvMCl3LH1w1IJ4PFSPoV5316b30cneTziC+B1a+3OjoSUcQYmw==
-  /compression-webpack-plugin/3.0.1_webpack@4.41.5:
+  /compression-webpack-plugin/3.1.0_webpack@4.41.5:
     dependencies:
       cacache: 13.0.1
       find-cache-dir: 3.2.0
@@ -3123,9 +3123,9 @@ packages:
     engines:
       node: '>= 8.9.0'
     peerDependencies:
-      webpack: ^4.3.0
+      webpack: ^4.3.0 || ^5.0.0
     resolution:
-      integrity: sha512-FOwoBVzDiwSdJDnZTKXDpAjJU90k8SbChgxnoiYwTo15xjIDJkSC8wFKuc13DymXjgasPEqzS5+2RUgSKXdKKA==
+      integrity: sha512-iqTHj3rADN4yHwXMBrQa/xrncex/uEQy8QHlaTKxGchT/hC0SdlJlmL/5eRqffmWq2ep0/Romw6Ld39JjTR/ug==
   /compression/1.7.4:
     dependencies:
       accepts: 1.3.7
@@ -12459,7 +12459,7 @@ specifiers:
   circular-dependency-plugin: 5.2.0
   compare-versions: 3.5.1
   compression: 1.7.4
-  compression-webpack-plugin: 3.0.1
+  compression-webpack-plugin: 3.1.0
   connected-react-router: 6.6.1
   cross-env: 6.0.3
   css-loader: 3.4.1
