@@ -58,7 +58,7 @@ devDependencies:
   eslint-config-airbnb: 18.0.1_05eda38148720206d7c9280ea5caa448
   eslint-config-airbnb-base: 14.0.0_299a254f64ebbbcc1b645d4839412a08
   eslint-config-prettier: 6.9.0_eslint@6.8.0
-  eslint-import-resolver-webpack: 0.12.0_5ead9940d245b00a0f2a2885dd6e3dd7
+  eslint-import-resolver-webpack: 0.12.1_5ead9940d245b00a0f2a2885dd6e3dd7
   eslint-plugin-import: 2.19.1_eslint@6.8.0
   eslint-plugin-jsx-a11y: 6.2.3_eslint@6.8.0
   eslint-plugin-prettier: 3.1.2_eslint@6.8.0+prettier@1.19.1
@@ -4227,7 +4227,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-sfmTqJfPSizWu4aymbPr4Iidp5yKm8yDkHp+Ir3YiTHiiDfxh69mOUsmiqW6RZ9zRXFaF64GtYmN7e+8GHBv6Q==
-  /eslint-import-resolver-webpack/0.12.0_5ead9940d245b00a0f2a2885dd6e3dd7:
+  /eslint-import-resolver-webpack/0.12.1_5ead9940d245b00a0f2a2885dd6e3dd7:
     dependencies:
       array-find: 1.0.0
       debug: 2.6.9
@@ -4238,7 +4238,7 @@ packages:
       interpret: 1.2.0
       lodash: 4.17.15
       node-libs-browser: 2.2.1
-      resolve: 1.13.1
+      resolve: 1.14.2
       semver: 5.7.1
       webpack: 4.41.5_webpack@4.41.5
     dev: true
@@ -4246,7 +4246,7 @@ packages:
       eslint-plugin-import: '>=1.4.0'
       webpack: '>=1.11.0'
     resolution:
-      integrity: sha512-S0hJUrbcTsVjPQRa8bdNQrv/sc45bGwhtoJk3Ru/1qZWnR4oArGKHYe61xT03iHZSo9K/xL63rTMiayW5+NGMQ==
+      integrity: sha512-O/sUAXk6GWrICiN8JUkkjdt9uZpqZHP+FVnTxtEILL6EZMaPSrnP4lGPSFwcKsv7O211maqq4Nz60+dh236hVg==
   /eslint-module-utils/2.5.0:
     dependencies:
       debug: 2.6.9
@@ -10055,6 +10055,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-fn5Wobh4cxbLzuHaE+nphztHy43/b++4M6SsGFC2gB8uYwf0C8LcarfCz1un7UTW8OFQg9iNjZ4xpcFVGebDPg==
+  /resolve/1.14.2:
+    dependencies:
+      path-parse: 1.0.6
+    dev: true
+    resolution:
+      integrity: sha512-EjlOBLBO1kxsUxsKjLt7TAECyKW6fOh1VRkykQkKGzcBbjjPIxBqGh0jf7GJ3k/f5mxMqW3htMD3WdTUVtW8HQ==
   /responselike/1.0.2:
     dependencies:
       lowercase-keys: 1.0.1
@@ -12486,7 +12492,7 @@ specifiers:
   eslint-config-airbnb: 18.0.1
   eslint-config-airbnb-base: 14.0.0
   eslint-config-prettier: 6.9.0
-  eslint-import-resolver-webpack: 0.12.0
+  eslint-import-resolver-webpack: 0.12.1
   eslint-plugin-import: 2.19.1
   eslint-plugin-jsx-a11y: 6.2.3
   eslint-plugin-prettier: 3.1.2
