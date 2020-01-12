@@ -38,7 +38,7 @@ devDependencies:
   '@babel/plugin-transform-modules-commonjs': 7.8.0_@babel+core@7.8.0
   '@babel/plugin-transform-react-constant-elements': 7.8.0_@babel+core@7.8.0
   '@babel/plugin-transform-react-inline-elements': 7.8.0_@babel+core@7.8.0
-  '@babel/preset-env': 7.8.0_@babel+core@7.8.0
+  '@babel/preset-env': 7.8.2_@babel+core@7.8.0
   '@babel/preset-react': 7.8.0_@babel+core@7.8.0
   '@babel/register': 7.8.0_@babel+core@7.8.0
   add-asset-html-webpack-plugin: 3.1.3_8a7c8ee8ba413222bba65216e786558e
@@ -131,14 +131,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-AN2IR/wCUYsM+PdErq6Bp3RFTXl8W0p9Nmymm7zkpsCmh+r/YYcckaCGpU8Q/mEKmST19kkGRaG42A/jxOWwBA==
-  /@babel/compat-data/7.8.0:
+  /@babel/compat-data/7.8.1:
     dependencies:
       browserslist: 4.8.3
       invariant: 2.2.4
-      semver: 7.1.1
+      semver: 5.7.1
     dev: true
     resolution:
-      integrity: sha512-ixPUWJpnd9hHvRkyIE3mJ6PY5DEWmR08UkcpdqI5kV5g/d6knT8Wth1LE5v5sVTIJkm9dGpQsXnhwxcf2/PjAg==
+      integrity: sha512-Z+6ZOXvyOWYxJ50BwxzdhRnRsGST8Y3jaZgxYig575lTjVSs3KtJnmESwZegg6e2Dn0td1eDhoWlp1wI4BTCPw==
   /@babel/core/7.8.0:
     dependencies:
       '@babel/code-frame': 7.8.0
@@ -211,19 +211,19 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Vi8K1LScr8ZgLicfuCNSE7JWUPG/H/9Bw9zn+3vQyy4vA54FEGTCuUTOXCFwmBM93OD6jHfjrQ6ZnivM5U+bHg==
-  /@babel/helper-compilation-targets/7.8.0_@babel+core@7.8.0:
+  /@babel/helper-compilation-targets/7.8.1_@babel+core@7.8.0:
     dependencies:
-      '@babel/compat-data': 7.8.0
+      '@babel/compat-data': 7.8.1
       '@babel/core': 7.8.0
       browserslist: 4.8.3
       invariant: 2.2.4
       levenary: 1.1.0
-      semver: 7.1.1
+      semver: 5.7.1
     dev: true
     peerDependencies:
       '@babel/core': ^7.0.0
     resolution:
-      integrity: sha512-VcMSwBCqA2mGqmFFnLYtaC+Zkok5pVMOypeGn76RpSBAoFqc1olWjYoNqTn09YMChTi6rsbPIkkEOAwfsKSqRg==
+      integrity: sha512-Fsrljg8DHSdnKSzC0YFopX7lseRpVfWMYuC1Dnvf7tw972E2KDjZ4XEaqjO9aJL0sLcG4KNRXxowDxHYIcZ+Cw==
   /@babel/helper-create-class-features-plugin/7.8.0_@babel+core@7.8.0:
     dependencies:
       '@babel/core': 7.8.0
@@ -962,11 +962,11 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-qDg8wsnE47B/Sj8ZtOndPHrGBxJMssZJ71SzXrItum9n++iVFN7kYuJO+OHhjom7+/or0zzYqvJNzCkUjyNKqg==
-  /@babel/preset-env/7.8.0_@babel+core@7.8.0:
+  /@babel/preset-env/7.8.2_@babel+core@7.8.0:
     dependencies:
-      '@babel/compat-data': 7.8.0
+      '@babel/compat-data': 7.8.1
       '@babel/core': 7.8.0
-      '@babel/helper-compilation-targets': 7.8.0_@babel+core@7.8.0
+      '@babel/helper-compilation-targets': 7.8.1_@babel+core@7.8.0
       '@babel/helper-module-imports': 7.8.0
       '@babel/helper-plugin-utils': 7.8.0
       '@babel/plugin-proposal-async-generator-functions': 7.8.0_@babel+core@7.8.0
@@ -1026,7 +1026,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
-      integrity: sha512-g3wnth3Ct+ZvnaHcvb5PQyojqNj0whXTkO7hatXgz+lQ2FphOoXrG1JMIfeaHgDakGzx3LiNe0KsWO69xSVFDA==
+      integrity: sha512-AF2YUl2bGsLWTtFL68upTTB7nDo05aEcKjHmXJE+aXRvsx5K+9yRsHQP3MjnTrLOWe/eFyUr93dfILROsKC4eg==
   /@babel/preset-react/7.8.0_@babel+core@7.8.0:
     dependencies:
       '@babel/core': 7.8.0
@@ -12710,7 +12710,7 @@ specifiers:
   '@babel/plugin-transform-modules-commonjs': 7.8.0
   '@babel/plugin-transform-react-constant-elements': 7.8.0
   '@babel/plugin-transform-react-inline-elements': 7.8.0
-  '@babel/preset-env': 7.8.0
+  '@babel/preset-env': 7.8.2
   '@babel/preset-react': 7.8.0
   '@babel/register': 7.8.0
   '@hot-loader/react-dom': 16.11.0
