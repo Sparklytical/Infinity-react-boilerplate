@@ -55,14 +55,14 @@ devDependencies:
   css-loader: 3.4.2_webpack@4.41.5
   error-overlay-webpack-plugin: 0.4.1_webpack@4.41.5
   eslint: 6.8.0
-  eslint-config-airbnb: 18.0.1_06e79cf3a005bd5c0fecffbd615c3f04
+  eslint-config-airbnb: 18.0.1_5bb6789b042591701d8424d70f25f840
   eslint-config-airbnb-base: 14.0.0_e350486e76511e5213bbefec0777d336
   eslint-config-prettier: 6.9.0_eslint@6.8.0
   eslint-import-resolver-webpack: 0.12.1_1ca05585c12a40acaa031c75abf132cf
   eslint-plugin-import: 2.20.0_eslint@6.8.0
   eslint-plugin-jsx-a11y: 6.2.3_eslint@6.8.0
   eslint-plugin-prettier: 3.1.2_eslint@6.8.0+prettier@1.19.1
-  eslint-plugin-react: 7.17.0_eslint@6.8.0
+  eslint-plugin-react: 7.18.0_eslint@6.8.0
   eslint-plugin-react-hooks: 2.3.0_eslint@6.8.0
   eslint-plugin-redux-saga: 1.1.3_eslint@6.8.0+redux-saga@1.1.3
   file-loader: 5.0.2_webpack@4.41.5
@@ -4450,6 +4450,24 @@ packages:
       node: '>= 0.4'
     resolution:
       integrity: sha512-7MmGr03N7Rnuid6+wyhD9sHNE2n4tFSwExnU2lQl3lIo2ShXWGePY80zYaoMOmILWv57H0amMjZGHNzzGG70Rw==
+  /es-abstract/1.17.2:
+    dependencies:
+      es-to-primitive: 1.2.1
+      function-bind: 1.1.1
+      has: 1.0.3
+      has-symbols: 1.0.1
+      is-callable: 1.1.5
+      is-regex: 1.0.5
+      object-inspect: 1.7.0
+      object-keys: 1.1.1
+      object.assign: 4.1.0
+      string.prototype.trimleft: 2.1.1
+      string.prototype.trimright: 2.1.1
+    dev: true
+    engines:
+      node: '>= 0.4'
+    resolution:
+      integrity: sha512-YoKuru3Lyoy7yVTBSH2j7UxTqe/je3dWAruC0sHvZX1GNd5zX8SSLvQqEgO9b3Ex8IW+goFI9arEEsFIbulhOw==
   /es-to-primitive/1.2.1:
     dependencies:
       is-callable: 1.1.4
@@ -4491,13 +4509,13 @@ packages:
       eslint-plugin-import: ^2.18.2
     resolution:
       integrity: sha512-2IDHobw97upExLmsebhtfoD3NAKhV4H0CJWP3Uprd/uk+cHuWYOczPVxQ8PxLFUAw7o3Th1RAU8u1DoUpr+cMA==
-  /eslint-config-airbnb/18.0.1_06e79cf3a005bd5c0fecffbd615c3f04:
+  /eslint-config-airbnb/18.0.1_5bb6789b042591701d8424d70f25f840:
     dependencies:
       eslint: 6.8.0
       eslint-config-airbnb-base: 14.0.0_e350486e76511e5213bbefec0777d336
       eslint-plugin-import: 2.20.0_eslint@6.8.0
       eslint-plugin-jsx-a11y: 6.2.3_eslint@6.8.0
-      eslint-plugin-react: 7.17.0_eslint@6.8.0
+      eslint-plugin-react: 7.18.0_eslint@6.8.0
       eslint-plugin-react-hooks: 2.3.0_eslint@6.8.0
       object.assign: 4.1.0
       object.entries: 1.1.1
@@ -4558,16 +4576,6 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-GcNwsYv8MfoEBSbAmV+PSVn2RlhpCShbLImtNviAYa/LE0PgNqxH5tLi1Ld9yeFwdjHsarXK+7G9vsyddmB6dw==
-  /eslint-plugin-eslint-plugin/2.1.0_eslint@6.8.0:
-    dependencies:
-      eslint: 6.8.0
-    dev: true
-    engines:
-      node: ^6.14.0 || ^8.10.0 || >=9.10.0
-    peerDependencies:
-      eslint: '>=5.0.0'
-    resolution:
-      integrity: sha512-kT3A/ZJftt28gbl/Cv04qezb/NQ1dwYIbi8lyf806XMxkus7DvOVCLIfTXMrorp322Pnoez7+zabXH29tADIDg==
   /eslint-plugin-import/2.20.0_eslint@6.8.0:
     dependencies:
       array-includes: 3.1.1
@@ -4632,26 +4640,25 @@ packages:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
     resolution:
       integrity: sha512-gLKCa52G4ee7uXzdLiorca7JIQZPPXRAQDXV83J4bUEeUuc5pIEyZYAZ45Xnxe5IuupxEqHS+hUhSLIimK1EMw==
-  /eslint-plugin-react/7.17.0_eslint@6.8.0:
+  /eslint-plugin-react/7.18.0_eslint@6.8.0:
     dependencies:
-      array-includes: 3.1.0
+      array-includes: 3.1.1
       doctrine: 2.1.0
       eslint: 6.8.0
-      eslint-plugin-eslint-plugin: 2.1.0_eslint@6.8.0
       has: 1.0.3
       jsx-ast-utils: 2.2.3
       object.entries: 1.1.1
       object.fromentries: 2.0.2
       object.values: 1.1.1
       prop-types: 15.7.2
-      resolve: 1.13.1
+      resolve: 1.14.2
     dev: true
     engines:
       node: '>=4'
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
     resolution:
-      integrity: sha512-ODB7yg6lxhBVMeiH1c7E95FLD4E/TwmFjltiU+ethv7KPdCwgiFuOZg9zNRHyufStTDLl/dEFqI2Q1VPmCd78A==
+      integrity: sha512-p+PGoGeV4SaZRDsXqdj9OWcOrOpZn8gXoGPcIQTzo2IDMbAKhNDnME9myZWqO3Ic4R3YmwAZ1lDjWl2R2hMUVQ==
   /eslint-plugin-redux-saga/1.1.3_eslint@6.8.0+redux-saga@1.1.3:
     dependencies:
       eslint: 6.8.0
@@ -8489,7 +8496,7 @@ packages:
   /object.fromentries/2.0.2:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.17.0-next.1
+      es-abstract: 1.17.2
       function-bind: 1.1.1
       has: 1.0.3
     dev: true
@@ -12823,7 +12830,7 @@ specifiers:
   eslint-plugin-import: 2.20.0
   eslint-plugin-jsx-a11y: 6.2.3
   eslint-plugin-prettier: 3.1.2
-  eslint-plugin-react: 7.17.0
+  eslint-plugin-react: 7.18.0
   eslint-plugin-react-hooks: 2.3.0
   eslint-plugin-redux-saga: 1.1.3
   express: 4.17.1
