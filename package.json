@@ -130,7 +130,7 @@
     "lint-staged": "9.5.0",
     "ngrok": "3.2.7",
     "node-plop": "0.23.0",
-    "node-sass": "4.13.0",
+    "node-sass": "4.13.1",
     "null-loader": "3.0.0",
     "plop": "2.5.3",
     "prettier": "1.19.1",
