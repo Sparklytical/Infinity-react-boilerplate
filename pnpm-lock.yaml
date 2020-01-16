@@ -1,6 +1,6 @@
 dependencies:
   '@hot-loader/react-dom': 16.11.0_react@16.12.0
-  '@reduxjs/toolkit': 1.2.1
+  '@reduxjs/toolkit': 1.2.2
   chalk: 3.0.0
   compression: 1.7.4
   connected-react-router: 6.6.1_0fbb6e8bad94f843748e87c05fca4c10
@@ -1677,7 +1677,7 @@ packages:
   /@redux-saga/types/1.1.0:
     resolution:
       integrity: sha512-afmTuJrylUU/0OtqzaRkbyYFFNgCF73Bvel/sw90pvGrWIZ+vyoIJqA6eMSoA6+nb443kTmulmBtC9NerXboNg==
-  /@reduxjs/toolkit/1.2.1:
+  /@reduxjs/toolkit/1.2.2:
     dependencies:
       immer: 4.0.2
       redux: 4.0.5
@@ -1687,7 +1687,7 @@ packages:
       reselect: 4.0.0
     dev: false
     resolution:
-      integrity: sha512-mVvcjAyPS91wbAG2JoLIVP0JiWoLYHCA5WYevjHBjxhTlBPa3lYbUS9/IqanGPIt9TmSYON42l3BTPfWsfr2wg==
+      integrity: sha512-pXHh+2BO/VAcSU8IVkTYzz9odZkGx/Y3KQszI5VQCL7RIkZ3Skv7X+5WE5+tpXHYy2qwO76oeD0IC7lSxL4nCQ==
   /@samverschueren/stream-to-observable/0.3.0:
     dependencies:
       any-observable: 0.3.0
@@ -12797,7 +12797,7 @@ specifiers:
   '@babel/preset-react': 7.8.3
   '@babel/register': 7.8.3
   '@hot-loader/react-dom': 16.11.0
-  '@reduxjs/toolkit': 1.2.1
+  '@reduxjs/toolkit': 1.2.2
   add-asset-html-webpack-plugin: 3.1.3
   babel-core: 7.0.0-bridge.0
   babel-eslint: 10.0.3
