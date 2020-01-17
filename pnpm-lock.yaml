@@ -83,7 +83,7 @@ devDependencies:
   rimraf: 3.0.0
   sass-loader: 8.0.2_node-sass@4.13.1+webpack@4.41.5
   shelljs: 0.8.3
-  style-loader: 1.1.2_webpack@4.41.5
+  style-loader: 1.1.3_webpack@4.41.5
   stylelint: 13.0.0
   stylelint-config-recommended: 3.0.0_stylelint@13.0.0
   stylelint-config-styled-components: 0.1.1
@@ -10586,6 +10586,15 @@ packages:
       node: '>= 8.9.0'
     resolution:
       integrity: sha512-0WXHDs1VDJyo+Zqs9TKLKyD/h7yDpHUhEFsM2CzkICFdoX1av+GBq/J2xRTFfsQO5kBfhZzANf2VcIm84jqDbg==
+  /schema-utils/2.6.4:
+    dependencies:
+      ajv: 6.10.2
+      ajv-keywords: 3.4.1_ajv@6.10.2
+    dev: true
+    engines:
+      node: '>= 8.9.0'
+    resolution:
+      integrity: sha512-VNjcaUxVnEeun6B2fiiUDjXXBtD4ZSH7pdbfIu1pOFwgptDPLMo/z9jr4sUfsjFVPqDCEin/F7IYlq7/E6yDbQ==
   /scss-tokenizer/0.2.3:
     dependencies:
       js-base64: 2.5.1
@@ -11353,10 +11362,10 @@ packages:
     optional: true
     resolution:
       integrity: sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg==
-  /style-loader/1.1.2_webpack@4.41.5:
+  /style-loader/1.1.3_webpack@4.41.5:
     dependencies:
       loader-utils: 1.2.3
-      schema-utils: 2.6.1
+      schema-utils: 2.6.4
       webpack: 4.41.5_webpack@4.41.5
     dev: true
     engines:
@@ -11364,7 +11373,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-0Mpq1ZHFDCNq1F+6avNBgv+7q8V+mWRuzehxyJT+aKgzyN/yfKTwjYqaYwBgx+11UpQxL21zNQfzzlz+JcGURw==
+      integrity: sha512-rlkH7X/22yuwFYK357fMN/BxYOorfnfq0eD7+vqlemSK4wEcejFF1dg4zxP0euBW8NrYx2WZzZ8PPFevr7D+Kw==
   /style-search/0.1.0:
     dev: true
     resolution:
@@ -12887,7 +12896,7 @@ specifiers:
   sanitize.css: 11.0.0
   sass-loader: 8.0.2
   shelljs: 0.8.3
-  style-loader: 1.1.2
+  style-loader: 1.1.3
   styled-components: 5.0.0
   stylelint: 13.0.0
   stylelint-config-recommended: 3.0.0
