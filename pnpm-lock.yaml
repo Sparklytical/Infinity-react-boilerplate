@@ -69,7 +69,7 @@ devDependencies:
   hard-source-webpack-plugin: 0.13.1_webpack@4.41.5
   html-loader: 0.5.5
   html-webpack-plugin: 3.2.0_webpack@4.41.5
-  husky: 4.1.0
+  husky: 4.2.0
   image-webpack-loader: 6.0.0
   imports-loader: 0.8.0
   lint-staged: 10.0.1
@@ -5322,7 +5322,6 @@ packages:
     dev: true
     engines:
       node: '>=6'
-    optional: true
     resolution:
       integrity: sha512-P8WRou2S+oe222TOCHitLy8zj+SIsVJh52VP4lvXkaFVnOFFdoWv1H1Jjvel1aI6NCFOAaeAVm8qrI0odiLcww==
   /findup-sync/2.0.0:
@@ -6247,11 +6246,13 @@ packages:
       node: '>=8.12.0'
     resolution:
       integrity: sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
-  /husky/4.1.0:
+  /husky/4.2.0:
     dependencies:
       chalk: 3.0.0
       ci-info: 2.0.0
+      compare-versions: 3.5.1
       cosmiconfig: 6.0.0
+      find-versions: 3.2.0
       opencollective-postinstall: 2.0.2
       pkg-dir: 4.2.0
       please-upgrade-node: 3.2.0
@@ -6263,7 +6264,7 @@ packages:
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-gHHbfdfxurKkfrpP0rz6PUCNdQLoE0Vwtsjl96kfKkZ1lbzfnqgB3LjOl5lENEqrIHIjsQAq2M3wC98h8ECBmg==
+      integrity: sha512-UcEAvGAZVDyzYSxiguMBEbfxqYkVk/HD2UPTKlgDbVW3QB9/Dm3TNDrGwswkrcDfBTRzRIldiTZAyMU6DP9/PA==
   /iconv-lite/0.4.24:
     dependencies:
       safer-buffer: 2.1.2
@@ -10587,7 +10588,6 @@ packages:
     dev: true
     engines:
       node: '>=6'
-    optional: true
     resolution:
       integrity: sha512-mUdIBBvdn0PLOeP3TEkMH7HHeUP3GjsXCwKarjv/kGmUFOYg1VqEemKhoQpWMu6X2I8kHeuVdGibLGkVK+/5Qw==
   /semver-truncate/1.1.2:
@@ -12821,7 +12821,7 @@ specifiers:
   hoist-non-react-statics: 3.3.1
   html-loader: 0.5.5
   html-webpack-plugin: 3.2.0
-  husky: 4.1.0
+  husky: 4.2.0
   image-webpack-loader: 6.0.0
   immer: 5.3.2
   imports-loader: 0.8.0
