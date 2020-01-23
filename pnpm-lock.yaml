@@ -8,7 +8,7 @@ dependencies:
   express: 4.17.1
   fontfaceobserver: 2.1.0
   history: 4.10.1
-  hoist-non-react-statics: 3.3.1
+  hoist-non-react-statics: 3.3.2
   immer: 5.3.2
   intl: 1.2.5
   invariant: 2.2.4
@@ -6111,6 +6111,12 @@ packages:
       react-is: 16.12.0
     resolution:
       integrity: sha512-wbg3bpgA/ZqWrZuMOeJi8+SKMhr7X9TesL/rXMjTzh0p0JUBo3II8DHboYbuIXWRlttrUFxwcu/5kygrCw8fJw==
+  /hoist-non-react-statics/3.3.2:
+    dependencies:
+      react-is: 16.12.0
+    dev: false
+    resolution:
+      integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
   /homedir-polyfill/1.0.3:
     dependencies:
       parse-passwd: 1.0.0
@@ -12825,7 +12831,7 @@ specifiers:
   fontfaceobserver: 2.1.0
   hard-source-webpack-plugin: 0.13.1
   history: 4.10.1
-  hoist-non-react-statics: 3.3.1
+  hoist-non-react-statics: 3.3.2
   html-loader: 0.5.5
   html-webpack-plugin: 3.2.0
   husky: 4.2.0
