@@ -4,7 +4,7 @@ dependencies:
   chalk: 3.0.0
   compression: 1.7.4
   connected-react-router: 6.6.1_0fbb6e8bad94f843748e87c05fca4c10
-  cross-env: 6.0.3
+  cross-env: 7.0.0
   express: 4.17.1
   fontfaceobserver: 2.1.0
   history: 4.10.1
@@ -3593,15 +3593,17 @@ packages:
     dev: true
     resolution:
       integrity: sha512-MJG9liiZ+ogc4TzUwuvbER1JRdgvUFSB5+VR/g5h82fGaIRWMWddtKBHi7/sVhfjQZ6SehlyhvQYrcYkaUIpLg==
-  /cross-env/6.0.3:
+  /cross-env/7.0.0:
     dependencies:
       cross-spawn: 7.0.1
     dev: false
     engines:
-      node: '>=8.0'
+      node: '>=10.14'
+      npm: '>=6'
+      yarn: '>=1'
     hasBin: true
     resolution:
-      integrity: sha512-+KqxF6LCvfhWvADcDPqo64yVIB31gv/jQulX2NGzKS/g3GEVz6/pt4wjHFtFWsHMddebWD/sDthJemzM4MaAag==
+      integrity: sha512-rV6M9ldNgmwP7bx5u6rZsTbYidzwvrwIYZnT08hSGLcQCcggofgFW+sNe7IhA1SRauPS0QuLbbX+wdNtpqE5CQ==
   /cross-spawn/3.0.1:
     dependencies:
       lru-cache: 4.1.5
@@ -12812,7 +12814,7 @@ specifiers:
   compression: 1.7.4
   compression-webpack-plugin: 3.1.0
   connected-react-router: 6.6.1
-  cross-env: 6.0.3
+  cross-env: 7.0.0
   css-loader: 3.4.2
   error-overlay-webpack-plugin: 0.4.1
   eslint: 6.8.0
