@@ -42,17 +42,18 @@ const initialState = {};
 const store = configureStore(initialState, history);
 const MOUNT_NODE = document.getElementById('app');
 
+const ConnectedApp = () => (
+  <Provider store={store}>
+    <ConnectedRouter history={history}>
+      <HelmetProvider>
+        <App />
+      </HelmetProvider>
+    </ConnectedRouter>
+  </Provider>
+);
+
 const render = () => {
-  ReactDOM.render(
-    <Provider store={store}>
-      <ConnectedRouter history={history}>
-        <HelmetProvider>
-          <App />
-        </HelmetProvider>
-      </ConnectedRouter>
-    </Provider>,
-    MOUNT_NODE,
-  );
+  ReactDOM.render(<ConnectedApp />, MOUNT_NODE);
 };
 
 if (module.hot) {

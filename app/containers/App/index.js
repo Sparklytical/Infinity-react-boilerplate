@@ -11,6 +11,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
+import { hot } from 'react-hot-loader/root';
 import HomePage from 'containers/HomePage/Loadable';
 import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
@@ -21,7 +22,7 @@ import Footer from 'components/Footer';
 
 import GlobalStyle from '../../global-styles';
 
-export default function App() {
+function App() {
   return (
     <div>
       <Helmet
@@ -41,3 +42,4 @@ export default function App() {
     </div>
   );
 }
+export default hot(App);
