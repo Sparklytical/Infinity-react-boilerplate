@@ -47,7 +47,7 @@ devDependencies:
   babel-loader: 8.0.6_@babel+core@7.8.3+webpack@4.41.5
   babel-plugin-dynamic-import-node: 2.3.0
   babel-plugin-lodash: 3.3.4
-  babel-plugin-styled-components: 1.10.6_styled-components@5.0.0
+  babel-plugin-styled-components: 1.10.7_styled-components@5.0.0
   babel-plugin-transform-react-remove-prop-types: 0.4.24
   circular-dependency-plugin: 5.2.0_webpack@4.41.5
   compare-versions: 3.5.1
@@ -2467,6 +2467,18 @@ packages:
       styled-components: '>= 2'
     resolution:
       integrity: sha512-gyQj/Zf1kQti66100PhrCRjI5ldjaze9O0M3emXRPAN80Zsf8+e1thpTpaXJXVHXtaM4/+dJEgZHyS9Its+8SA==
+  /babel-plugin-styled-components/1.10.7_styled-components@5.0.0:
+    dependencies:
+      '@babel/helper-annotate-as-pure': 7.8.3
+      '@babel/helper-module-imports': 7.8.3
+      babel-plugin-syntax-jsx: 6.18.0
+      lodash: 4.17.15
+      styled-components: 5.0.0_bc60b42c95f22322976bfd25a20c5acf
+    dev: true
+    peerDependencies:
+      styled-components: '>= 2'
+    resolution:
+      integrity: sha512-MBMHGcIA22996n9hZRf/UJLVVgkEOITuR2SvjHLb5dSTUyR4ZRGn+ngITapes36FI3WLxZHfRhkA1ffHxihOrg==
   /babel-plugin-syntax-jsx/6.18.0:
     resolution:
       integrity: sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY=
@@ -12806,7 +12818,7 @@ specifiers:
   babel-loader: 8.0.6
   babel-plugin-dynamic-import-node: 2.3.0
   babel-plugin-lodash: 3.3.4
-  babel-plugin-styled-components: 1.10.6
+  babel-plugin-styled-components: 1.10.7
   babel-plugin-transform-react-remove-prop-types: 0.4.24
   chalk: 3.0.0
   circular-dependency-plugin: 5.2.0
