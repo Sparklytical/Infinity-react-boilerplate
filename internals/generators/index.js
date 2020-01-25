@@ -9,6 +9,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 const componentGenerator = require('./component/index.js');
 const containerGenerator = require('./container/index.js');
+const StyledComponentGenerator = require('./styledComponents/index.js');
 
 /**
  * Every generated backup file gets this extension
@@ -19,6 +20,7 @@ const BACKUPFILE_EXTENSION = 'rbgen';
 module.exports = plop => {
   plop.setGenerator('component', componentGenerator);
   plop.setGenerator('container', containerGenerator);
+  plop.setGenerator('styledComponent', StyledComponentGenerator);
   plop.addHelper('curly', (object, open) => (open ? '{' : '}'));
   plop.setActionType('prettify', (answers, config) => {
     const folderPath = `${path.join(

@@ -14,10 +14,7 @@ import React from 'react';
 {{#if scss }}
 import './{{ properCase name }}.scss';
 {{/if}}
-{{#if wantMessages}}
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
-{{/if}}
+
 
 function {{ properCase name }}() {
 return (
