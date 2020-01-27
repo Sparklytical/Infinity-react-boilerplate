@@ -72,7 +72,7 @@ devDependencies:
   husky: 4.2.1
   image-webpack-loader: 6.0.0
   imports-loader: 0.8.0
-  lint-staged: 10.0.2
+  lint-staged: 10.0.3
   ngrok: 3.2.7
   node-plop: 0.23.0
   node-sass: 4.13.1
@@ -7348,7 +7348,7 @@ packages:
     dev: true
     resolution:
       integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
-  /lint-staged/10.0.2:
+  /lint-staged/10.0.3:
     dependencies:
       chalk: 3.0.0
       commander: 4.1.0
@@ -7366,7 +7366,7 @@ packages:
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-ZldhtIfT7bynVa7nmU/1jbK05r9hYQXbIQqZSotqdBCAcGJDEUqaUB7kG3ZCdoe9Qkj6HUM3x2yjCGJRxPUQLA==
+      integrity: sha512-N071+M0yxKX0u67UOB8emFms29ekzrKoX1UlPcLS615O/rhx3+xRk5so8uU4tjdg4yNsD3ntdPSsuZnUPzblLA==
   /listr-silent-renderer/1.1.1:
     dev: true
     engines:
@@ -12855,7 +12855,7 @@ specifiers:
   intl: 1.2.5
   invariant: 2.2.4
   ip: 1.1.5
-  lint-staged: 10.0.2
+  lint-staged: 10.0.3
   lodash: 4.17.15
   minimist: 1.2.0
   ngrok: 3.2.7
