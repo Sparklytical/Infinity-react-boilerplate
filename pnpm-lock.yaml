@@ -89,7 +89,7 @@ devDependencies:
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.9.0
   svg-url-loader: 3.0.3_webpack@4.41.5
-  terser-webpack-plugin: 2.3.2_webpack@4.41.5
+  terser-webpack-plugin: 2.3.3_webpack@4.41.5
   url-loader: 3.0.0_file-loader@5.0.2+webpack@4.41.5
   webpack: 4.41.5_webpack@4.41.5
   webpack-cli: 3.3.10_webpack@4.41.5
@@ -7121,15 +7121,15 @@ packages:
     optional: true
     resolution:
       integrity: sha512-1P/yWsxPlDtn7QeRD+ULKQPaIaN6yF368GZ2vDfv0AL0NwpStafjWCDDdn0k8wgFMWpVAqG7oJhxHnlud42i9w==
-  /jest-worker/24.9.0:
+  /jest-worker/25.1.0:
     dependencies:
       merge-stream: 2.0.0
-      supports-color: 6.1.0
+      supports-color: 7.1.0
     dev: true
     engines:
-      node: '>= 6'
+      node: '>= 8.3'
     resolution:
-      integrity: sha512-51PE4haMSXcHohnSMdM42anbvZANYTqMrr52tVKPqqsPJMzoP6FYYDVqahX/HrAoKEKz3uUPzSvKs9A3qR4iVw==
+      integrity: sha512-ZHhHtlxOWSxCoNOKHGbiLzXnl42ga9CxDr27H36Qn+15pQZd3R/F24jrmjDelw9j/iHUIWMWs08/u2QN50HHOg==
   /jimp/0.6.8:
     dependencies:
       '@jimp/custom': 0.6.8
@@ -11630,15 +11630,16 @@ packages:
       webpack: ^4.0.0
     resolution:
       integrity: sha512-QMxecFz/gHQwteWwSo5nTc6UaICqN1bMedC5sMtUc7y3Ha3Q8y6ZO0iCR8pq4RJC8Hjf0FEPEHZqcMB/+DFCrA==
-  /terser-webpack-plugin/2.3.2_webpack@4.41.5:
+  /terser-webpack-plugin/2.3.3_webpack@4.41.5:
     dependencies:
       cacache: 13.0.1
       find-cache-dir: 3.2.0
-      jest-worker: 24.9.0
-      schema-utils: 2.6.1
+      jest-worker: 25.1.0
+      p-limit: 2.2.2
+      schema-utils: 2.6.4
       serialize-javascript: 2.1.2
       source-map: 0.6.1
-      terser: 4.6.2
+      terser: 4.6.3
       webpack: 4.41.5_webpack@4.41.5
       webpack-sources: 1.4.3
     dev: true
@@ -11647,7 +11648,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-SmvB/6gtEPv+CJ88MH5zDOsZdKXPS/Uzv2//e90+wM1IHFUhsguPKEILgzqrM1nQ4acRXN/SV4Obr55SXC+0oA==
+      integrity: sha512-gWHkaGzGYjmDoYxksFZynWTzvXOAjQ5dd7xuTMYlv4zpWlLSb6v0QLSZjELzP5dMs1ox30O1BIPs9dgqlMHuLQ==
   /terser/4.4.3:
     dependencies:
       commander: 2.20.3
@@ -11659,7 +11660,7 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-0ikKraVtRDKGzHrzkCv5rUNDzqlhmhowOBqC0XqUHFpW+vJ45+20/IFBcebwKfiS2Z9fJin6Eo+F1zLZsxi8RA==
-  /terser/4.6.2:
+  /terser/4.6.3:
     dependencies:
       commander: 2.20.3
       source-map: 0.6.1
@@ -11669,7 +11670,7 @@ packages:
       node: '>=6.0.0'
     hasBin: true
     resolution:
-      integrity: sha512-6FUjJdY2i3WZAtYBtnV06OOcOfzl+4hSKYE9wgac8rkLRBToPDDrBB2AcHwQD/OKDxbnvhVy2YgOPWO2SsKWqg==
+      integrity: sha512-Lw+ieAXmY69d09IIc/yqeBqXpEQIpDGZqT34ui1QWXIUpR2RjbqEkT8X7Lgex19hslSqcWM5iMN2kM11eMsESQ==
   /text-table/0.2.0:
     dev: true
     resolution:
@@ -12896,7 +12897,7 @@ specifiers:
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.9.0
   svg-url-loader: 3.0.3
-  terser-webpack-plugin: 2.3.2
+  terser-webpack-plugin: 2.3.3
   url-loader: 3.0.0
   webpack: 4.41.5
   webpack-cli: 3.3.10
