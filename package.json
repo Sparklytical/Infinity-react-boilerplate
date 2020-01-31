@@ -73,7 +73,7 @@
     "pretty-error": "2.1.1",
     "prop-types": "15.7.2",
     "react": "16.12.0",
-    "react-app-polyfill": "1.0.5",
+    "react-app-polyfill": "1.0.6",
     "react-dom": "16.12.0",
     "react-helmet-async": "1.0.4",
     "react-hot-loader": "4.12.19",
