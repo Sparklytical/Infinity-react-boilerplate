@@ -55,14 +55,14 @@ devDependencies:
   css-loader: 3.4.2_webpack@4.41.5
   error-overlay-webpack-plugin: 0.4.1_webpack@4.41.5
   eslint: 6.8.0
-  eslint-config-airbnb: 18.0.1_7cbf8e9114c9ccb4be7f11e53c19a234
+  eslint-config-airbnb: 18.0.1_db96a214117a4e1dc0d4afe63bad3a17
   eslint-config-airbnb-base: 14.0.0_e350486e76511e5213bbefec0777d336
   eslint-config-prettier: 6.10.0_eslint@6.8.0
   eslint-import-resolver-webpack: 0.12.1_1ca05585c12a40acaa031c75abf132cf
   eslint-plugin-import: 2.20.0_eslint@6.8.0
   eslint-plugin-jsx-a11y: 6.2.3_eslint@6.8.0
   eslint-plugin-prettier: 3.1.2_eslint@6.8.0+prettier@1.19.1
-  eslint-plugin-react: 7.18.1_eslint@6.8.0
+  eslint-plugin-react: 7.18.2_eslint@6.8.0
   eslint-plugin-react-hooks: 2.3.0_eslint@6.8.0
   eslint-plugin-redux-saga: 1.1.3_eslint@6.8.0+redux-saga@1.1.3
   file-loader: 5.0.2_webpack@4.41.5
@@ -4543,13 +4543,13 @@ packages:
       eslint-plugin-import: ^2.18.2
     resolution:
       integrity: sha512-2IDHobw97upExLmsebhtfoD3NAKhV4H0CJWP3Uprd/uk+cHuWYOczPVxQ8PxLFUAw7o3Th1RAU8u1DoUpr+cMA==
-  /eslint-config-airbnb/18.0.1_7cbf8e9114c9ccb4be7f11e53c19a234:
+  /eslint-config-airbnb/18.0.1_db96a214117a4e1dc0d4afe63bad3a17:
     dependencies:
       eslint: 6.8.0
       eslint-config-airbnb-base: 14.0.0_e350486e76511e5213bbefec0777d336
       eslint-plugin-import: 2.20.0_eslint@6.8.0
       eslint-plugin-jsx-a11y: 6.2.3_eslint@6.8.0
-      eslint-plugin-react: 7.18.1_eslint@6.8.0
+      eslint-plugin-react: 7.18.2_eslint@6.8.0
       eslint-plugin-react-hooks: 2.3.0_eslint@6.8.0
       object.assign: 4.1.0
       object.entries: 1.1.1
@@ -4674,7 +4674,7 @@ packages:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
     resolution:
       integrity: sha512-gLKCa52G4ee7uXzdLiorca7JIQZPPXRAQDXV83J4bUEeUuc5pIEyZYAZ45Xnxe5IuupxEqHS+hUhSLIimK1EMw==
-  /eslint-plugin-react/7.18.1_eslint@6.8.0:
+  /eslint-plugin-react/7.18.2_eslint@6.8.0:
     dependencies:
       array-includes: 3.1.1
       doctrine: 2.1.0
@@ -4693,7 +4693,7 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
     resolution:
-      integrity: sha512-GTAhnWckqzzQzbbmqfoOPtpuVJAUPGliNyJRedvyboxAnZlui0INTmfVzQB0WjK9lbqKXixptMsd98LKamccPA==
+      integrity: sha512-6m1zFCSB8OKVIVyGipz1TJxVuNfgvbbUa7O9fxqyyT0b15tB2X/rxMNCGQv3LTD4XOKmG/ONr52FZHur0OKFkg==
   /eslint-plugin-redux-saga/1.1.3_eslint@6.8.0+redux-saga@1.1.3:
     dependencies:
       eslint: 6.8.0
@@ -12948,7 +12948,7 @@ specifiers:
   eslint-plugin-import: 2.20.0
   eslint-plugin-jsx-a11y: 6.2.3
   eslint-plugin-prettier: 3.1.2
-  eslint-plugin-react: 7.18.1
+  eslint-plugin-react: 7.18.2
   eslint-plugin-react-hooks: 2.3.0
   eslint-plugin-redux-saga: 1.1.3
   express: 4.17.1
