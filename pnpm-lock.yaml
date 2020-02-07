@@ -88,7 +88,7 @@ devDependencies:
   stylelint-config-recommended: 3.0.0_stylelint@13.0.0
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.9.0
-  svg-url-loader: 3.0.3_webpack@4.41.5
+  svg-url-loader: 4.0.0_webpack@4.41.5
   terser-webpack-plugin: 2.3.4_webpack@4.41.5
   url-loader: 3.0.0_file-loader@5.0.2+webpack@4.41.5
   webpack: 4.41.5_webpack@4.41.5
@@ -5163,18 +5163,6 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-bCg29ictuBaKUwwArK4ouCaqDgLZcysCFLmM/Yn/FDoqndh/9vNuQfXRDvTuXKLxfD/JtZQGKFT8MGcJBK644g==
-  /file-loader/4.3.0_webpack@4.41.5:
-    dependencies:
-      loader-utils: 1.2.3
-      schema-utils: 2.6.1
-      webpack: 4.41.5_webpack@4.41.5
-    dev: true
-    engines:
-      node: '>= 8.9.0'
-    peerDependencies:
-      webpack: ^4.0.0
-    resolution:
-      integrity: sha512-aKrYPYjF1yG3oX0kWRrqrSMfgftm7oJW5M+m4owoldH5C51C0RkIwB++JbRvEW3IU6/ZG5n8UvEcdgwOt2UOWA==
   /file-loader/5.0.2_webpack@4.41.5:
     dependencies:
       loader-utils: 1.2.3
@@ -11585,15 +11573,15 @@ packages:
     dev: true
     resolution:
       integrity: sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q=
-  /svg-url-loader/3.0.3_webpack@4.41.5:
+  /svg-url-loader/4.0.0_webpack@4.41.5:
     dependencies:
-      file-loader: 4.3.0_webpack@4.41.5
+      file-loader: 5.0.2_webpack@4.41.5
       loader-utils: 1.2.3
     dev: true
     peerDependencies:
       webpack: '*'
     resolution:
-      integrity: sha512-MKGiRNDs8fnHcZcPkhGcw9+130IXyFM9H8m6T7u3ScUuZYEeVzX0vNMru30D4MCF6vMYas5iw/Ru9lwFKBjaGw==
+      integrity: sha512-Mf/Pmn7/yvdivd1tMWpzMVeot4NfcNwYSfw1LAUjiGhImx7Gz04j36pytLUkJnM3LjIbB6By9BpKvGl6mGWq9A==
   /svgo/1.3.2:
     dependencies:
       chalk: 2.4.2
@@ -12976,7 +12964,7 @@ specifiers:
   stylelint-config-recommended: 3.0.0
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.9.0
-  svg-url-loader: 3.0.3
+  svg-url-loader: 4.0.0
   terser-webpack-plugin: 2.3.4
   url-loader: 3.0.0
   webpack: 4.41.5
