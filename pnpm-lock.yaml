@@ -96,7 +96,7 @@ devDependencies:
   webpack-dashboard: 3.2.0_webpack@4.41.5
   webpack-dev-middleware: 3.7.2_webpack@4.41.5
   webpack-hot-middleware: 2.25.0
-  webpack-pwa-manifest: 4.1.1
+  webpack-pwa-manifest: 4.2.0
   webpackbar: 4.0.0_webpack@4.41.5
   whatwg-fetch: 3.0.0
 lockfileVersion: 5.1
@@ -8782,6 +8782,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-0DTvPVU3ed8+HNXOu5Bs+o//Mbdj9VNQMUOe9oKCwh8l0GNwpTDMKCWbRjgtD291AWnkAgkqA/LOnQS8AmS1tw==
+  /pako/1.0.11:
+    dev: true
+    resolution:
+      integrity: sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
   /parallel-transform/1.2.0:
     dependencies:
       cyclist: 1.0.1
@@ -8826,7 +8830,7 @@ packages:
   /parse-bmfont-xml/1.1.4:
     dependencies:
       xml-parse-from-string: 1.0.1
-      xml2js: 0.4.22
+      xml2js: 0.4.23
     dev: true
     resolution:
       integrity: sha512-bjnliEOmGv3y1aMEfREMBJ9tfL3WR0i0CKPj61DnSLaoxWR3nLrsQrEbCId/8rF4NyRF0cCqisSVXyQYWM+mCQ==
@@ -12136,7 +12140,7 @@ packages:
       integrity: sha1-K1viOjK2Onyd640PKNSFcko98ZA=
   /utif/2.0.1:
     dependencies:
-      pako: 1.0.10
+      pako: 1.0.11
     dev: true
     resolution:
       integrity: sha512-Z/S1fNKCicQTf375lIP9G8Sa1H/phcysstNrrSdZKj1f9g58J4NMgb5IgiEZN9/nLMPDwF0W7hdOe9Qq2IYoLg==
@@ -12338,7 +12342,7 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-cX8G2vR/85UYG59FgkoMamwHUIkSSlV3bBMRsbxVXVUk2j6NleCKjQ/WE9eYg9WY4w25O9w8wKP4rzNZFmUcUg==
-  /webpack-pwa-manifest/4.1.1:
+  /webpack-pwa-manifest/4.2.0:
     dependencies:
       css-color-names: 1.0.1
       jimp: 0.6.8
@@ -12347,7 +12351,7 @@ packages:
     engines:
       node: '>=6.0.0'
     resolution:
-      integrity: sha512-jnQsbU0O56OUATDPBKePe5HHoKfSN5zSKAqiSbD9JfIOXlfsHdja4+19RNy2uj//WX1byFZz2ZAdRtrelKPE/Q==
+      integrity: sha512-rc5XFIuH9Ue3fcXvWeYmccAF95j6eRi7syte3vi0SyUHQMjo2z53vEwKWjF//QM/THKJYICScDB9l0Jklsc/yA==
   /webpack-sources/1.4.3:
     dependencies:
       source-list-map: 2.0.1
@@ -12599,16 +12603,15 @@ packages:
     dev: true
     resolution:
       integrity: sha1-qQKekp09vN7RafPG4oI42VpdWig=
-  /xml2js/0.4.22:
+  /xml2js/0.4.23:
     dependencies:
       sax: 1.2.4
-      util.promisify: 1.0.0
       xmlbuilder: 11.0.1
     dev: true
     engines:
       node: '>=4.0.0'
     resolution:
-      integrity: sha512-MWTbxAQqclRSTnehWWe5nMKzI3VmJ8ltiJEco8akcC6j3miOhjjfzKum5sId+CWhfxdOs/1xauYr8/ZDBtQiRw==
+      integrity: sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==
   /xmlbuilder/11.0.1:
     dev: true
     engines:
@@ -12833,6 +12836,6 @@ specifiers:
   webpack-dashboard: 3.2.0
   webpack-dev-middleware: 3.7.2
   webpack-hot-middleware: 2.25.0
-  webpack-pwa-manifest: 4.1.1
+  webpack-pwa-manifest: 4.2.0
   webpackbar: 4.0.0
   whatwg-fetch: 3.0.0
