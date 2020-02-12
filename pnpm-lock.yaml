@@ -69,7 +69,7 @@ devDependencies:
   hard-source-webpack-plugin: 0.13.1_webpack@4.41.6
   html-loader: 0.5.5
   html-webpack-plugin: 3.2.0_webpack@4.41.6
-  husky: 4.2.1
+  husky: 4.2.2
   image-webpack-loader: 6.0.0
   imports-loader: 0.8.0
   lint-staged: 10.0.7
@@ -6183,7 +6183,7 @@ packages:
       node: '>=8.12.0'
     resolution:
       integrity: sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
-  /husky/4.2.1:
+  /husky/4.2.2:
     dependencies:
       chalk: 3.0.0
       ci-info: 2.0.0
@@ -6201,7 +6201,7 @@ packages:
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-Qa0lRreeIf4Tl92sSs42ER6qc3hzoyQPPorzOrFWfPEVbdi6LuvJEqWKPk905fOWIR76iBpp7ECZNIwk+a8xuQ==
+      integrity: sha512-RAjZNO74zJyFJuRFESy+3LXTJvYbjGL+jhoSNJNF1DTKq2USrL5fEH70e1cJXEgvLaPyZt1NoGi0oNQQkPs4jA==
   /iconv-lite/0.4.24:
     dependencies:
       safer-buffer: 2.1.2
@@ -12798,7 +12798,7 @@ specifiers:
   hoist-non-react-statics: 3.3.2
   html-loader: 0.5.5
   html-webpack-plugin: 3.2.0
-  husky: 4.2.1
+  husky: 4.2.2
   image-webpack-loader: 6.0.0
   immer: 5.3.5
   imports-loader: 0.8.0
