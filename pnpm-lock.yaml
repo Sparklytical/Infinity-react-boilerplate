@@ -87,7 +87,7 @@ devDependencies:
   stylelint: 13.2.0
   stylelint-config-recommended: 3.0.0_stylelint@13.2.0
   stylelint-config-styled-components: 0.1.1
-  stylelint-processor-styled-components: 1.9.0
+  stylelint-processor-styled-components: 1.10.0
   svg-url-loader: 4.0.0_webpack@4.41.6
   terser-webpack-plugin: 2.3.4_webpack@4.41.6
   url-loader: 3.0.0_file-loader@5.0.2+webpack@4.41.6
@@ -9367,16 +9367,6 @@ packages:
   /postcss-value-parser/4.0.2:
     resolution:
       integrity: sha512-LmeoohTpp/K4UiyQCwuGWlONxXamGzCMtFxLq4W1nZVGIQLYvMCJx3yAF9qyyuFpflABI9yVdtJAqbihOsCsJQ==
-  /postcss/7.0.25:
-    dependencies:
-      chalk: 2.4.2
-      source-map: 0.6.1
-      supports-color: 6.1.0
-    dev: true
-    engines:
-      node: '>=6.0.0'
-    resolution:
-      integrity: sha512-NXXVvWq9icrm/TgQC0O6YVFi4StfJz46M1iNd/h6B26Nvh/HKI+q4YZtFN/EjcInZliEscO/WL10BXnc1E5nwg==
   /postcss/7.0.26:
     dependencies:
       chalk: 2.4.2
@@ -11363,15 +11353,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-z5Xz/9GmvxO6e/DLzBMwkB85zHxEEjN6K7Cj80Bi+o/9vR9eS3GX3E9VuMnX9WLFYulqbqLtTapGGY28JBiy9Q==
-  /stylelint-processor-styled-components/1.9.0:
+  /stylelint-processor-styled-components/1.10.0:
     dependencies:
-      '@babel/parser': 7.7.5
-      '@babel/traverse': 7.7.4
+      '@babel/parser': 7.8.4
+      '@babel/traverse': 7.8.4
       micromatch: 4.0.2
-      postcss: 7.0.25
+      postcss: 7.0.26
     dev: true
     resolution:
-      integrity: sha512-tWsCnURm8uqqVySWsGfXdto1qR/0MaATGx2ovWu/hqG+gnrjGZZOdeNEIEb12tpIbCnLV0a6q1Bb3yhDjGGzSQ==
+      integrity: sha512-g4HpN9rm0JD0LoHuIOcd/FIjTZCJ0ErQ+dC3VTxp+dSvnkV+MklKCCmCQEdz5K5WxF4vPuzfVgdbSDuPYGZhoA==
   /stylelint/13.2.0:
     dependencies:
       autoprefixer: 9.7.4
@@ -12842,7 +12832,7 @@ specifiers:
   stylelint: 13.2.0
   stylelint-config-recommended: 3.0.0
   stylelint-config-styled-components: 0.1.1
-  stylelint-processor-styled-components: 1.9.0
+  stylelint-processor-styled-components: 1.10.0
   svg-url-loader: 4.0.0
   terser-webpack-plugin: 2.3.4
   url-loader: 3.0.0
