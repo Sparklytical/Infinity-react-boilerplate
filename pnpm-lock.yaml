@@ -50,7 +50,7 @@ devDependencies:
   babel-plugin-styled-components: 1.10.7_styled-components@5.0.1
   babel-plugin-transform-react-remove-prop-types: 0.4.24
   circular-dependency-plugin: 5.2.0_webpack@4.41.6
-  compare-versions: 3.5.1
+  compare-versions: 3.6.0
   compression-webpack-plugin: 3.1.0_webpack@4.41.6
   css-loader: 3.4.2_webpack@4.41.6
   error-overlay-webpack-plugin: 0.4.1_webpack@4.41.6
@@ -3274,6 +3274,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-9fGPIB7C6AyM18CJJBHt5EnCZDG3oiTJYy0NjfIAGjKpzv0tkxWko7TNQHF5ymqm7IH03tqmeuBxtvD+Izh6mg==
+  /compare-versions/3.6.0:
+    dev: true
+    resolution:
+      integrity: sha512-W6Af2Iw1z4CB7q4uU4hv646dW9GQuBM+YpC0UvUCWSD8w90SJjp+ujJuXaEMtAXBtSqGfMPuFOVn4/+FlaqfBA==
   /component-bind/1.0.0:
     dev: true
     resolution:
@@ -12772,7 +12776,7 @@ specifiers:
   babel-plugin-transform-react-remove-prop-types: 0.4.24
   chalk: 3.0.0
   circular-dependency-plugin: 5.2.0
-  compare-versions: 3.5.1
+  compare-versions: 3.6.0
   compression: 1.7.4
   compression-webpack-plugin: 3.1.0
   connected-react-router: 6.7.0
