@@ -3,7 +3,7 @@ dependencies:
   '@reduxjs/toolkit': 1.2.5
   chalk: 3.0.0
   compression: 1.7.4
-  connected-react-router: 6.7.0_0fbb6e8bad94f843748e87c05fca4c10
+  connected-react-router: 6.7.0_6032da5e3976e720b2e166c9c3a9e223
   cross-env: 7.0.0
   express: 4.17.1
   fontfaceobserver: 2.1.0
@@ -23,9 +23,9 @@ dependencies:
   react-dom: 16.12.0_react@16.12.0
   react-helmet-async: 1.0.4_react-dom@16.12.0+react@16.12.0
   react-hot-loader: 4.12.19_react-dom@16.12.0+react@16.12.0
-  react-redux: 7.1.3_react@16.12.0
+  react-redux: 7.2.0_react@16.12.0
   react-router-dom: 5.1.2_react@16.12.0
-  redux-injectors: 1.3.0_e5233c3f8d7ce8667da1daa3007bdff8
+  redux-injectors: 1.3.0_ee5f4ef2edf199f7230bee4e492a937c
   redux-saga: 1.1.3
   reselect: 4.0.0
   sanitize.css: 11.0.0
@@ -1084,6 +1084,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-uCnC2JEVAu8AKB5do1WRIsvrdJ0flYx/A/9f/6chdacnEZ7LmavjdsDXr5ksYBegxtuTPR5Va9/+13QF/kFkCA==
+  /@babel/runtime/7.8.4:
+    dependencies:
+      regenerator-runtime: 0.13.3
+    dev: false
+    resolution:
+      integrity: sha512-neAp3zt80trRVBI1x0azq6c57aNBqYZH8KhMm3TaB7wEI5Q4A2SHfBHE8w9gOhI/lrqxtEbXZgQIrHP+wvSGwQ==
   /@babel/template/7.7.4:
     dependencies:
       '@babel/code-frame': 7.5.5
@@ -3367,12 +3373,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-KbS1Y0jMtyPgIxjO7ZzMAuUpAKMt1SzCL9fsrKsX6b0zJPTaT0SiSPmewwVZg9UAO83HVIlEhZF84LIjZ0lmAw==
-  /connected-react-router/6.7.0_0fbb6e8bad94f843748e87c05fca4c10:
+  /connected-react-router/6.7.0_6032da5e3976e720b2e166c9c3a9e223:
     dependencies:
       history: 4.10.1
       prop-types: 15.7.2
       react: 16.12.0
-      react-redux: 7.1.3_react@16.12.0
+      react-redux: 7.2.0_react@16.12.0
     dev: false
     peerDependencies:
       history: ^4.7.2
@@ -9791,11 +9797,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
-  /react-redux/7.1.3_react@16.12.0:
+  /react-redux/7.2.0_react@16.12.0:
     dependencies:
-      '@babel/runtime': 7.7.6
-      hoist-non-react-statics: 3.3.1
-      invariant: 2.2.4
+      '@babel/runtime': 7.8.4
+      hoist-non-react-statics: 3.3.2
       loose-envify: 1.4.0
       prop-types: 15.7.2
       react: 16.12.0
@@ -9810,7 +9815,7 @@ packages:
       react-native:
         optional: true
     resolution:
-      integrity: sha512-uI1wca+ECG9RoVkWQFF4jDMqmaw0/qnvaSvOoL/GA4dNxf6LoV8sUAcNDvE5NWKs4hFpn0t6wswNQnY3f7HT3w==
+      integrity: sha512-EvCAZYGfOLqwV7gh849xy9/pt55rJXPwmYvI4lilPM5rUT/1NxuuN59ipdBksRVSvz0KInbPnp4IfoXJXCqiDA==
   /react-router-dom/5.1.2_react@16.12.0:
     dependencies:
       '@babel/runtime': 7.7.6
@@ -10036,14 +10041,14 @@ packages:
     dev: false
     resolution:
       integrity: sha512-3czbDKs35FwiBRsx/3KabUk5zSOoTXC+cgVofGkpBNv3jQcqIe5JrHcF5AmVt7B/4hyJ8MijBIpCJ8cife6yJg==
-  /redux-injectors/1.3.0_e5233c3f8d7ce8667da1daa3007bdff8:
+  /redux-injectors/1.3.0_ee5f4ef2edf199f7230bee4e492a937c:
     dependencies:
       hoist-non-react-statics: 3.3.2
       invariant: 2.2.4
       lodash: 4.17.15
       react: 16.12.0
       react-dom: 16.12.0_react@16.12.0
-      react-redux: 7.1.3_react@16.12.0
+      react-redux: 7.2.0_react@16.12.0
       redux: 4.0.5
     dev: false
     peerDependencies:
@@ -12890,7 +12895,7 @@ specifiers:
   react-dom: 16.12.0
   react-helmet-async: 1.0.4
   react-hot-loader: 4.12.19
-  react-redux: 7.1.3
+  react-redux: 7.2.0
   react-router-dom: 5.1.2
   react-test-renderer: 16.12.0
   redux-injectors: 1.3.0
