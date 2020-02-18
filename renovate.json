@@ -1,5 +1,5 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["config:base"],
+  "baseBranches": ["Dev"],
+  "commitBody": ["[skip-ci]"]
 }
