@@ -46,17 +46,7 @@ module.exports = require('./webpack.base.babel')({
       chunks: 'all',
       maxInitialRequests: 10,
       minSize: 0,
-      cacheGroups: {
-        vendor: {
-          test: /[\\/]node_modules[\\/]/,
-          name(module) {
-            const packageName = module.context.match(
-              /[\\/]node_modules[\\/](.*?)([\\/]|$)/,
-            )[1];
-            return `npm.${packageName.replace('@', '')}`;
-          },
-        },
-      },
+      cacheGroups: {},
     },
   },
 
@@ -111,11 +101,11 @@ module.exports = require('./webpack.base.babel')({
     }),
 
     new WebpackPwaManifest({
-      name: 'Infinity-react-boilerplate',
-      short_name: 'React BP',
-      description: 'My Infinity-react-boilerplate-based project!',
+      name: 'Infinity React Boilerplate',
+      short_name: 'Infinity React Boilerplate',
+      description: 'My Infinity React Boilerplate-based project!',
       background_color: '#fafafa',
-      theme_color: '#10C697',
+      theme_color: '#000',
       inject: true,
       ios: true,
       icons: [
