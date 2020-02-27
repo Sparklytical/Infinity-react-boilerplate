@@ -1,5 +1,12 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    "schedule:earlyMondays"
+  ],
+  "baseBranches": [
+    "Dev"
+  ],
+  "commitBody": [
+    "[skip-ci]"
   ]
 }
