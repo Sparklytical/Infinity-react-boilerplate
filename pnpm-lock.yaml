@@ -75,7 +75,7 @@ devDependencies:
   imports-loader: 0.8.0
   lint-staged: 10.0.8
   ngrok: 3.2.7
-  node-plop: 0.24.0
+  node-plop: 0.25.0
   node-sass: 4.13.1
   null-loader: 3.0.0_webpack@4.41.6
   plop: 2.5.4
@@ -1904,6 +1904,14 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-EiYhwo0v255HUL6eDyuLrXEkTi7WwVCLAw+SeOQ7M7qdun1z1pum4DEm/nuqIVbPvi9RPPc9k9LbyBv6H0DwVg==
+  /ansi-escapes/4.3.1:
+    dependencies:
+      type-fest: 0.11.0
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-JWF7ocqNrp8u9oqpgV+wH5ftbt+cfvv+PTjOvKLT3AdYly/LmORARfEVT1iyjwN+4MqE5UmVKoAdIBqeoCHgLA==
   /ansi-html/0.0.7:
     dev: true
     engines:
@@ -6370,6 +6378,26 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-Bu5Td5+j11sCkqfqmUTiwv+tWisMtP0L7Q8WrqA2C/BbBhy1YTdFrvjjlrKq8oagA/tLQBski2Gcx/Sqyi2qSQ==
+  /inquirer/7.0.6:
+    dependencies:
+      ansi-escapes: 4.3.1
+      chalk: 3.0.0
+      cli-cursor: 3.1.0
+      cli-width: 2.2.0
+      external-editor: 3.1.0
+      figures: 3.2.0
+      lodash: 4.17.15
+      mute-stream: 0.0.8
+      run-async: 2.4.0
+      rxjs: 6.5.4
+      string-width: 4.2.0
+      strip-ansi: 6.0.0
+      through: 2.3.8
+    dev: true
+    engines:
+      node: '>=6.0.0'
+    resolution:
+      integrity: sha512-7SVO4h+QIdMq6XcqIqrNte3gS5MzCCKZdsq9DO4PJziBFNYzP3PGFbDjgadDb//MCahzgjCxvQ/O2wa7kx9o4w==
   /inspectpack/4.4.0:
     dependencies:
       chalk: 3.0.0
@@ -8038,6 +8066,26 @@ packages:
       node: '>=8.9.4'
     resolution:
       integrity: sha512-hAk2BMB5TED2XNk1tu2Ag7q9xV/TTiWeRpJC50WGIDtPJ4StPh6U/atNDzrzGaCXa1AWZFh+d3or7gvp8G34cg==
+  /node-plop/0.25.0:
+    dependencies:
+      '@types/globby': 9.1.0
+      '@types/handlebars': 4.1.0
+      '@types/inquirer': 6.0.1
+      change-case: 3.1.0
+      core-js: 3.6.4
+      del: 5.1.0
+      globby: 10.0.2
+      handlebars: 4.7.3
+      inquirer: 7.0.6
+      isbinaryfile: 4.0.4
+      lodash.get: 4.4.2
+      mkdirp: 0.5.1
+      resolve: 1.15.1
+    dev: true
+    engines:
+      node: '>=8.9.4'
+    resolution:
+      integrity: sha512-OFvnTsDw9nxNdLrYcveJhU2Hnzg+AxOz6xBk8uXsi0vCOSP7Rng98pdgfsuZKyCN+qrc+/fSwlNC5hkXhJ6gww==
   /node-releases/1.1.50:
     dependencies:
       semver: 6.3.0
@@ -11603,6 +11651,12 @@ packages:
       node: '>= 0.8.0'
     resolution:
       integrity: sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
+  /type-fest/0.11.0:
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-OdjXJxnCN1AvyLSzeKIgXTXxV+99ZuXl3Hpo9XpJAv9MBcHrrJOQ5kV7ypXOuQie+AmWG25hLbiKdwYTifzcfQ==
   /type-fest/0.5.2:
     dev: true
     engines:
@@ -12598,7 +12652,7 @@ specifiers:
   lodash: 4.17.15
   minimist: 1.2.0
   ngrok: 3.2.7
-  node-plop: 0.24.0
+  node-plop: 0.25.0
   node-sass: 4.13.1
   null-loader: 3.0.0
   offline-plugin: 5.0.7
