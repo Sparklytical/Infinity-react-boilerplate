@@ -56,7 +56,7 @@
     "babel-core": "7.0.0-bridge.0"
   },
   "dependencies": {
-    "@hot-loader/react-dom": "16.12.0",
+    "@hot-loader/react-dom": "16.13.0",
     "@reduxjs/toolkit": "1.2.5",
     "chalk": "3.0.0",
     "compression": "1.7.4",
