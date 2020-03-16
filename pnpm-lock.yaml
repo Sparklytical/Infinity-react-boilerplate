@@ -57,7 +57,7 @@ devDependencies:
   error-overlay-webpack-plugin: 0.4.1_webpack@4.41.6
   eslint: 6.8.0
   eslint-config-airbnb: 18.1.0_aa774332046450cd1aa4b174158bf09c
-  eslint-config-airbnb-base: 14.0.0_70f7a64bd774aaf00fe73c7ab169c95d
+  eslint-config-airbnb-base: 14.1.0_70f7a64bd774aaf00fe73c7ab169c95d
   eslint-config-prettier: 6.10.0_eslint@6.8.0
   eslint-import-resolver-webpack: 0.12.1_05ac02554a010af84471fc8c79b320d2
   eslint-plugin-import: 2.20.1_eslint@6.8.0
@@ -4270,21 +4270,6 @@ packages:
       node: '>=0.8.0'
     resolution:
       integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
-  /eslint-config-airbnb-base/14.0.0_70f7a64bd774aaf00fe73c7ab169c95d:
-    dependencies:
-      confusing-browser-globals: 1.0.9
-      eslint: 6.8.0
-      eslint-plugin-import: 2.20.1_eslint@6.8.0
-      object.assign: 4.1.0
-      object.entries: 1.1.1
-    dev: true
-    engines:
-      node: '>= 6'
-    peerDependencies:
-      eslint: ^5.16.0 || ^6.1.0
-      eslint-plugin-import: ^2.18.2
-    resolution:
-      integrity: sha512-2IDHobw97upExLmsebhtfoD3NAKhV4H0CJWP3Uprd/uk+cHuWYOczPVxQ8PxLFUAw7o3Th1RAU8u1DoUpr+cMA==
   /eslint-config-airbnb-base/14.1.0_70f7a64bd774aaf00fe73c7ab169c95d:
     dependencies:
       confusing-browser-globals: 1.0.9
@@ -12578,7 +12563,7 @@ specifiers:
   error-overlay-webpack-plugin: 0.4.1
   eslint: 6.8.0
   eslint-config-airbnb: 18.1.0
-  eslint-config-airbnb-base: 14.0.0
+  eslint-config-airbnb-base: 14.1.0
   eslint-config-prettier: 6.10.0
   eslint-import-resolver-webpack: 0.12.1
   eslint-plugin-import: 2.20.1
