@@ -22,7 +22,7 @@ dependencies:
   react-app-polyfill: 1.0.6
   react-dom: 16.13.0_react@16.13.0
   react-helmet-async: 1.0.4_react-dom@16.13.0+react@16.13.0
-  react-hot-loader: 4.12.19_react-dom@16.13.0+react@16.13.0
+  react-hot-loader: 4.12.20_react-dom@16.13.0+react@16.13.0
   react-is: 16.13.0
   react-redux: 7.2.0_react@16.13.0
   react-router-dom: 5.1.2_react@16.13.0
@@ -9713,7 +9713,7 @@ packages:
       react-dom: ^16.6.0
     resolution:
       integrity: sha512-KTGHE9sz8N7+fCkZ2a3vzXH9eIkiTNhL2NhKR7XzzQl3WsGlCHh76arauJUIiGdfhjeMp7DY7PkASAmYFXeJYg==
-  /react-hot-loader/4.12.19_react-dom@16.13.0+react@16.13.0:
+  /react-hot-loader/4.12.20_react-dom@16.13.0+react@16.13.0:
     dependencies:
       fast-levenshtein: 2.0.6
       global: 4.4.0
@@ -9733,7 +9733,7 @@ packages:
       react: ^15.0.0 || ^16.0.0
       react-dom: ^15.0.0 || ^16.0.0
     resolution:
-      integrity: sha512-p8AnA4QE2GtrvkdmqnKrEiijtVlqdTIDCHZOwItkI9kW51bt5XnQ/4Anz8giiWf9kqBpEQwsmnChDCAFBRyR/Q==
+      integrity: sha512-lPlv1HVizi0lsi+UFACBJaydtRYILWkfHAC/lyCs6ZlAxlOZRQIfYHDqiGaRvL/GF7zyti+Qn9XpnDAUvdFA4A==
   /react-is/16.13.0:
     resolution:
       integrity: sha512-GFMtL0vHkiBv9HluwNZTggSn/sCyEt9n02aM0dSAjGGyqyNlAyftYm4phPxdvCigG15JreC5biwxCgTAJZ7yAA==
@@ -12774,7 +12774,7 @@ specifiers:
   react-app-polyfill: 1.0.6
   react-dom: 16.13.0
   react-helmet-async: 1.0.4
-  react-hot-loader: 4.12.19
+  react-hot-loader: 4.12.20
   react-is: 16.13.0
   react-redux: 7.2.0
   react-router-dom: 5.1.2
