@@ -58,7 +58,7 @@ devDependencies:
   eslint: 6.8.0
   eslint-config-airbnb: 18.1.0_aa774332046450cd1aa4b174158bf09c
   eslint-config-airbnb-base: 14.1.0_70f7a64bd774aaf00fe73c7ab169c95d
-  eslint-config-prettier: 6.10.0_eslint@6.8.0
+  eslint-config-prettier: 6.10.1_eslint@6.8.0
   eslint-import-resolver-webpack: 0.12.1_05ac02554a010af84471fc8c79b320d2
   eslint-plugin-import: 2.20.1_eslint@6.8.0
   eslint-plugin-jsx-a11y: 6.2.3_eslint@6.8.0
@@ -4306,7 +4306,7 @@ packages:
       eslint-plugin-react-hooks: ^2.5.0 || ^1.7.0
     resolution:
       integrity: sha512-kZFuQC/MPnH7KJp6v95xsLBf63G/w7YqdPfQ0MUanxQ7zcKUNG8j+sSY860g3NwCBOa62apw16J6pRN+AOgXzw==
-  /eslint-config-prettier/6.10.0_eslint@6.8.0:
+  /eslint-config-prettier/6.10.1_eslint@6.8.0:
     dependencies:
       eslint: 6.8.0
       get-stdin: 6.0.0
@@ -4315,7 +4315,7 @@ packages:
     peerDependencies:
       eslint: '>=3.14.1'
     resolution:
-      integrity: sha512-AtndijGte1rPILInUdHjvKEGbIV06NuvPrqlIEaEaWtbtvJh464mDeyGMdZEQMsGvC0ZVkiex1fSNcC4HAbRGg==
+      integrity: sha512-svTy6zh1ecQojvpbJSgH3aei/Rt7C6i090l5f2WQ4aB05lYHeZIR1qL4wZyyILTbtmnbHP5Yn8MrsOJMGa8RkQ==
   /eslint-import-resolver-node/0.3.3:
     dependencies:
       debug: 2.6.9
@@ -12568,7 +12568,7 @@ specifiers:
   eslint: 6.8.0
   eslint-config-airbnb: 18.1.0
   eslint-config-airbnb-base: 14.1.0
-  eslint-config-prettier: 6.10.0
+  eslint-config-prettier: 6.10.1
   eslint-import-resolver-webpack: 0.12.1
   eslint-plugin-import: 2.20.1
   eslint-plugin-jsx-a11y: 6.2.3
