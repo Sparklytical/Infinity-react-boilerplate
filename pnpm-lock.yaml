@@ -40,7 +40,7 @@ devDependencies:
   '@babel/plugin-transform-react-constant-elements': 7.9.0_@babel+core@7.9.0
   '@babel/plugin-transform-react-inline-elements': 7.9.0_@babel+core@7.9.0
   '@babel/preset-env': 7.9.0_@babel+core@7.9.0
-  '@babel/preset-react': 7.9.1_@babel+core@7.9.0
+  '@babel/preset-react': 7.9.4_@babel+core@7.9.0
   '@babel/register': 7.9.0_@babel+core@7.9.0
   add-asset-html-webpack-plugin: 3.1.3_5f79882616e75da5633bb0bab24aa85c
   babel-core: 7.0.0-bridge.0_@babel+core@7.9.0
@@ -903,7 +903,7 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-K6m3LlSnTSfRkM6FcRk8saNEeaeyG5k7AVkBU2bZK3+1zdkSED3qNdsWrUgQBeTVD2Tp3VMmerxVO2yM5iITmw==
-  /@babel/plugin-transform-react-jsx/7.9.1_@babel+core@7.9.0:
+  /@babel/plugin-transform-react-jsx/7.9.4_@babel+core@7.9.0:
     dependencies:
       '@babel/core': 7.9.0
       '@babel/helper-builder-react-jsx': 7.9.0
@@ -914,7 +914,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
-      integrity: sha512-+xIZ6fPoix7h57CNO/ZeYADchg1tFyX9NDsnmNFFua8e1JNPln156mzS+8AQe1On2X2GLlANHJWHIXbMCqWDkQ==
+      integrity: sha512-Mjqf3pZBNLt854CK0C/kRuXAnE6H/bo7xYojP+WGtX8glDGSibcwnsWwhwoSuRg0+EBnxPC1ouVnuetUIlPSAw==
   /@babel/plugin-transform-regenerator/7.8.7_@babel+core@7.9.0:
     dependencies:
       '@babel/core': 7.9.0
@@ -1071,12 +1071,12 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-Ra3JXOHBq2xd56xSF7lMKXdjBn3T772Y1Wet3yWnkDly9zHvJki029tAFzvAAK5cf4YV3yoxuP61crYRol6SVg==
-  /@babel/preset-react/7.9.1_@babel+core@7.9.0:
+  /@babel/preset-react/7.9.4_@babel+core@7.9.0:
     dependencies:
       '@babel/core': 7.9.0
       '@babel/helper-plugin-utils': 7.8.3
       '@babel/plugin-transform-react-display-name': 7.8.3_@babel+core@7.9.0
-      '@babel/plugin-transform-react-jsx': 7.9.1_@babel+core@7.9.0
+      '@babel/plugin-transform-react-jsx': 7.9.4_@babel+core@7.9.0
       '@babel/plugin-transform-react-jsx-development': 7.9.0_@babel+core@7.9.0
       '@babel/plugin-transform-react-jsx-self': 7.9.0_@babel+core@7.9.0
       '@babel/plugin-transform-react-jsx-source': 7.9.0_@babel+core@7.9.0
@@ -1084,7 +1084,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
-      integrity: sha512-aJBYF23MPj0RNdp/4bHnAP0NVqqZRr9kl0NAOP4nJCex6OYVio59+dnQzsAWFuogdLyeaKA1hmfUIVZkY5J+TQ==
+      integrity: sha512-AxylVB3FXeOTQXNXyiuAQJSvss62FEotbX2Pzx3K/7c+MKJMdSg6Ose6QYllkdCFA8EInCJVw7M/o5QbLuA4ZQ==
   /@babel/register/7.9.0_@babel+core@7.9.0:
     dependencies:
       '@babel/core': 7.9.0
@@ -12695,7 +12695,7 @@ specifiers:
   '@babel/plugin-transform-react-constant-elements': 7.9.0
   '@babel/plugin-transform-react-inline-elements': 7.9.0
   '@babel/preset-env': 7.9.0
-  '@babel/preset-react': 7.9.1
+  '@babel/preset-react': 7.9.4
   '@babel/register': 7.9.0
   '@hot-loader/react-dom': 16.13.0
   '@reduxjs/toolkit': 1.3.2
