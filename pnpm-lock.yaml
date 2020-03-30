@@ -85,8 +85,8 @@ devDependencies:
   sass-loader: 8.0.2_node-sass@4.13.1+webpack@4.41.6
   shelljs: 0.8.3
   style-loader: 1.1.3_webpack@4.41.6
-  stylelint: 13.2.0
-  stylelint-config-recommended: 3.0.0_stylelint@13.2.0
+  stylelint: 13.2.1
+  stylelint-config-recommended: 3.0.0_stylelint@13.2.1
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.10.0
   svg-url-loader: 4.0.0_webpack@4.41.6
@@ -141,28 +141,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-zeFQrr+284Ekvd9e7KAX954LkapWiOmQtsfHirhxqfdlX6MEC32iRE+pqUGlYIBchdevaCwvzxWGSy/YBNI85g==
-  /@babel/core/7.8.4:
-    dependencies:
-      '@babel/code-frame': 7.8.3
-      '@babel/generator': 7.8.6
-      '@babel/helpers': 7.8.4
-      '@babel/parser': 7.8.6
-      '@babel/template': 7.8.6
-      '@babel/traverse': 7.8.6
-      '@babel/types': 7.8.6
-      convert-source-map: 1.7.0
-      debug: 4.1.1
-      gensync: 1.0.0-beta.1
-      json5: 2.1.1
-      lodash: 4.17.15
-      resolve: 1.15.1
-      semver: 5.7.1
-      source-map: 0.5.7
-    dev: true
-    engines:
-      node: '>=6.9.0'
-    resolution:
-      integrity: sha512-0LiLrB2PwrVI+a2/IEskBopDYSd8BCb3rOvH7D5tzoWd696TBEduBvuLVm4Nx6rltrLZqvI3MCalB2K2aVzQjA==
   /@babel/core/7.9.0:
     dependencies:
       '@babel/code-frame': 7.8.3
@@ -384,14 +362,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-LACJrbUET9cQDzb6kG7EeD7+7doC3JNvUgTEQOx2qaO1fKlzE/Bf05qs9w1oXQMmXlPO65lC3Tq9S6gZpTErEQ==
-  /@babel/helpers/7.8.4:
-    dependencies:
-      '@babel/template': 7.8.6
-      '@babel/traverse': 7.8.6
-      '@babel/types': 7.8.6
-    dev: true
-    resolution:
-      integrity: sha512-VPbe7wcQ4chu4TDQjimHv/5tj73qz88o12EPkO2ValS2QiQS/1F2SsjyIGNnAD0vF/nZS6Cf9i+vW6HIlnaR8w==
   /@babel/helpers/7.9.2:
     dependencies:
       '@babel/template': 7.8.6
@@ -1665,6 +1635,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-eyK7MWD0R1HqVTp+PtwRgFeIsemzuj4gBFSQxfPHY5iMjS7474e5wq+VFgTcdpyHeNxyKSaetYAjdMLJlKoWqA==
+  /@types/node/13.9.5:
+    dev: true
+    resolution:
+      integrity: sha512-hkzMMD3xu6BrJpGVLeQ3htQQNAcOrJjX7WFmtK8zWQpz2UJf13LCFF2ALA7c9OVdvc2vQJeDdjfR35M0sBCxvw==
   /@types/node/8.10.59:
     dev: true
     resolution:
@@ -1707,14 +1681,14 @@ packages:
       integrity: sha512-FvUupuM3rlRsRtCN+fDudtmytGO6iHJuuRKS1Ss0pG5z8oX0diNEw94UEL7hgDbpN94rgaK5R7sWm6RrSkZuAQ==
   /@types/vfile-message/2.0.0:
     dependencies:
-      vfile-message: 2.0.2
+      vfile-message: 2.0.4
     deprecated: 'This is a stub types definition. vfile-message provides its own type definitions, so you do not need this installed.'
     dev: true
     resolution:
       integrity: sha512-GpTIuDpb9u4zIO165fUy9+fXcULdD8HFRNli04GehoMVbeNq7D6OBnqSmg3lxZnC+UvgUhEWKxdKiwYUkGltIw==
   /@types/vfile/3.0.2:
     dependencies:
-      '@types/node': 13.7.6
+      '@types/node': 13.9.5
       '@types/unist': 2.0.3
       '@types/vfile-message': 2.0.0
     dev: true
@@ -2264,10 +2238,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
-  /autoprefixer/9.7.4:
+  /autoprefixer/9.7.5:
     dependencies:
-      browserslist: 4.9.0
-      caniuse-lite: 1.0.30001030
+      browserslist: 4.11.0
+      caniuse-lite: 1.0.30001038
       chalk: 2.4.2
       normalize-range: 0.1.2
       num2fraction: 1.2.2
@@ -2278,7 +2252,7 @@ packages:
       node: '>=6.0.0'
     hasBin: true
     resolution:
-      integrity: sha512-g0Ya30YrMBAEZk60lp+qfX5YQllG+S5W3GYCFvyHTvhOki0AEQJLPEcIuGRsqVwLi8FvXPVtwTGhfr38hVpm0g==
+      integrity: sha512-URo6Zvt7VYifomeAfJlMFnYDhow1rk2bufwkbamPEAtQFcL11moLk4PnR7n9vlu7M+BkXAZkHFA0mIcY7tjQFg==
   /aws-sign2/0.7.0:
     dev: true
     resolution:
@@ -2670,15 +2644,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-9rGNDtnj+HaahxiVV38Gn8n8Lr8REKsel68v1sPFfIGEK6uSXTY3h9acgiT1dZVtOOUtifo/Dn8daDQ5dUgVsA==
-  /browserslist/4.9.0:
-    dependencies:
-      caniuse-lite: 1.0.30001030
-      electron-to-chromium: 1.3.362
-      node-releases: 1.1.50
-    dev: true
-    hasBin: true
-    resolution:
-      integrity: sha512-seffIXhwgB84+OCeT/aMjpZnsAsYDiMSC+CEs3UkF8iU64BZGYcu+TZYs/IBpo4nRi0vJywUJWYdbTsOhFTweg==
   /buffer-alloc-unsafe/1.1.0:
     dev: true
     optional: true
@@ -2857,7 +2822,7 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-MIvur/3ygRkFHvodkyITyRuPkuc=
-  /camelcase-keys/6.1.2:
+  /camelcase-keys/6.2.1:
     dependencies:
       camelcase: 5.3.1
       map-obj: 4.1.0
@@ -2866,7 +2831,7 @@ packages:
     engines:
       node: '>=8'
     resolution:
-      integrity: sha512-QfFrU0CIw2oltVvpndW32kuJ/9YOJwUnmWrjlXt1nnJZHCaS9i6bfOpg9R4Lw8aZjStkJWM+jc0cdXjWBgVJSw==
+      integrity: sha512-BPCNVH56RVIxQQIXskp5tLQXUNGQ6sXr7iCv1FHDt81xBOQ/1r6H8SPxf19InVP6DexWar4s87q9thfuk8X9HA==
   /camelcase/2.1.1:
     dev: true
     engines:
@@ -2896,6 +2861,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-C1ZxgkuA4/bUEdMbU5WrGY4+UhMFFiXrgNAfxiMIqWgFTWfv/xsZCS2xEHT2LMq7xAZfuAnu6mcqyDl0ZR6wLQ==
+  /caniuse-lite/1.0.30001038:
+    dev: true
+    resolution:
+      integrity: sha512-zii9quPo96XfOiRD4TrfYGs+QsGZpb2cGiMAzPjtf/hpFgB6zCPZgJb7I1+EATeMw/o+lG8FyRAnI+CWStHcaQ==
   /caseless/0.12.0:
     dev: true
     resolution:
@@ -7134,15 +7103,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==
-  /json5/2.1.1:
-    dependencies:
-      minimist: 1.2.0
-    dev: true
-    engines:
-      node: '>=6'
-    hasBin: true
-    resolution:
-      integrity: sha512-l+3HXD0GEI3huGq1njuqtzYK8OYJyXMkOLtQ53pjWh89tvWS2h6l+1zMkYWqlb57+SiQodKZyvMEFb2X+KrFhQ==
   /json5/2.1.2:
     dependencies:
       minimist: 1.2.5
@@ -7724,10 +7684,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-cstmi0JSKCkKu/qFaJJYcwioAfs=
-  /meow/6.0.1:
+  /meow/6.1.0:
     dependencies:
       '@types/minimist': 1.2.0
-      camelcase-keys: 6.1.2
+      camelcase-keys: 6.2.1
       decamelize-keys: 1.1.0
       hard-rejection: 2.1.0
       minimist-options: 4.0.2
@@ -7736,12 +7696,12 @@ packages:
       redent: 3.0.0
       trim-newlines: 3.0.0
       type-fest: 0.8.1
-      yargs-parser: 16.1.0
+      yargs-parser: 18.1.2
     dev: true
     engines:
       node: '>=8'
     resolution:
-      integrity: sha512-kxGTFgT/b7/oSRSQsJ0qsT5IMU+bgZ1eAdSA3kIV7onkW0QWo/hL5RbGlMfvBjHJKPE1LaPX0kdecYFiqYWjUw==
+      integrity: sha512-iIAoeI01v6pmSfObAAWFoITAA4GgiT45m4SmJgoxtZfvI0fyZwhV4d0lTwiUXvAKIPlma05Feb2Xngl52Mj5Cg==
   /merge-descriptors/1.0.1:
     dev: false
     resolution:
@@ -9263,7 +9223,7 @@ packages:
       integrity: sha512-HeiOxGcuwID0AFsNAL0ox3mW6MHH5cstWN1Z3Y+n6H+g12ih7LHdYxWwEA/QmrebctLjo79xz9ouK3MroHwOJw==
   /postcss-jsx/0.36.4_1e7735a2a794d4239273fd7e483c53e2:
     dependencies:
-      '@babel/core': 7.8.4
+      '@babel/core': 7.9.0
       postcss: 7.0.27
       postcss-syntax: 0.36.2_postcss@7.0.27
     dev: true
@@ -11288,9 +11248,9 @@ packages:
       styled-components: '*'
     resolution:
       integrity: sha512-E0xKTRIjTs4DyvC1MHu/EcCXIj6+ENCP8hP01koyoADF++WdBUOrSGwU1scJRw7/YaYOhDvvoad6VlMG+0j53A==
-  /stylelint-config-recommended/3.0.0_stylelint@13.2.0:
+  /stylelint-config-recommended/3.0.0_stylelint@13.2.1:
     dependencies:
-      stylelint: 13.2.0
+      stylelint: 13.2.1
     dev: true
     peerDependencies:
       stylelint: '>=10.1.0'
@@ -11309,9 +11269,9 @@ packages:
     dev: true
     resolution:
       integrity: sha512-g4HpN9rm0JD0LoHuIOcd/FIjTZCJ0ErQ+dC3VTxp+dSvnkV+MklKCCmCQEdz5K5WxF4vPuzfVgdbSDuPYGZhoA==
-  /stylelint/13.2.0:
+  /stylelint/13.2.1:
     dependencies:
-      autoprefixer: 9.7.4
+      autoprefixer: 9.7.5
       balanced-match: 1.0.0
       chalk: 3.0.0
       cosmiconfig: 6.0.0
@@ -11331,7 +11291,7 @@ packages:
       lodash: 4.17.15
       log-symbols: 3.0.0
       mathml-tag-names: 2.1.3
-      meow: 6.0.1
+      meow: 6.1.0
       micromatch: 4.0.2
       normalize-selector: 0.2.0
       postcss: 7.0.27
@@ -11362,7 +11322,7 @@ packages:
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-isf31yjkm0DQesx+Yk1b/WQpFkf1MicwaAVR22Hprx9HRFGhhEkWdrVCyrkK6HFymL0rhzynG97Tu53q/WCsAg==
+      integrity: sha512-461ZV4KpUe7pEHHgMOsH4kkjF7qsjkCIMJYOf7QQC4cvgPUJ0z4Nj+ah5fvKl1rzqBqc5EZa6P0nna4CGoJX+A==
   /sugarss/2.0.0:
     dependencies:
       postcss: 7.0.27
@@ -11953,12 +11913,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-pNCVrk64LZv1kElr0N1wPiHEUoXNVFERp+mlTg/s9R5Lwg87f9bM/3sQB99w+N9D/qnM9ar3+AKDBwo/gm/iQQ==
-  /unist-util-stringify-position/2.0.2:
+  /unist-util-stringify-position/2.0.3:
     dependencies:
       '@types/unist': 2.0.3
     dev: true
     resolution:
-      integrity: sha512-nK5n8OGhZ7ZgUwoUbL8uiVRwAbZyzBsB/Ddrlbu6jwwubFza4oe15KlyEaLNMXQW1svOQq4xesUeqA85YrIUQA==
+      integrity: sha512-3faScn5I+hy9VleOq/qNbAd6pAx7iH5jYBMS9I1HgQVijz/4mv5Bvw5iw1sC/90CODiKo81G/ps8AJrISn687g==
   /unist-util-visit-parents/2.1.2:
     dependencies:
       unist-util-is: 3.0.0
@@ -12192,13 +12152,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-1WmsopSGhWt5laNir+633LszXvZ+Z/lxveBf6yhGsqnQIhlhzooZae7zV6YVM1Sdkw68dtAW3ow0pOdPANugvA==
-  /vfile-message/2.0.2:
+  /vfile-message/2.0.4:
     dependencies:
       '@types/unist': 2.0.3
-      unist-util-stringify-position: 2.0.2
+      unist-util-stringify-position: 2.0.3
     dev: true
     resolution:
-      integrity: sha512-gNV2Y2fDvDOOqq8bEe7cF3DXU6QgV4uA9zMR2P8tix11l1r7zju3zry3wZ8sx+BEfuO6WQ7z2QzfWTvqHQiwsA==
+      integrity: sha512-DjssxRGkMvifUOJre00juHoP9DPWuzjxKuMDrhNbk2TdaYYBNMStsNhEOt3idrtI12VQYM/1+iM0KOzXi4pxwQ==
   /vfile/3.0.1:
     dependencies:
       is-buffer: 2.0.4
@@ -12506,7 +12466,7 @@ packages:
     dependencies:
       imurmurhash: 0.1.4
       is-typedarray: 1.0.0
-      signal-exit: 3.0.2
+      signal-exit: 3.0.3
       typedarray-to-buffer: 3.1.5
     dev: true
     resolution:
@@ -12638,6 +12598,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-H/V41UNZQPkUMIT5h5hiwg4QKIY1RPvoBV4XcjUbRM8Bk2oKqqyZ0DIEbTFZB0XjbtSPG8SAa/0DxCQmiRgzKg==
+  /yargs-parser/18.1.2:
+    dependencies:
+      camelcase: 5.3.1
+      decamelize: 1.2.0
+    dev: true
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-hlIPNR3IzC1YuL1c2UwwDKpXlNFBqD1Fswwh1khz5+d8Cq/8yc/Mn0i+rQXduu8hcrFKvO7Eryk+09NecTQAAQ==
   /yargs-parser/5.0.0:
     dependencies:
       camelcase: 3.0.0
@@ -12794,7 +12763,7 @@ specifiers:
   shelljs: 0.8.3
   style-loader: 1.1.3
   styled-components: 5.0.1
-  stylelint: 13.2.0
+  stylelint: 13.2.1
   stylelint-config-recommended: 3.0.0
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.10.0
