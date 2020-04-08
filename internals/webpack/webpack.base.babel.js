@@ -14,7 +14,7 @@ const DashboardPlugin = require('webpack-dashboard/plugin');
 // const BundleAnalyzerPlugin = require('@bundle-analyzer/webpack-plugin');
 const WebpackShower = require('webpack-shower');
 
-module.exports = options => ({
+module.exports = (options) => ({
   mode: options.mode,
   entry: options.entry,
   output: {
@@ -148,7 +148,6 @@ module.exports = options => ({
   resolve: {
     modules: ['node_modules', 'app'],
     extensions: ['.js', '.jsx', '.react.js'],
-    mainFields: ['browser', 'jsnext:main', 'main'],
     alias: {
       'react-dom': '@hot-loader/react-dom',
     },
