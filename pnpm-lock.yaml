@@ -21,7 +21,7 @@ dependencies:
   react: 16.13.1
   react-app-polyfill: 1.0.6
   react-dom: 16.13.1_react@16.13.1
-  react-helmet-async: 1.0.4_react-dom@16.13.1+react@16.13.1
+  react-helmet-async: 1.0.5_react-dom@16.13.1+react@16.13.1
   react-hot-loader: 4.12.20_react-dom@16.13.1+react@16.13.1
   react-is: 16.13.1
   react-redux: 7.2.0_react@16.13.1
@@ -1105,7 +1105,6 @@ packages:
   /@babel/runtime/7.9.2:
     dependencies:
       regenerator-runtime: 0.13.5
-    dev: true
     resolution:
       integrity: sha512-NE2DtOdufG7R5vnfQUTehdTfNycfUANEtCa9PssN9O/xmTzP4E08UI797ixaei6hBEVL9BI/PsdJS5x7mWoB9Q==
   /@babel/template/7.8.6:
@@ -9731,25 +9730,25 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Yzpno3enVzSrSCnnljmr4b/2KUQSMZaPuqmS26t9k4nW7uwJk6STWmH9heNjPuvqUTO3jOSPkHoKgO4+Dw7uIw==
-  /react-fast-compare/2.0.4:
+  /react-fast-compare/3.0.1:
     dev: false
     resolution:
-      integrity: sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
-  /react-helmet-async/1.0.4_react-dom@16.13.1+react@16.13.1:
+      integrity: sha512-C5vP0J644ofZGd54P8++O7AvrqMEbrGf8Ue0eAUJLJyw168dAX2aiYyX/zcY/eSNwO0IDjsKUaLE6n83D+TnEg==
+  /react-helmet-async/1.0.5_react-dom@16.13.1+react@16.13.1:
     dependencies:
-      '@babel/runtime': 7.8.4
+      '@babel/runtime': 7.9.2
       invariant: 2.2.4
       prop-types: 15.7.2
       react: 16.13.1
       react-dom: 16.13.1_react@16.13.1
-      react-fast-compare: 2.0.4
+      react-fast-compare: 3.0.1
       shallowequal: 1.1.0
     dev: false
     peerDependencies:
       react: ^16.6.0
       react-dom: ^16.6.0
     resolution:
-      integrity: sha512-KTGHE9sz8N7+fCkZ2a3vzXH9eIkiTNhL2NhKR7XzzQl3WsGlCHh76arauJUIiGdfhjeMp7DY7PkASAmYFXeJYg==
+      integrity: sha512-nqGA5a1HRZsw1lzDn+bYuUN2FyHRiY+DgjRVhEOKVBDTrrqJCpCIOuY/IRHdobr+KD1gGTP0WabZsTrIHnFKJA==
   /react-hot-loader/4.12.20_react-dom@16.13.1+react@16.13.1:
     dependencies:
       fast-levenshtein: 2.0.6
@@ -10045,7 +10044,6 @@ packages:
     resolution:
       integrity: sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==
   /regenerator-runtime/0.13.5:
-    dev: true
     resolution:
       integrity: sha512-ZS5w8CpKFinUzOwW3c83oPeVXoNsrLsaCoLtJvAClH135j/R77RuymhiSErhm2lKcwSCIpmvIWSbDkIfAqKQlA==
   /regenerator-transform/0.14.4:
@@ -12841,7 +12839,7 @@ specifiers:
   react: 16.13.1
   react-app-polyfill: 1.0.6
   react-dom: 16.13.1
-  react-helmet-async: 1.0.4
+  react-helmet-async: 1.0.5
   react-hot-loader: 4.12.20
   react-is: 16.13.1
   react-redux: 7.2.0
