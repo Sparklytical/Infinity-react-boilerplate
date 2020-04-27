@@ -46,7 +46,7 @@ devDependencies:
   babel-core: 7.0.0-bridge.0_@babel+core@7.9.0
   babel-eslint: 10.1.0_eslint@6.8.0
   babel-loader: 8.1.0_@babel+core@7.9.0+webpack@4.42.1
-  babel-plugin-dynamic-import-node: 2.3.0
+  babel-plugin-dynamic-import-node: 2.3.3
   babel-plugin-lodash: 3.3.4
   babel-plugin-styled-components: 1.10.7_styled-components@5.0.1
   babel-plugin-transform-react-remove-prop-types: 0.4.24
@@ -2386,6 +2386,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-o6qFkpeQEBxcqt0XYlWzAVxNCSCZdUgcR8IRlhD/8DylxjjO4foPcvTW0GGKa/cVt3rvxZ7o5ippJ+/0nvLhlQ==
+  /babel-plugin-dynamic-import-node/2.3.3:
+    dependencies:
+      object.assign: 4.1.0
+    dev: true
+    resolution:
+      integrity: sha512-jZVI+s9Zg3IqA/kdi0i6UDCybUI3aSBLnglhYbSSjKlV7yF1F/5LWv8MakQmvYpnbJDS6fcBL2KzHSxNCMtWSQ==
   /babel-plugin-lodash/3.3.4:
     dependencies:
       '@babel/helper-module-imports': 7.8.3
@@ -12830,7 +12836,7 @@ specifiers:
   babel-core: 7.0.0-bridge.0
   babel-eslint: 10.1.0
   babel-loader: 8.1.0
-  babel-plugin-dynamic-import-node: 2.3.0
+  babel-plugin-dynamic-import-node: 2.3.3
   babel-plugin-lodash: 3.3.4
   babel-plugin-styled-components: 1.10.7
   babel-plugin-transform-react-remove-prop-types: 0.4.24
