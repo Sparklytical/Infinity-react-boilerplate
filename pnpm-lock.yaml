@@ -53,7 +53,7 @@ devDependencies:
   circular-dependency-plugin: 5.2.0_webpack@4.42.1
   compare-versions: 3.6.0
   compression-webpack-plugin: 3.1.0_webpack@4.42.1
-  css-loader: 3.5.2_webpack@4.42.1
+  css-loader: 3.5.3_webpack@4.42.1
   error-overlay-webpack-plugin: 0.4.1_webpack@4.42.1
   eslint: 6.8.0
   eslint-config-airbnb: 18.1.0_640b875d815307f6073c5699dc2a3636
@@ -3644,7 +3644,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-/loXYOch1qU1biStIFsHH8SxTmOseh1IJqFvy8IujXOm1h+QjUdDhkzOrR5HG8K8mlxREj0yfi8ewCHx0eMxzA==
-  /css-loader/3.5.2_webpack@4.42.1:
+  /css-loader/3.5.3_webpack@4.42.1:
     dependencies:
       camelcase: 5.3.1
       cssesc: 3.0.0
@@ -3657,7 +3657,7 @@ packages:
       postcss-modules-scope: 2.2.0
       postcss-modules-values: 3.0.0
       postcss-value-parser: 4.0.3
-      schema-utils: 2.6.5
+      schema-utils: 2.6.6
       semver: 6.3.0
       webpack: 4.42.1_webpack@4.42.1
     dev: true
@@ -3666,7 +3666,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-hDL0DPopg6zQQSRlZm0hyeaqIRnL0wbWjay9BZxoiJBpbfOW4WHfbaYQhwnDmEa0kZUc1CJ3IFo15ot1yULMIQ==
+      integrity: sha512-UEr9NH5Lmi7+dguAm+/JSPovNjYbm2k3TK58EiwQHzOHH5Jfq1Y+XoP2bQO6TMn7PptMd0opxxedAWcaSTRKHw==
   /css-select-base-adapter/0.1.1:
     dev: true
     optional: true
@@ -12841,7 +12841,7 @@ specifiers:
   compression-webpack-plugin: 3.1.0
   connected-react-router: 6.8.0
   cross-env: 7.0.0
-  css-loader: 3.5.2
+  css-loader: 3.5.3
   error-overlay-webpack-plugin: 0.4.1
   eslint: 6.8.0
   eslint-config-airbnb: 18.1.0
