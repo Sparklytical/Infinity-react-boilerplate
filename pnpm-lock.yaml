@@ -9,7 +9,7 @@ dependencies:
   fontfaceobserver: 2.1.0
   history: 4.10.1
   hoist-non-react-statics: 3.3.2
-  immer: 5.3.6
+  immer: 6.0.3
   intl: 1.2.5
   invariant: 2.2.4
   ip: 1.1.5
@@ -6478,10 +6478,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-O3sR1/opvCDGLEVcvrGTMtLac8GJ5IwZC4puPrLuRj3l7ICKvkmA0vGuU9OW8mV9WIBRnaxp5GJh9IEAaNOoYg==
-  /immer/5.3.6:
-    dev: false
-    resolution:
-      integrity: sha512-pqWQ6ozVfNOUDjrLfm4Pt7q4Q12cGw2HUZgry4Q5+Myxu9nmHRkWBpI0J4+MK0AxbdFtdMTwEGVl7Vd+vEiK+A==
   /immer/6.0.3:
     dev: false
     resolution:
@@ -12998,7 +12994,7 @@ specifiers:
   html-webpack-plugin: 4.3.0
   husky: 4.2.5
   image-webpack-loader: 6.0.0
-  immer: 5.3.6
+  immer: 6.0.3
   imports-loader: 0.8.0
   intl: 1.2.5
   invariant: 2.2.4
