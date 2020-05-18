@@ -98,7 +98,7 @@ devDependencies:
   webpack-dev-middleware: 3.7.2_webpack@4.43.0
   webpack-hot-middleware: 2.25.0
   webpack-pwa-manifest: 4.2.0
-  webpack-shower: 1.7.1
+  webpack-shower: 1.7.2
   webpackbar: 4.0.0_webpack@4.43.0
   whatwg-fetch: 3.0.0
 lockfileVersion: 5.1
@@ -12492,13 +12492,13 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-rc5XFIuH9Ue3fcXvWeYmccAF95j6eRi7syte3vi0SyUHQMjo2z53vEwKWjF//QM/THKJYICScDB9l0Jklsc/yA==
-  /webpack-shower/1.7.1:
+  /webpack-shower/1.7.2:
     dependencies:
       chalk: 3.0.0
       console.table: 0.10.0
     dev: true
     resolution:
-      integrity: sha512-uSg88xg6XGX3R/MtwrJ6pzYuNVp6UW+A+ObUt6YX1mim3UHjzjR1M4c+Ioa7rRM1YQ0i+FlUcL//BXkkLm9pGw==
+      integrity: sha512-vsXuJjQrqUQeomrxmWnDB5tOdaN1KzHEAWHwRSJCyHviT0EocuBQKxiRE9YWQqY4j25VluFHzT0MEdTgKatN7A==
   /webpack-sources/1.4.3:
     dependencies:
       source-list-map: 2.0.1
@@ -12975,6 +12975,6 @@ specifiers:
   webpack-dev-middleware: 3.7.2
   webpack-hot-middleware: 2.25.0
   webpack-pwa-manifest: 4.2.0
-  webpack-shower: 1.7.1
+  webpack-shower: 1.7.2
   webpackbar: 4.0.0
   whatwg-fetch: 3.0.0
