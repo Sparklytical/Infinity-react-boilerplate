@@ -75,7 +75,7 @@ devDependencies:
   imports-loader: 0.8.0
   lint-staged: 10.2.2
   ngrok: 3.2.7
-  node-plop: 0.25.0
+  node-plop: 0.26.0
   node-sass: 4.14.1
   null-loader: 4.0.0_webpack@4.43.0
   plop: 2.6.0
@@ -1688,6 +1688,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-O9rEHE9iBvYaFAGS0fAlDzqY/3CsOrRKzni4zwnAEce2JrHUEbXAce2Pwwe8ZGzmQkucwSXn1tSiKig37INgfA==
+  /@types/inquirer/6.5.0:
+    dependencies:
+      '@types/through': 0.0.30
+      rxjs: 6.5.5
+    dev: true
+    resolution:
+      integrity: sha512-rjaYQ9b9y/VFGOpqBEXRavc3jh0a+e6evAbI31tMda8VlPaSy0AZJfXsvmIe3wklc7W6C3zCSfleuMXR7NOyXw==
   /@types/minimatch/3.0.3:
     dev: true
     resolution:
@@ -8337,6 +8344,24 @@ packages:
       node: '>=8.9.4'
     resolution:
       integrity: sha512-OFvnTsDw9nxNdLrYcveJhU2Hnzg+AxOz6xBk8uXsi0vCOSP7Rng98pdgfsuZKyCN+qrc+/fSwlNC5hkXhJ6gww==
+  /node-plop/0.26.0:
+    dependencies:
+      '@babel/runtime-corejs3': 7.9.6
+      '@types/inquirer': 6.5.0
+      change-case: 3.1.0
+      del: 5.1.0
+      globby: 10.0.2
+      handlebars: 4.7.6
+      inquirer: 7.1.0
+      isbinaryfile: 4.0.6
+      lodash.get: 4.4.2
+      mkdirp: 0.5.5
+      resolve: 1.17.0
+    dev: true
+    engines:
+      node: '>=8.9.4'
+    resolution:
+      integrity: sha512-jVFKfAIwHcURjk1Gl6wVZ0Csqo5irlOKhdCQppn/yoSUSkHFP4LomMjpO3tUj2ADMlguKbqTEg7LKCi59vDsxg==
   /node-releases/1.1.50:
     dependencies:
       semver: 6.3.0
@@ -13019,7 +13044,7 @@ specifiers:
   lodash: 4.17.15
   minimist: 1.2.5
   ngrok: 3.2.7
-  node-plop: 0.25.0
+  node-plop: 0.26.0
   node-sass: 4.14.1
   null-loader: 4.0.0
   offline-plugin: 5.0.7
