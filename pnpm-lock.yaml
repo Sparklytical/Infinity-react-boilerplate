@@ -73,7 +73,7 @@ devDependencies:
   husky: 4.2.5
   image-webpack-loader: 6.0.0
   imports-loader: 0.8.0
-  lint-staged: 10.2.2
+  lint-staged: 10.2.6
   ngrok: 3.2.7
   node-plop: 0.25.0
   node-sass: 4.14.1
@@ -4891,7 +4891,7 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-adbxcyWV46qiHyvSp50TKt05tB4tK3HcmF7/nxfAdhnox83seTDbwnaqKO4sXRy7roHAIFqJP/Rw/AuEbX61LA==
-  /execa/4.0.0:
+  /execa/4.0.2:
     dependencies:
       cross-spawn: 7.0.2
       get-stream: 5.1.0
@@ -4906,7 +4906,7 @@ packages:
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-JbDUxwV3BoT5ZVXQrSVbAiaXhXUkIwvbhPIwZ0N13kX+5yCzOhUNdocxB/UQRuYOHRYYwAxKYwJYc0T4D12pDA==
+      integrity: sha512-QI2zLa6CjGWdiQsmSkZoGtDx2N+cQIGb3yNolGTdjSQzydzLgYYf8LRuagp7S7fPimjcrzUDSUFd/MgzELMi4Q==
   /execall/2.0.0:
     dependencies:
       clone-regexp: 2.2.0
@@ -7367,16 +7367,17 @@ packages:
     dev: true
     resolution:
       integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
-  /lint-staged/10.2.2:
+  /lint-staged/10.2.6:
     dependencies:
       chalk: 4.0.0
+      cli-truncate: 2.1.0
       commander: 5.1.0
       cosmiconfig: 6.0.0
       debug: 4.1.1
       dedent: 0.7.0
-      execa: 4.0.0
-      listr2: 1.3.8
-      log-symbols: 3.0.0
+      execa: 4.0.2
+      listr2: 2.0.4
+      log-symbols: 4.0.0
       micromatch: 4.0.2
       normalize-path: 3.0.0
       please-upgrade-node: 3.2.0
@@ -7385,11 +7386,11 @@ packages:
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-78kNqNdDeKrnqWsexAmkOU3Z5wi+1CsQmUmfCuYgMTE8E4rAIX8RHW7xgxwAZ+LAayb7Cca4uYX4P3LlevzjVg==
-  /listr2/1.3.8:
+      integrity: sha512-2oEBWyPZHkdyjKcIv2U6ay80Q52ZMlZZrUnfsV0WTVcgzPlt3o2t5UFy2v8ETUTsIDZ0xSJVnffWCgD3LF6xTQ==
+  /listr2/2.0.4:
     dependencies:
       '@samverschueren/stream-to-observable': 0.3.0
-      chalk: 3.0.0
+      chalk: 4.0.0
       cli-cursor: 3.1.0
       cli-truncate: 2.1.0
       elegant-spinner: 2.0.0
@@ -7406,7 +7407,7 @@ packages:
     engines:
       node: '>=10.0.0'
     resolution:
-      integrity: sha512-iRDRVTgSDz44tBeBBg/35TQz4W+EZBWsDUq7hPpqeUHm7yLPNll0rkwW3lIX9cPAK7l+x95mGWLpxjqxftNfZA==
+      integrity: sha512-oJaAcplPsa72rKW0eg4P4LbEJjhH+UO2I8uqR/I2wzHrVg16ohSfUy0SlcHS21zfYXxtsUpL8YXGHjyfWMR0cg==
   /load-bmfont/1.4.0:
     dependencies:
       buffer-equal: 0.0.1
@@ -7528,14 +7529,6 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-VeIAFslyIerEJLXHziedo2basKbMKtTw3vfn5IzG0XTjhAVEJyNHnL2p7vc+wBDSdQuUpNw3M2u6xb9QsAY5Eg==
-  /log-symbols/3.0.0:
-    dependencies:
-      chalk: 2.4.2
-    dev: true
-    engines:
-      node: '>=8'
-    resolution:
-      integrity: sha512-dSkNGuI7iG3mfvDzUuYZyvk5dD9ocYCYzNU6CYDE6+Xqd+gwme6Z00NS3dUh8mq/73HaEtT7m6W+yUPtU6BZnQ==
   /log-symbols/4.0.0:
     dependencies:
       chalk: 4.0.0
@@ -13015,7 +13008,7 @@ specifiers:
   intl: 1.2.5
   invariant: 2.2.4
   ip: 1.1.5
-  lint-staged: 10.2.2
+  lint-staged: 10.2.6
   lodash: 4.17.15
   minimist: 1.2.5
   ngrok: 3.2.7
