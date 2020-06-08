@@ -946,8 +946,8 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-EIuiRNMd6GB6ulcYlETnYYfgv4AxqrswghmBRQbWLHZxN4s7mupxzglnHqk9ZiUpDI4eRWewedJJNj67PWOXKA==
-  /@babel/plugin-transform-named-capturing-groups-regex/7.8.3_@babel+core@7.10.2:
-    dependencies:
+  ? /@babel/plugin-transform-named-capturing-groups-regex/7.8.3_@babel+core@7.10.2
+  : dependencies:
       '@babel/core': 7.10.2
       '@babel/helper-create-regexp-features-plugin': 7.8.8_@babel+core@7.10.2
     dev: true
