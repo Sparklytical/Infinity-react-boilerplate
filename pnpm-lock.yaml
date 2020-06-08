@@ -73,7 +73,7 @@ devDependencies:
   husky: 4.2.5
   image-webpack-loader: 6.0.0
   imports-loader: 0.8.0
-  lint-staged: 10.2.6
+  lint-staged: 10.2.9
   ngrok: 3.2.7
   node-plop: 0.26.0
   node-sass: 4.14.1
@@ -1807,14 +1807,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-eNYURfoJa6mRNU5YtBVbmE5+nDoc4lpjZ181PBwRC6nIFYZdNR3GcoQ4uomFt8eHpXAUAdpCdxBlDsmwyXOt9Q==
-  /@samverschueren/stream-to-observable/0.3.0:
-    dependencies:
-      any-observable: 0.3.0
-    dev: true
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-MI4Xx6LHs4Webyvi6EbspgyAb4D2Q2VtnCQ1blOJcoLS6mVa8lNN2rkIy1CVxfTUpoyIbCTkXES1rLXztFD1lg==
   /@sindresorhus/is/0.7.0:
     dev: true
     engines:
@@ -2323,12 +2315,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-uMgjozySS8adZZYePpaWs8cxB9/kdzmpX6SgJZ+wbz1K5eYk5QMYDVJaZKhxyIHUdnnJkfR7SVgStgH7LkGUyg==
-  /any-observable/0.3.0:
-    dev: true
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-/FQM1EDkTsf63Ub2C6O7GuYFDsSXUwsaZDurV0np41ocwq0jthUAYCmhBX9f+KwlaCgIuWyr/4WlUQUBfKfZog==
   /anymatch/2.0.0:
     dependencies:
       micromatch: 3.1.10
@@ -4511,12 +4497,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-/rG5G7Opcw68/Yrb4qYkz07h3bESVRJjUl4X/FrKLXzoUJleKm6D7K7rTTz8V5LUWnd+BbTOyxJX2XprRqHD8A==
-  /elegant-spinner/2.0.0:
-    dev: true
-    engines:
-      node: '>=8'
-    resolution:
-      integrity: sha512-5YRYHhvhYzV/FC4AiMdeSIg3jAYGq9xFvbhZMpPlJoBsfYgrw2DSCYeXfat6tYBu45PWiyRr3+flaCPPmviPaA==
   /elliptic/6.5.2:
     dependencies:
       bn.js: 4.11.8
@@ -7590,7 +7570,7 @@ packages:
     dev: true
     resolution:
       integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
-  /lint-staged/10.2.6:
+  /lint-staged/10.2.9:
     dependencies:
       chalk: 4.0.0
       cli-truncate: 2.1.0
@@ -7598,8 +7578,9 @@ packages:
       cosmiconfig: 6.0.0
       debug: 4.1.1
       dedent: 0.7.0
+      enquirer: 2.3.5
       execa: 4.0.2
-      listr2: 2.0.4
+      listr2: 2.1.3_enquirer@2.3.5
       log-symbols: 4.0.0
       micromatch: 4.0.2
       normalize-path: 3.0.0
@@ -7609,28 +7590,25 @@ packages:
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-2oEBWyPZHkdyjKcIv2U6ay80Q52ZMlZZrUnfsV0WTVcgzPlt3o2t5UFy2v8ETUTsIDZ0xSJVnffWCgD3LF6xTQ==
-  /listr2/2.0.4:
+      integrity: sha512-ziRAuXEqvJLSXg43ezBpHxRW8FOJCXISaXU//BWrxRrp5cBdRkIx7g5IsB3OI45xYGE0S6cOacfekSjDyDKF2g==
+  /listr2/2.1.3_enquirer@2.3.5:
     dependencies:
-      '@samverschueren/stream-to-observable': 0.3.0
       chalk: 4.0.0
-      cli-cursor: 3.1.0
       cli-truncate: 2.1.0
-      elegant-spinner: 2.0.0
       enquirer: 2.3.5
       figures: 3.2.0
       indent-string: 4.0.0
       log-update: 4.0.0
       p-map: 4.0.0
-      pad: 3.2.0
       rxjs: 6.5.5
       through: 2.3.8
-      uuid: 7.0.3
     dev: true
     engines:
       node: '>=10.0.0'
+    peerDependencies:
+      enquirer: '>= 2.3.0 < 3'
     resolution:
-      integrity: sha512-oJaAcplPsa72rKW0eg4P4LbEJjhH+UO2I8uqR/I2wzHrVg16ohSfUy0SlcHS21zfYXxtsUpL8YXGHjyfWMR0cg==
+      integrity: sha512-6oy3QhrZAlJGrG8oPcRp1hix1zUpb5AvyvZ5je979HCyf48tIj3Hn1TG5+rfyhz30t7HfySH/OIaVbwrI2kruA==
   /load-bmfont/1.4.0:
     dependencies:
       buffer-equal: 0.0.1
@@ -9195,14 +9173,6 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
-  /pad/3.2.0:
-    dependencies:
-      wcwidth: 1.0.1
-    dev: true
-    engines:
-      node: '>= 4.0.0'
-    resolution:
-      integrity: sha512-2u0TrjcGbOjBTJpyewEl4hBO3OeX5wWue7eIFPzQTg6wFSvoaHcBTTUY5m+n0hd04gmTCPuY0kCpVIVuw5etwg==
   /pako/1.0.11:
     dev: true
     resolution:
@@ -12639,11 +12609,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
-  /uuid/7.0.3:
-    dev: true
-    hasBin: true
-    resolution:
-      integrity: sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
   /v8-compile-cache/2.0.3:
     dev: true
     resolution:
@@ -13251,7 +13216,7 @@ specifiers:
   intl: 1.2.5
   invariant: 2.2.4
   ip: 1.1.5
-  lint-staged: 10.2.6
+  lint-staged: 10.2.9
   lodash: 4.17.15
   minimist: 1.2.5
   ngrok: 3.2.7
