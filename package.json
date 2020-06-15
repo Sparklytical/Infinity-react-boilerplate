@@ -111,7 +111,7 @@
     "circular-dependency-plugin": "5.2.0",
     "compare-versions": "3.6.0",
     "compression-webpack-plugin": "4.0.0",
-    "css-loader": "3.5.3",
+    "css-loader": "3.6.0",
     "error-overlay-webpack-plugin": "0.4.1",
     "eslint": "7.2.0",
     "eslint-config-airbnb": "18.1.0",
