@@ -59,7 +59,7 @@ devDependencies:
   eslint-config-airbnb: 18.2.0_54fc6785bce8cba9008cfc3f50d58874
   eslint-config-airbnb-base: 14.2.0_8f17482b3ae192a8bd5b8522324a870c
   eslint-config-prettier: 6.11.0_eslint@7.4.0
-  eslint-import-resolver-webpack: 0.12.1_16d079f227ea2485815034d1c0c6c32d
+  eslint-import-resolver-webpack: 0.12.2_16d079f227ea2485815034d1c0c6c32d
   eslint-plugin-import: 2.21.0_eslint@7.4.0
   eslint-plugin-jsx-a11y: 6.2.3_eslint@7.4.0
   eslint-plugin-prettier: 3.1.3_eslint@7.4.0+prettier@2.0.5
@@ -4576,7 +4576,7 @@ packages:
       integrity: sha512-XCyYVWzcHnK5cMz7G4VTu2W7zJS7SM1QkcelghyIk/FmobWBtXE7fwhBusEKvCSqc3bMh8fNFMlUkCKTFRxH2w==
   /enhanced-resolve/0.9.1:
     dependencies:
-      graceful-fs: 4.2.3
+      graceful-fs: 4.2.4
       memory-fs: 0.2.0
       tapable: 0.1.10
     dev: true
@@ -4751,7 +4751,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-b8crLDo0M5RSe5YG8Pu2DYBj71tSB6OvXkfzwbJU2w7y8P4/yo0MyF8jU26IEuEuHF2K5/gcAJE3LhQGqBBbVg==
-  /eslint-import-resolver-webpack/0.12.1_16d079f227ea2485815034d1c0c6c32d:
+  /eslint-import-resolver-webpack/0.12.2_16d079f227ea2485815034d1c0c6c32d:
     dependencies:
       array-find: 1.0.0
       debug: 2.6.9
@@ -4762,7 +4762,7 @@ packages:
       interpret: 1.2.0
       lodash: 4.17.15
       node-libs-browser: 2.2.1
-      resolve: 1.15.1
+      resolve: 1.17.0
       semver: 5.7.1
       webpack: 4.43.0_webpack@4.43.0
     dev: true
@@ -4770,7 +4770,7 @@ packages:
       eslint-plugin-import: '>=1.4.0'
       webpack: '>=1.11.0'
     resolution:
-      integrity: sha512-O/sUAXk6GWrICiN8JUkkjdt9uZpqZHP+FVnTxtEILL6EZMaPSrnP4lGPSFwcKsv7O211maqq4Nz60+dh236hVg==
+      integrity: sha512-7Jnm4YAoNNkvqPaZkKdIHsKGmv8/uNnYC5QsXkiSodvX4XEEfH2AKOna98FK52fCDXm3q4HzuX+7pRMKkJ64EQ==
   /eslint-module-utils/2.6.0:
     dependencies:
       debug: 2.6.9
@@ -13212,7 +13212,7 @@ specifiers:
   eslint-config-airbnb: 18.2.0
   eslint-config-airbnb-base: 14.2.0
   eslint-config-prettier: 6.11.0
-  eslint-import-resolver-webpack: 0.12.1
+  eslint-import-resolver-webpack: 0.12.2
   eslint-plugin-import: 2.21.0
   eslint-plugin-jsx-a11y: 6.2.3
   eslint-plugin-prettier: 3.1.3
