@@ -29,26 +29,9 @@
 
   </a>
 
-  <!-- Maintenance -->
 
-<img alt="Code Climate maintainability" src="https://img.shields.io/codeclimate/maintainability/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=code-climate">
-
-  <!-- Codacy -->
-
-<img alt="Codacy grade" src="https://img.shields.io/codacy/grade/f748eb00985e46e08bbc77fa92c50313?style=for-the-badge&logo=codacy">
-
-  <!-- Codefactor -->
-
-<img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/evilspark/Infinity-react-boilerplate?style=for-the-badge&logo=codefactor">
-
-  <!-- Netlify -->
-
-<img alt="Netlify" src="https://img.shields.io/netlify/069a4fac-25fc-4413-bc0a-631770514735?style=for-the-badge&logo=netlify">
-</a>
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=github">
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=github">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=github">
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=github">
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EvilSpark/Infinity-react-boilerplate?style=for-the-badge&logo=github">
 </div>
 </div>
