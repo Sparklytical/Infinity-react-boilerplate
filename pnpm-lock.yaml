@@ -56,14 +56,14 @@ devDependencies:
   css-loader: 3.6.0_webpack@4.43.0
   error-overlay-webpack-plugin: 0.4.1_webpack@4.43.0
   eslint: 7.4.0
-  eslint-config-airbnb: 18.2.0_50295bffbc603531e600fa61dce5abe8
+  eslint-config-airbnb: 18.2.0_ef4dc0d1961aecc5d43801eccb65a505
   eslint-config-airbnb-base: 14.2.0_c68bb5016e109f58285db45d8cc55073
   eslint-config-prettier: 6.11.0_eslint@7.4.0
   eslint-import-resolver-webpack: 0.12.2_35a0d7196f1019ec816cd695b344d431
   eslint-plugin-import: 2.22.0_eslint@7.4.0
   eslint-plugin-jsx-a11y: 6.3.1_eslint@7.4.0
   eslint-plugin-prettier: 3.1.4_eslint@7.4.0+prettier@2.0.5
-  eslint-plugin-react: 7.20.0_eslint@7.4.0
+  eslint-plugin-react: 7.20.3_eslint@7.4.0
   eslint-plugin-react-hooks: 4.0.4_eslint@7.4.0
   eslint-plugin-redux-saga: 1.1.3_eslint@7.4.0+redux-saga@1.1.3
   file-loader: 6.0.0_webpack@4.43.0
@@ -2457,6 +2457,16 @@ packages:
       node: '>= 0.4'
     resolution:
       integrity: sha512-gBlRZV0VSmfPIeWfuuy56XZMvbVfbEUnOXUvt3F/eUUUSyzlgLxhEX4YAEpxNAogRGehPSnfXyPtYyKAhkzQhQ==
+  /array.prototype.flatmap/1.2.3:
+    dependencies:
+      define-properties: 1.1.3
+      es-abstract: 1.17.5
+      function-bind: 1.1.1
+    dev: true
+    engines:
+      node: '>= 0.4'
+    resolution:
+      integrity: sha512-OOEk+lkePcg+ODXIpvuU9PAryCikCJyo7GlDG1upleEpQRx6mzL9puEBkozQ5iAx20KV0l3DbyQwqciJtqe5Pg==
   /arraybuffer.slice/0.0.7:
     dev: true
     resolution:
@@ -4738,13 +4748,13 @@ packages:
       eslint-plugin-import: ^2.21.2
     resolution:
       integrity: sha512-Snswd5oC6nJaevs3nZoLSTvGJBvzTfnBqOIArkf3cbyTyq9UD79wOk8s+RiL6bhca0p/eRO6veczhf6A/7Jy8Q==
-  /eslint-config-airbnb/18.2.0_50295bffbc603531e600fa61dce5abe8:
+  /eslint-config-airbnb/18.2.0_ef4dc0d1961aecc5d43801eccb65a505:
     dependencies:
       eslint: 7.4.0
       eslint-config-airbnb-base: 14.2.0_c68bb5016e109f58285db45d8cc55073
       eslint-plugin-import: 2.22.0_eslint@7.4.0
       eslint-plugin-jsx-a11y: 6.3.1_eslint@7.4.0
-      eslint-plugin-react: 7.20.0_eslint@7.4.0
+      eslint-plugin-react: 7.20.3_eslint@7.4.0
       eslint-plugin-react-hooks: 4.0.4_eslint@7.4.0
       object.assign: 4.1.0
       object.entries: 1.1.2
@@ -4872,27 +4882,27 @@ packages:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
     resolution:
       integrity: sha512-equAdEIsUETLFNCmmCkiCGq6rkSK5MoJhXFPFYeUebcjKgBmWWcgVOqZyQC8Bv1BwVCnTq9tBxgJFgAJTWoJtA==
-  /eslint-plugin-react/7.20.0_eslint@7.4.0:
+  /eslint-plugin-react/7.20.3_eslint@7.4.0:
     dependencies:
       array-includes: 3.1.1
+      array.prototype.flatmap: 1.2.3
       doctrine: 2.1.0
       eslint: 7.4.0
       has: 1.0.3
-      jsx-ast-utils: 2.2.3
-      object.entries: 1.1.1
+      jsx-ast-utils: 2.4.1
+      object.entries: 1.1.2
       object.fromentries: 2.0.2
       object.values: 1.1.1
       prop-types: 15.7.2
       resolve: 1.17.0
       string.prototype.matchall: 4.0.2
-      xregexp: 4.3.0
     dev: true
     engines:
       node: '>=4'
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7
     resolution:
-      integrity: sha512-rqe1abd0vxMjmbPngo4NaYxTcR3Y4Hrmc/jg4T+sYz63yqlmJRknpEQfmWY+eDWPuMmix6iUIK+mv0zExjeLgA==
+      integrity: sha512-txbo090buDeyV0ugF3YMWrzLIUqpYTsWSDZV9xLSmExE1P/Kmgg9++PD931r+KEWS66O1c9R4srLVVHmeHpoAg==
   /eslint-plugin-redux-saga/1.1.3_eslint@7.4.0+redux-saga@1.1.3:
     dependencies:
       eslint: 7.4.0
@@ -7491,15 +7501,6 @@ packages:
       '0': node >=0.6.0
     resolution:
       integrity: sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=
-  /jsx-ast-utils/2.2.3:
-    dependencies:
-      array-includes: 3.1.1
-      object.assign: 4.1.0
-    dev: true
-    engines:
-      node: '>=4.0'
-    resolution:
-      integrity: sha512-EdIHFMm+1BPynpKOpdPqiOsvnIrInRGJD7bzPZdPkjitQEqpdpUuFpq4T0npZFKTiB3RhWFdGN+oqOJIdhDhQA==
   /jsx-ast-utils/2.4.1:
     dependencies:
       array-includes: 3.1.1
@@ -8812,17 +8813,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-On+GgzS0B96gbaFtiNXNKeQ1/s8=
-  /object.entries/1.1.1:
-    dependencies:
-      define-properties: 1.1.3
-      es-abstract: 1.17.4
-      function-bind: 1.1.1
-      has: 1.0.3
-    dev: true
-    engines:
-      node: '>= 0.4'
-    resolution:
-      integrity: sha512-ilqR7BgdyZetJutmDPfXCDffGa0/Yzl2ivVNpbx/g4UeWrCdRnFDUBrKJGLhGieRHDATnyZXWBeCb29k9CJysQ==
   /object.entries/1.1.2:
     dependencies:
       define-properties: 1.1.3
@@ -13097,12 +13087,6 @@ packages:
       node: '>=0.4.0'
     resolution:
       integrity: sha1-wodrBhaKrcQOV9l+gRkayPQ5iz4=
-  /xregexp/4.3.0:
-    dependencies:
-      '@babel/runtime-corejs3': 7.9.6
-    dev: true
-    resolution:
-      integrity: sha512-7jXDIFXh5yJ/orPn4SXjuVrWWoi4Cr8jfV1eHv9CixKSbU+jY4mxfrBwAuDvupPNKpMUY+FeIqsVw/JLT9+B8g==
   /xtend/4.0.2:
     dev: true
     engines:
@@ -13262,7 +13246,7 @@ specifiers:
   eslint-plugin-import: 2.22.0
   eslint-plugin-jsx-a11y: 6.3.1
   eslint-plugin-prettier: 3.1.4
-  eslint-plugin-react: 7.20.0
+  eslint-plugin-react: 7.20.3
   eslint-plugin-react-hooks: 4.0.4
   eslint-plugin-redux-saga: 1.1.3
   express: 4.17.1
