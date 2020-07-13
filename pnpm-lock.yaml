@@ -13,7 +13,7 @@ dependencies:
   intl: 1.2.5
   invariant: 2.2.4
   ip: 1.1.5
-  lodash: 4.17.15
+  lodash: 4.17.19
   minimist: 1.2.5
   offline-plugin: 5.0.7
   pretty-error: 2.1.1
@@ -7767,6 +7767,10 @@ packages:
   /lodash/4.17.15:
     resolution:
       integrity: sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  /lodash/4.17.19:
+    dev: false
+    resolution:
+      integrity: sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
   /log-symbols/2.2.0:
     dependencies:
       chalk: 2.4.2
@@ -13265,7 +13269,7 @@ specifiers:
   invariant: 2.2.4
   ip: 1.1.5
   lint-staged: 10.2.11
-  lodash: 4.17.15
+  lodash: 4.17.19
   minimist: 1.2.5
   ngrok: 3.2.7
   node-plop: 0.26.0
