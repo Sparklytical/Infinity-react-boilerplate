@@ -62,7 +62,7 @@ devDependencies:
   eslint-import-resolver-webpack: 0.12.2_35a0d7196f1019ec816cd695b344d431
   eslint-plugin-import: 2.22.0_eslint@7.4.0
   eslint-plugin-jsx-a11y: 6.3.1_eslint@7.4.0
-  eslint-plugin-prettier: 3.1.3_eslint@7.4.0+prettier@2.0.5
+  eslint-plugin-prettier: 3.1.4_eslint@7.4.0+prettier@2.0.5
   eslint-plugin-react: 7.20.0_eslint@7.4.0
   eslint-plugin-react-hooks: 4.0.4_eslint@7.4.0
   eslint-plugin-redux-saga: 1.1.3_eslint@7.4.0+redux-saga@1.1.3
@@ -4849,7 +4849,7 @@ packages:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7
     resolution:
       integrity: sha512-i1S+P+c3HOlBJzMFORRbC58tHa65Kbo8b52/TwCwSKLohwvpfT5rm2GjGWzOHTEuq4xxf2aRlHHTtmExDQOP+g==
-  /eslint-plugin-prettier/3.1.3_eslint@7.4.0+prettier@2.0.5:
+  /eslint-plugin-prettier/3.1.4_eslint@7.4.0+prettier@2.0.5:
     dependencies:
       eslint: 7.4.0
       prettier: 2.0.5
@@ -4858,10 +4858,10 @@ packages:
     engines:
       node: '>=6.0.0'
     peerDependencies:
-      eslint: '>= 5.0.0'
-      prettier: '>= 1.13.0'
+      eslint: '>=5.0.0'
+      prettier: '>=1.13.0'
     resolution:
-      integrity: sha512-+HG5jmu/dN3ZV3T6eCD7a4BlAySdN7mLIbJYo0z1cFQuI+r2DiTJEFeF68ots93PsnrMxbzIZ2S/ieX+mkrBeQ==
+      integrity: sha512-jZDa8z76klRqo+TdGDTFJSavwbnWK2ZpqGKNZ+VvweMW516pDUMmQ2koXvxEE4JhzNvTv+radye/bWGBmA6jmg==
   /eslint-plugin-react-hooks/4.0.4_eslint@7.4.0:
     dependencies:
       eslint: 7.4.0
@@ -13261,7 +13261,7 @@ specifiers:
   eslint-import-resolver-webpack: 0.12.2
   eslint-plugin-import: 2.22.0
   eslint-plugin-jsx-a11y: 6.3.1
-  eslint-plugin-prettier: 3.1.3
+  eslint-plugin-prettier: 3.1.4
   eslint-plugin-react: 7.20.0
   eslint-plugin-react-hooks: 4.0.4
   eslint-plugin-redux-saga: 1.1.3
