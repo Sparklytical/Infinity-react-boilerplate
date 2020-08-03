@@ -56,14 +56,14 @@ devDependencies:
   css-loader: 3.6.0_webpack@4.43.0
   error-overlay-webpack-plugin: 0.4.1_webpack@4.43.0
   eslint: 7.6.0
-  eslint-config-airbnb: 18.2.0_bb4daee2a9d251e47e0d98eb4ef1dc3c
+  eslint-config-airbnb: 18.2.0_432d618d92377026e2722175bfa4d845
   eslint-config-airbnb-base: 14.2.0_2d0a3b79766400155c8e1793948754aa
   eslint-config-prettier: 6.11.0_eslint@7.6.0
   eslint-import-resolver-webpack: 0.12.2_35a0d7196f1019ec816cd695b344d431
   eslint-plugin-import: 2.22.0_eslint@7.6.0
   eslint-plugin-jsx-a11y: 6.3.1_eslint@7.6.0
   eslint-plugin-prettier: 3.1.4_eslint@7.6.0+prettier@2.0.5
-  eslint-plugin-react: 7.20.3_eslint@7.6.0
+  eslint-plugin-react: 7.20.5_eslint@7.6.0
   eslint-plugin-react-hooks: 4.0.8_eslint@7.6.0
   eslint-plugin-redux-saga: 1.1.3_eslint@7.6.0+redux-saga@1.1.3
   file-loader: 6.0.0_webpack@4.43.0
@@ -2482,7 +2482,7 @@ packages:
   /array-includes/3.1.1:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.17.4
+      es-abstract: 1.17.5
       is-string: 1.0.5
     dev: true
     engines:
@@ -4778,6 +4778,7 @@ packages:
     dev: true
     engines:
       node: '>= 0.4'
+    optional: true
     resolution:
       integrity: sha512-Ae3um/gb8F0mui/jPL+QiqmglkUsaQf7FwBEHYIFkztkneosu9imhqHpBzQ3h1vit8t5iQ74t6PEVvphBZiuiQ==
   /es-abstract/1.17.5:
@@ -4832,13 +4833,13 @@ packages:
       eslint-plugin-import: ^2.21.2
     resolution:
       integrity: sha512-Snswd5oC6nJaevs3nZoLSTvGJBvzTfnBqOIArkf3cbyTyq9UD79wOk8s+RiL6bhca0p/eRO6veczhf6A/7Jy8Q==
-  /eslint-config-airbnb/18.2.0_bb4daee2a9d251e47e0d98eb4ef1dc3c:
+  /eslint-config-airbnb/18.2.0_432d618d92377026e2722175bfa4d845:
     dependencies:
       eslint: 7.6.0
       eslint-config-airbnb-base: 14.2.0_2d0a3b79766400155c8e1793948754aa
       eslint-plugin-import: 2.22.0_eslint@7.6.0
       eslint-plugin-jsx-a11y: 6.3.1_eslint@7.6.0
-      eslint-plugin-react: 7.20.3_eslint@7.6.0
+      eslint-plugin-react: 7.20.5_eslint@7.6.0
       eslint-plugin-react-hooks: 4.0.8_eslint@7.6.0
       object.assign: 4.1.0
       object.entries: 1.1.2
@@ -4966,7 +4967,7 @@ packages:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
     resolution:
       integrity: sha512-6SSb5AiMCPd8FDJrzah+Z4F44P2CdOaK026cXFV+o/xSRzfOiV1FNFeLl2z6xm3yqWOQEZ5OfVgiec90qV2xrQ==
-  /eslint-plugin-react/7.20.3_eslint@7.6.0:
+  /eslint-plugin-react/7.20.5_eslint@7.6.0:
     dependencies:
       array-includes: 3.1.1
       array.prototype.flatmap: 1.2.3
@@ -4986,7 +4987,7 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7
     resolution:
-      integrity: sha512-txbo090buDeyV0ugF3YMWrzLIUqpYTsWSDZV9xLSmExE1P/Kmgg9++PD931r+KEWS66O1c9R4srLVVHmeHpoAg==
+      integrity: sha512-ajbJfHuFnpVNJjhyrfq+pH1C0gLc2y94OiCbAXT5O0J0YCKaFEHDV8+3+mDOr+w8WguRX+vSs1bM2BDG0VLvCw==
   /eslint-plugin-redux-saga/1.1.3_eslint@7.6.0+redux-saga@1.1.3:
     dependencies:
       eslint: 7.6.0
@@ -8937,7 +8938,7 @@ packages:
   /object.values/1.1.1:
     dependencies:
       define-properties: 1.1.3
-      es-abstract: 1.17.4
+      es-abstract: 1.17.5
       function-bind: 1.1.1
       has: 1.0.3
     dev: true
@@ -11650,6 +11651,7 @@ packages:
     dev: true
     engines:
       node: '>= 0.4'
+    optional: true
     resolution:
       integrity: sha512-iu2AGd3PuP5Rp7x2kEZCrB2Nf41ehzh+goo8TV7z8/XDBbsvc6HQIlUl9RjkZ4oyrW1XM5UwlGl1oVEaDjg6Ag==
   /string.prototype.trimleft/2.1.2:
@@ -11669,6 +11671,7 @@ packages:
     dev: true
     engines:
       node: '>= 0.4'
+    optional: true
     resolution:
       integrity: sha512-qFvWL3/+QIgZXVmJBfpHmxLB7xsUXz6HsUmP8+5dRaC3Q7oKUv9Vo6aMCRZC1smrtyECFsIT30PqBJ1gTjAs+g==
   /string.prototype.trimright/2.1.2:
@@ -13322,7 +13325,7 @@ specifiers:
   eslint-plugin-import: 2.22.0
   eslint-plugin-jsx-a11y: 6.3.1
   eslint-plugin-prettier: 3.1.4
-  eslint-plugin-react: 7.20.3
+  eslint-plugin-react: 7.20.5
   eslint-plugin-react-hooks: 4.0.8
   eslint-plugin-redux-saga: 1.1.3
   express: 4.17.1
