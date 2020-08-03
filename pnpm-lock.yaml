@@ -48,7 +48,7 @@ devDependencies:
   babel-loader: 8.1.0_76ef5cf663afdc0862e6c4e479226c8b
   babel-plugin-dynamic-import-node: 2.3.3
   babel-plugin-lodash: 3.3.4
-  babel-plugin-styled-components: 1.10.7_styled-components@5.1.1
+  babel-plugin-styled-components: 1.11.1_styled-components@5.1.1
   babel-plugin-transform-react-remove-prop-types: 0.4.24
   circular-dependency-plugin: 5.2.0_webpack@4.43.0
   compare-versions: 3.6.0
@@ -228,13 +228,14 @@ packages:
       integrity: sha512-4bpOR5ZBz+wWcMeVtcf7FbjcFzCp+817z2/gHNncIRcM9MmKzUhtWCYAq27RAfUrAFwb+OCG1s9WEaVxfi6cjg==
   /@babel/helper-annotate-as-pure/7.10.4:
     dependencies:
-      '@babel/types': 7.10.4
+      '@babel/types': 7.10.5
     dev: true
     resolution:
       integrity: sha512-XQlqKQP4vXFB7BN8fEEerrmYvHp3fK/rBkRFz9jaJbzK0B1DSfej9Kc7ZzE8Z/OnId1jpJdNAZ3BFQjWG68rcA==
   /@babel/helper-annotate-as-pure/7.8.3:
     dependencies:
       '@babel/types': 7.8.6
+    dev: false
     resolution:
       integrity: sha512-6o+mJrZBxOoEX77Ezv9zwW7WV8DdluouRKNY/IR5u/YTMuKHgugHOzYWlYvYLpLA9nPsQCAAASpCIbjI9Mv+Uw==
   /@babel/helper-builder-binary-assignment-operator-visitor/7.10.4:
@@ -2736,10 +2737,23 @@ packages:
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.15
       styled-components: 5.1.1_9a4a3b3ed34a772b68db523825332f5f
+    dev: false
     peerDependencies:
       styled-components: '>= 2'
     resolution:
       integrity: sha512-MBMHGcIA22996n9hZRf/UJLVVgkEOITuR2SvjHLb5dSTUyR4ZRGn+ngITapes36FI3WLxZHfRhkA1ffHxihOrg==
+  /babel-plugin-styled-components/1.11.1_styled-components@5.1.1:
+    dependencies:
+      '@babel/helper-annotate-as-pure': 7.10.4
+      '@babel/helper-module-imports': 7.10.4
+      babel-plugin-syntax-jsx: 6.18.0
+      lodash: 4.17.19
+      styled-components: 5.1.1_9a4a3b3ed34a772b68db523825332f5f
+    dev: true
+    peerDependencies:
+      styled-components: '>= 2'
+    resolution:
+      integrity: sha512-YwrInHyKUk1PU3avIRdiLyCpM++18Rs1NgyMXEAQC33rIXs/vro0A+stf4sT0Gf22Got+xRWB8Cm0tw+qkRzBA==
   /babel-plugin-syntax-jsx/6.18.0:
     resolution:
       integrity: sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY=
@@ -13293,7 +13307,7 @@ specifiers:
   babel-loader: 8.1.0
   babel-plugin-dynamic-import-node: 2.3.3
   babel-plugin-lodash: 3.3.4
-  babel-plugin-styled-components: 1.10.7
+  babel-plugin-styled-components: 1.11.1
   babel-plugin-transform-react-remove-prop-types: 0.4.24
   chalk: 4.1.0
   circular-dependency-plugin: 5.2.0
