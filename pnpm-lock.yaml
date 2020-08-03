@@ -588,8 +588,8 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-fCL7QF0Jo83uy1K0P2YXrfX11tj3lkpN7l4dMv9Y9VkowkhkQDwFHFd8IiwyK5MZjE8UpbgokkgtcReH88Abaw==
-  /@babel/plugin-proposal-logical-assignment-operators/7.11.0_@babel+core@7.11.0:
-    dependencies:
+  ? /@babel/plugin-proposal-logical-assignment-operators/7.11.0_@babel+core@7.11.0
+  : dependencies:
       '@babel/core': 7.11.0
       '@babel/helper-plugin-utils': 7.10.4
       '@babel/plugin-syntax-logical-assignment-operators': 7.10.4_@babel+core@7.11.0
@@ -973,8 +973,8 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-mohW5q3uAEt8T45YT7Qc5ws6mWgJAaL/8BfWD9Dodo1A3RKWli8wTS+WiQ/knF+tXlPirW/1/MqzzGfCExKECA==
-  /@babel/plugin-transform-named-capturing-groups-regex/7.10.4_@babel+core@7.11.0:
-    dependencies:
+  ? /@babel/plugin-transform-named-capturing-groups-regex/7.10.4_@babel+core@7.11.0
+  : dependencies:
       '@babel/core': 7.11.0
       '@babel/helper-create-regexp-features-plugin': 7.10.4_@babel+core@7.11.0
     dev: true
