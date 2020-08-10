@@ -89,7 +89,7 @@ devDependencies:
   stylelint-config-recommended: 3.0.0_stylelint@13.6.1
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.10.0
-  svg-url-loader: 5.0.0_webpack@4.43.0
+  svg-url-loader: 5.0.1_webpack@4.43.0
   terser-webpack-plugin: 2.3.6_webpack@4.43.0
   url-loader: 4.1.0_file-loader@6.0.0+webpack@4.43.0
   webpack: 4.43.0_webpack@4.43.0
@@ -11970,15 +11970,16 @@ packages:
     dev: true
     resolution:
       integrity: sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q=
-  /svg-url-loader/5.0.0_webpack@4.43.0:
+  /svg-url-loader/5.0.1_webpack@4.43.0:
     dependencies:
       file-loader: 6.0.0_webpack@4.43.0
       loader-utils: 2.0.0
+      webpack: 4.43.0_webpack@4.43.0
     dev: true
     peerDependencies:
-      webpack: '*'
+      webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-KI7KRxYd1PuStyvSX4H/pB2i3PC1mMqP6reizU3TsieZJRW5TvWm4obmAzlWsI0SgvECK5oGYywDLxSMbat06w==
+      integrity: sha512-U6t6p6iwtG1P7RWcA8Bevud5fMCpmxAQfjHn7vqHFl00d+Geoj1N0kP1HhTJfVUoDtyLJysEMzrSJERnn0m81w==
   /svgo/1.3.2:
     dependencies:
       chalk: 2.4.2
@@ -13371,7 +13372,7 @@ specifiers:
   stylelint-config-recommended: 3.0.0
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.10.0
-  svg-url-loader: 5.0.0
+  svg-url-loader: 5.0.1
   terser-webpack-plugin: 2.3.6
   url-loader: 4.1.0
   webpack: 4.43.0
