@@ -90,7 +90,7 @@ devDependencies:
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.10.0
   svg-url-loader: 5.0.1_webpack@4.44.1
-  terser-webpack-plugin: 2.3.7_webpack@4.44.1
+  terser-webpack-plugin: 2.3.8_webpack@4.44.1
   url-loader: 4.1.0_file-loader@6.0.0+webpack@4.44.1
   webpack: 4.44.1_3ce48c465ccbc179f4bb4945c7d9e859
   webpack-cli: 3.3.11_webpack@4.44.1
@@ -11129,12 +11129,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-rs9OggEUF0V4jUSecXazOYsLfu7OGK2qIn3c7IPBiffz32XniEp/TX9Xmc9LQfK2nQ2QKHvZ2oygKUGU0lG4jQ==
-  /serialize-javascript/3.1.0:
-    dependencies:
-      randombytes: 2.1.0
-    dev: true
-    resolution:
-      integrity: sha512-JIJT1DGiWmIKhzRsG91aS6Ze4sFUrYbltlkg2onR5OrnNM02Kl/hnY/T4FN2omvyeBbQmMJv+K4cPOpGzOTFBg==
   /serialize-javascript/4.0.0:
     dependencies:
       randombytes: 2.1.0
@@ -12175,14 +12169,14 @@ packages:
       webpack: ^4.0.0
     resolution:
       integrity: sha512-QMxecFz/gHQwteWwSo5nTc6UaICqN1bMedC5sMtUc7y3Ha3Q8y6ZO0iCR8pq4RJC8Hjf0FEPEHZqcMB/+DFCrA==
-  /terser-webpack-plugin/2.3.7_webpack@4.44.1:
+  /terser-webpack-plugin/2.3.8_webpack@4.44.1:
     dependencies:
       cacache: 13.0.1
       find-cache-dir: 3.3.1
       jest-worker: 25.5.0
       p-limit: 2.3.0
       schema-utils: 2.7.0
-      serialize-javascript: 3.1.0
+      serialize-javascript: 4.0.0
       source-map: 0.6.1
       terser: 4.6.13
       webpack: 4.44.1_3ce48c465ccbc179f4bb4945c7d9e859
@@ -12193,7 +12187,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-xzYyaHUNhzgaAdBsXxk2Yvo/x1NJdslUaussK3fdpBbvttm1iIwU+c26dj9UxJcwk2c5UWt5F55MUTIA8BE7Dg==
+      integrity: sha512-/fKw3R+hWyHfYx7Bv6oPqmk4HGQcrWLtV3X6ggvPuwPNHSnzvVV51z6OaaCOus4YLjutYGOz3pEpbhe6Up2s1w==
   /terser/4.6.13:
     dependencies:
       commander: 2.20.3
@@ -13458,7 +13452,7 @@ specifiers:
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.10.0
   svg-url-loader: 5.0.1
-  terser-webpack-plugin: 2.3.7
+  terser-webpack-plugin: 2.3.8
   url-loader: 4.1.0
   webpack: 4.44.1
   webpack-cli: 3.3.11
