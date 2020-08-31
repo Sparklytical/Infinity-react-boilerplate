@@ -94,7 +94,7 @@ devDependencies:
   url-loader: 4.1.0_file-loader@6.0.0+webpack@4.44.1
   webpack: 4.44.1_7d74d9f6ceb0e540c1e44d9709220c58
   webpack-cli: 3.3.12_webpack@4.44.1
-  webpack-dashboard: 3.2.0_webpack@4.44.1
+  webpack-dashboard: 3.2.1_webpack@4.44.1
   webpack-dev-middleware: 3.7.2_webpack@4.44.1
   webpack-hot-middleware: 2.25.0
   webpack-pwa-manifest: 4.2.0
@@ -6327,19 +6327,6 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-FNHi6mmoHvs1mxZAds4PpdCS6QG8B4C1krxJsMutgxl5t3+GlRTzzI3NEkifXx2pVsOvJdOGSmIgDhQ55FwdPA==
-  /handlebars/4.7.3:
-    dependencies:
-      neo-async: 2.6.1
-      optimist: 0.6.1
-      source-map: 0.6.1
-    dev: true
-    engines:
-      node: '>=0.4.7'
-    hasBin: true
-    optionalDependencies:
-      uglify-js: 3.8.0
-    resolution:
-      integrity: sha512-SRGwSYuNfx8DwHD/6InAPzD6RgeruWLT+B8e8a7gGs8FWgHzlExpTFMEq2IA6QpAfOClpKHy6+8IqTjeBCu6Kg==
   /handlebars/4.7.6:
     dependencies:
       minimist: 1.2.5
@@ -9044,13 +9031,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==
-  /optimist/0.6.1:
-    dependencies:
-      minimist: 0.0.8
-      wordwrap: 0.0.3
-    dev: true
-    resolution:
-      integrity: sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
   /optionator/0.9.1:
     dependencies:
       deep-is: 0.1.3
@@ -12454,17 +12434,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-Zcr0lbt8z5ZdEzERHAMAniTiIKerFCMgd7yjq1fPnDJ43et/k9twIFQMUYff9k5oXcsQ0WpvFcgzK2ZKASoW6Q==
-  /uglify-js/3.8.0:
-    dependencies:
-      commander: 2.20.3
-      source-map: 0.6.1
-    dev: true
-    engines:
-      node: '>=0.8.0'
-    hasBin: true
-    optional: true
-    resolution:
-      integrity: sha512-ugNSTT8ierCsDHso2jkBHXYrU8Y5/fY2ZUprfrJUiD7YpuFvV4jODLFmb3h4btQjqr5Nh4TX4XtgDfCU1WdioQ==
   /uglify-js/3.9.2:
     dependencies:
       commander: 2.20.3
@@ -12878,12 +12847,13 @@ packages:
       webpack: 4.x.x
     resolution:
       integrity: sha512-NVWBaz9k839ZH/sinurM+HcDvJOTXwSjYp1ku+5XKeOC03z8v5QitnK/x+lAxGXFyhdayoIf/GOpv85z3/xPag==
-  /webpack-dashboard/3.2.0_webpack@4.44.1:
+  /webpack-dashboard/3.2.1_webpack@4.44.1:
     dependencies:
+      chalk: 2.4.2
       commander: 2.20.3
       cross-spawn: 6.0.5
       filesize: 3.6.1
-      handlebars: 4.7.3
+      handlebars: 4.7.6
       inspectpack: 4.4.0
       most: 1.8.0_most@1.8.0
       neo-blessed: 0.2.0
@@ -12897,7 +12867,7 @@ packages:
     peerDependencies:
       webpack: '*'
     resolution:
-      integrity: sha512-nRAJmmaWWHDqPiNmeQxBtkk/o6n1inp3qftUBIjbmm2d4w1rah7zpxmkv4qw4sGJbnzYGxMK/hmhBIELsh/Jog==
+      integrity: sha512-ICUKmMOiVEqCVMy9QH7uJwpiZ+neJinZBcyLlmKy7PFWgdDccqiyuZtPb56xAg4WQZ2zfhqiNnT/Ekiw5Kz8MQ==
   /webpack-dev-middleware/3.7.2_webpack@4.44.1:
     dependencies:
       memory-fs: 0.4.1
@@ -13073,12 +13043,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
-  /wordwrap/0.0.3:
-    dev: true
-    engines:
-      node: '>=0.4.0'
-    resolution:
-      integrity: sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
   /wordwrap/1.0.0:
     dev: true
     resolution:
@@ -13410,7 +13374,7 @@ specifiers:
   url-loader: 4.1.0
   webpack: 4.44.1
   webpack-cli: 3.3.12
-  webpack-dashboard: 3.2.0
+  webpack-dashboard: 3.2.1
   webpack-dev-middleware: 3.7.2
   webpack-hot-middleware: 2.25.0
   webpack-pwa-manifest: 4.2.0
