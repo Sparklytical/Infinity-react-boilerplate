@@ -126,7 +126,7 @@
     "eslint-plugin-redux-saga": "1.1.3",
     "file-loader": "6.0.0",
     "hard-source-webpack-plugin": "0.13.1",
-    "html-loader": "1.2.1",
+    "html-loader": "1.3.0",
     "html-webpack-plugin": "4.3.0",
     "husky": "4.2.5",
     "image-webpack-loader": "6.0.0",
