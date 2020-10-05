@@ -65,7 +65,7 @@ devDependencies:
   eslint-plugin-prettier: 3.1.4_eslint@7.10.0+prettier@2.1.2
   eslint-plugin-react: 7.21.3_eslint@7.10.0
   eslint-plugin-react-hooks: 4.1.2_eslint@7.10.0
-  eslint-plugin-redux-saga: 1.2.0_eslint@7.10.0+redux-saga@1.1.3
+  eslint-plugin-redux-saga: 1.2.1_eslint@7.10.0+redux-saga@1.1.3
   file-loader: 6.1.0_webpack@4.44.2
   hard-source-webpack-plugin: 0.13.1_webpack@4.44.2
   html-loader: 1.3.0_webpack@4.44.2
@@ -4984,7 +4984,7 @@ packages:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7
     resolution:
       integrity: sha512-OI4GwTCqyIb4ipaOEGLWdaOHCXZZydStAsBEPB2e1ZfNM37bojpgO1BoOQbFb0eLVz3QLDx7b+6kYcrxCuJfhw==
-  /eslint-plugin-redux-saga/1.2.0_eslint@7.10.0+redux-saga@1.1.3:
+  /eslint-plugin-redux-saga/1.2.1_eslint@7.10.0+redux-saga@1.1.3:
     dependencies:
       eslint: 7.10.0
       redux-saga: 1.1.3
@@ -4993,7 +4993,7 @@ packages:
       eslint: '>= 6.7.0'
       redux-saga: '>= 0.11.1 < 1 || >= 1.0.0'
     resolution:
-      integrity: sha512-s4Ms1ExUGMxrrSi6QMH/YVJJMaPkelz7lkG1WocoDTOkKQ9pP5+p2PTxhGNL+EPKxp90/uhQuHBJ+T/SMBotpQ==
+      integrity: sha512-3ZifHQ3N07bopp7MlpID4JxnDwCazcaPMHFP9l2TDEfSUtvr0U41xtb/e0wWlgxPgrs5cmztHWhLXn8HEPkb5Q==
   /eslint-scope/4.0.3:
     dependencies:
       esrecurse: 4.2.1
@@ -6975,7 +6975,7 @@ packages:
     dependencies:
       chalk: 3.0.0
       fp-ts: 2.5.2
-      io-ts: 2.1.2
+      io-ts: 2.1.2_fp-ts@2.5.2
       io-ts-reporters: 1.0.0
       pify: 4.0.1
       semver-compare: 1.0.0
@@ -7030,11 +7030,13 @@ packages:
   /io-ts-reporters/1.0.0:
     dependencies:
       fp-ts: 2.5.2
-      io-ts: 2.1.2
+      io-ts: 2.1.2_fp-ts@2.5.2
     dev: true
     resolution:
       integrity: sha512-jjMvTnFYYxX3ue3cajmqCAf7sM4+lFvaaUuAL+otJv2DE+WDxYvQeCcUYveoq37rVSftJHZBEOrnvz3x0VdRXA==
-  /io-ts/2.1.2:
+  /io-ts/2.1.2_fp-ts@2.5.2:
+    dependencies:
+      fp-ts: 2.5.2
     dev: true
     peerDependencies:
       fp-ts: ^2.0.0
@@ -13292,7 +13294,7 @@ specifiers:
   eslint-plugin-prettier: 3.1.4
   eslint-plugin-react: 7.21.3
   eslint-plugin-react-hooks: 4.1.2
-  eslint-plugin-redux-saga: 1.2.0
+  eslint-plugin-redux-saga: 1.2.1
   express: 4.17.1
   file-loader: 6.1.0
   fontfaceobserver: 2.1.0
