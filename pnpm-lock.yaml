@@ -42,7 +42,7 @@ devDependencies:
   '@babel/preset-env': 7.11.5_@babel+core@7.11.6
   '@babel/preset-react': 7.10.4_@babel+core@7.11.6
   '@babel/register': 7.11.5_@babel+core@7.11.6
-  add-asset-html-webpack-plugin: 3.1.3_902666ff910876070c4637c143f95a3c
+  add-asset-html-webpack-plugin: 3.1.3_f5ff6f96a5b3c23f5853150182c6b9bf
   babel-core: 7.0.0-bridge.0_@babel+core@7.11.6
   babel-eslint: 10.1.0_eslint@7.10.0
   babel-loader: 8.1.0_d2a654c8b7ff226093b38eb7b56a78a8
@@ -69,7 +69,7 @@ devDependencies:
   file-loader: 6.1.0_webpack@4.44.2
   hard-source-webpack-plugin: 0.13.1_webpack@4.44.2
   html-loader: 1.3.1_webpack@4.44.2
-  html-webpack-plugin: 4.4.1_webpack@4.44.2
+  html-webpack-plugin: 4.5.0_webpack@4.44.2
   husky: 4.3.0
   image-webpack-loader: 6.0.0
   imports-loader: 0.8.0
@@ -2205,10 +2205,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-+G7P8jJmCHr+S+cLfQxygbWhXy+8YTVGzAkpEbcLo2mLoL7tij/VG41QSHACSf5QgYRhMZYHuNc6drJaO0Da+w==
-  /add-asset-html-webpack-plugin/3.1.3_902666ff910876070c4637c143f95a3c:
+  /add-asset-html-webpack-plugin/3.1.3_f5ff6f96a5b3c23f5853150182c6b9bf:
     dependencies:
       globby: 9.2.0
-      html-webpack-plugin: 4.4.1_webpack@4.44.2
+      html-webpack-plugin: 4.5.0_webpack@4.44.2
       micromatch: 3.1.10
       p-each-series: 1.0.0
       webpack: 4.44.2_93ca2875a658e9d1552850624e6b91c7
@@ -6574,7 +6574,7 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-1qYz89hW3lFDEazhjW0yVAV87lw8lVkrJocr72XmBkMKsoSVJCQx3W8BXsC7hO2qAt8BoVjYjtAcZ9perqGnNg==
-  /html-webpack-plugin/4.4.1_webpack@4.44.2:
+  /html-webpack-plugin/4.5.0_webpack@4.44.2:
     dependencies:
       '@types/html-minifier-terser': 5.0.0
       '@types/tapable': 1.0.5
@@ -6590,9 +6590,9 @@ packages:
     engines:
       node: '>=6.9'
     peerDependencies:
-      webpack: '>=4.0.0 < 6.0.0'
+      webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-nEtdEIsIGXdXGG7MjTTZlmhqhpHU9pJFc1OYxcP36c5/ZKP6b0BJMww2QTvJGQYA9aMxUnjDujpZdYcVOXiBCQ==
+      integrity: sha512-MouoXEYSjTzCrjIxWwg8gxL5fE2X2WZJLmBYXlaJhQUH5K/b5OrqmV7T4dB7iu0xkmJ6JlUuV6fFVtnqbPopZw==
   /htmlparser2/3.10.1:
     dependencies:
       domelementtype: 1.3.1
@@ -13302,7 +13302,7 @@ specifiers:
   history: 4.10.1
   hoist-non-react-statics: 3.3.2
   html-loader: 1.3.1
-  html-webpack-plugin: 4.4.1
+  html-webpack-plugin: 4.5.0
   husky: 4.3.0
   image-webpack-loader: 6.0.0
   immer: 6.0.9
