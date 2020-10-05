@@ -68,7 +68,7 @@ devDependencies:
   eslint-plugin-redux-saga: 1.2.1_eslint@7.10.0+redux-saga@1.1.3
   file-loader: 6.1.0_webpack@4.44.2
   hard-source-webpack-plugin: 0.13.1_webpack@4.44.2
-  html-loader: 1.3.0_webpack@4.44.2
+  html-loader: 1.3.1_webpack@4.44.2
   html-webpack-plugin: 4.4.1_webpack@4.44.2
   husky: 4.3.0
   image-webpack-loader: 6.0.0
@@ -6539,12 +6539,12 @@ packages:
       '0': node >= 0.4.0
     resolution:
       integrity: sha1-DfKTUfByEWNRXfueVUPl9u7VFi8=
-  /html-loader/1.3.0_webpack@4.44.2:
+  /html-loader/1.3.1_webpack@4.44.2:
     dependencies:
       html-minifier-terser: 5.1.1
       htmlparser2: 4.1.0
       loader-utils: 2.0.0
-      schema-utils: 2.7.0
+      schema-utils: 2.7.1
       webpack: 4.44.2_93ca2875a658e9d1552850624e6b91c7
     dev: true
     engines:
@@ -6552,7 +6552,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-c4ROd3YokzLWj6YUfI/NcqAsZI8ULtKfkE/8W862vxd2fMst4SVIQt+RVMNUnNmnz0p4uz7Wqc7PXZOdm5KAXA==
+      integrity: sha512-zL+z9mIhcXEXuHqzriTwZR4ZslZHi5IFNhjyJHyhJlhEgR8VtLTPbqeR5TdbNtHtb88zbVmlNB8ia2vr/GTrbA==
   /html-minifier-terser/5.1.1:
     dependencies:
       camel-case: 4.1.1
@@ -13301,7 +13301,7 @@ specifiers:
   hard-source-webpack-plugin: 0.13.1
   history: 4.10.1
   hoist-non-react-statics: 3.3.2
-  html-loader: 1.3.0
+  html-loader: 1.3.1
   html-webpack-plugin: 4.4.1
   husky: 4.3.0
   image-webpack-loader: 6.0.0
