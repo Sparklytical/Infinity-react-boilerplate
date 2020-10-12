@@ -30,7 +30,7 @@ dependencies:
   redux-saga: 1.1.3
   reselect: 4.0.0
   sanitize.css: 11.0.1
-  styled-components: 5.2.0_6ff3463a423d4fb96b301c6d719de9c5
+  styled-components: 5.2.0_975908421a0f349b287d23c767f90c42
 devDependencies:
   '@babel/cli': 7.11.6_@babel+core@7.11.6
   '@babel/core': 7.11.6
@@ -68,7 +68,7 @@ devDependencies:
   eslint-plugin-redux-saga: 1.2.1_eslint@7.11.0+redux-saga@1.1.3
   file-loader: 6.1.0_webpack@4.44.2
   hard-source-webpack-plugin: 0.13.1_webpack@4.44.2
-  html-loader: 1.3.1_webpack@4.44.2
+  html-loader: 1.3.2_webpack@4.44.2
   html-webpack-plugin: 4.5.0_webpack@4.44.2
   husky: 4.3.0
   image-webpack-loader: 6.0.0
@@ -1939,6 +1939,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-7+2BITlgjgDhH0vvwZU/HZJVyk+2XUlvxXe8dFMedNX/aMkaOq++rMAFXc0tM7ij15QaWlbdQASBR9dihi+bDQ==
+  /@types/json-schema/7.0.6:
+    dev: true
+    resolution:
+      integrity: sha512-3c+yGKvVP5Y9TYBEibGNR+kLtijnj7mYrXRg+WpFb2X9xm04g/DXYkfg4hmzJQosc9snFNUPkbYIhu+KAm6jJw==
   /@types/json5/0.0.29:
     dev: true
     resolution:
@@ -2271,6 +2275,14 @@ packages:
       ajv: ^6.9.1
     resolution:
       integrity: sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==
+  /ajv-keywords/3.5.2_ajv@6.12.6:
+    dependencies:
+      ajv: 6.12.6
+    dev: true
+    peerDependencies:
+      ajv: ^6.9.1
+    resolution:
+      integrity: sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==
   /ajv/6.12.0:
     dependencies:
       fast-deep-equal: 3.1.1
@@ -2298,6 +2310,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-eienB2c9qVQs2KWexhkrdMLVDoIQCz5KSeLxwg9Lzk4DOfBtIK9PQwwufcsn1jjGuf9WZmqPMbGxOzfcuphJCQ==
+  /ajv/6.12.6:
+    dependencies:
+      fast-deep-equal: 3.1.1
+      fast-json-stable-stringify: 2.1.0
+      json-schema-traverse: 0.4.1
+      uri-js: 4.2.2
+    dev: true
+    resolution:
+      integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
   /amdefine/1.0.1:
     dev: true
     engines:
@@ -2737,7 +2758,7 @@ packages:
       '@babel/helper-module-imports': 7.10.4
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.19
-      styled-components: 5.2.0_6ff3463a423d4fb96b301c6d719de9c5
+      styled-components: 5.2.0_975908421a0f349b287d23c767f90c42
     peerDependencies:
       styled-components: '>= 2'
     resolution:
@@ -6539,12 +6560,12 @@ packages:
       '0': node >= 0.4.0
     resolution:
       integrity: sha1-DfKTUfByEWNRXfueVUPl9u7VFi8=
-  /html-loader/1.3.1_webpack@4.44.2:
+  /html-loader/1.3.2_webpack@4.44.2:
     dependencies:
       html-minifier-terser: 5.1.1
       htmlparser2: 4.1.0
       loader-utils: 2.0.0
-      schema-utils: 2.7.1
+      schema-utils: 3.0.0
       webpack: 4.44.2_93ca2875a658e9d1552850624e6b91c7
     dev: true
     engines:
@@ -6552,7 +6573,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-zL+z9mIhcXEXuHqzriTwZR4ZslZHi5IFNhjyJHyhJlhEgR8VtLTPbqeR5TdbNtHtb88zbVmlNB8ia2vr/GTrbA==
+      integrity: sha512-DEkUwSd0sijK5PF3kRWspYi56XP7bTNkyg5YWSzBdjaSDmvCufep5c4Vpb3PBf6lUL0YPtLwBfy9fL0t5hBAGA==
   /html-minifier-terser/5.1.1:
     dependencies:
       camel-case: 4.1.1
@@ -10955,6 +10976,16 @@ packages:
       node: '>= 8.9.0'
     resolution:
       integrity: sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg==
+  /schema-utils/3.0.0:
+    dependencies:
+      '@types/json-schema': 7.0.6
+      ajv: 6.12.6
+      ajv-keywords: 3.5.2_ajv@6.12.6
+    dev: true
+    engines:
+      node: '>= 10.13.0'
+    resolution:
+      integrity: sha512-6D82/xSzO094ajanoOSbe4YvXWMfn2A//8Y1+MUqFAJul5Bs+yn36xbK9OtNDcRVSBJ9jjeoXftM6CfztsjOAA==
   /scss-tokenizer/0.2.3:
     dependencies:
       js-base64: 2.5.2
@@ -11811,7 +11842,7 @@ packages:
     dev: true
     resolution:
       integrity: sha1-eVjHk+R+MuB9K1yv5cC/jhLneQI=
-  /styled-components/5.2.0_6ff3463a423d4fb96b301c6d719de9c5:
+  /styled-components/5.2.0_975908421a0f349b287d23c767f90c42:
     dependencies:
       '@babel/helper-module-imports': 7.10.4
       '@babel/traverse': 7.11.5
@@ -11823,7 +11854,6 @@ packages:
       hoist-non-react-statics: 3.3.2
       react: 16.13.1
       react-dom: 16.13.1_react@16.13.1
-      react-is: 16.13.1
       shallowequal: 1.1.0
       supports-color: 5.5.0
     dev: false
@@ -13301,7 +13331,7 @@ specifiers:
   hard-source-webpack-plugin: 0.13.1
   history: 4.10.1
   hoist-non-react-statics: 3.3.2
-  html-loader: 1.3.1
+  html-loader: 1.3.2
   html-webpack-plugin: 4.5.0
   husky: 4.3.0
   image-webpack-loader: 6.0.0
