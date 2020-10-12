@@ -66,7 +66,7 @@ devDependencies:
   eslint-plugin-react: 7.21.4_eslint@7.11.0
   eslint-plugin-react-hooks: 4.1.2_eslint@7.11.0
   eslint-plugin-redux-saga: 1.2.1_eslint@7.11.0+redux-saga@1.1.3
-  file-loader: 6.1.0_webpack@4.44.2
+  file-loader: 6.1.1_webpack@4.44.2
   hard-source-webpack-plugin: 0.13.1_webpack@4.44.2
   html-loader: 1.3.1_webpack@4.44.2
   html-webpack-plugin: 4.5.0_webpack@4.44.2
@@ -91,7 +91,7 @@ devDependencies:
   stylelint-processor-styled-components: 1.10.0
   svg-url-loader: 5.0.1_webpack@4.44.2
   terser-webpack-plugin: 2.3.8_webpack@4.44.2
-  url-loader: 4.1.0_file-loader@6.1.0+webpack@4.44.2
+  url-loader: 4.1.0_file-loader@6.1.1+webpack@4.44.2
   webpack: 4.44.2_93ca2875a658e9d1552850624e6b91c7
   webpack-cli: 3.3.12_webpack@4.44.2
   webpack-dashboard: 3.2.1_webpack@4.44.2
@@ -1939,6 +1939,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-7+2BITlgjgDhH0vvwZU/HZJVyk+2XUlvxXe8dFMedNX/aMkaOq++rMAFXc0tM7ij15QaWlbdQASBR9dihi+bDQ==
+  /@types/json-schema/7.0.6:
+    dev: true
+    resolution:
+      integrity: sha512-3c+yGKvVP5Y9TYBEibGNR+kLtijnj7mYrXRg+WpFb2X9xm04g/DXYkfg4hmzJQosc9snFNUPkbYIhu+KAm6jJw==
   /@types/json5/0.0.29:
     dev: true
     resolution:
@@ -2271,6 +2275,14 @@ packages:
       ajv: ^6.9.1
     resolution:
       integrity: sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==
+  /ajv-keywords/3.5.2_ajv@6.12.6:
+    dependencies:
+      ajv: 6.12.6
+    dev: true
+    peerDependencies:
+      ajv: ^6.9.1
+    resolution:
+      integrity: sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==
   /ajv/6.12.0:
     dependencies:
       fast-deep-equal: 3.1.1
@@ -2298,6 +2310,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-eienB2c9qVQs2KWexhkrdMLVDoIQCz5KSeLxwg9Lzk4DOfBtIK9PQwwufcsn1jjGuf9WZmqPMbGxOzfcuphJCQ==
+  /ajv/6.12.6:
+    dependencies:
+      fast-deep-equal: 3.1.1
+      fast-json-stable-stringify: 2.1.0
+      json-schema-traverse: 0.4.1
+      uri-js: 4.2.2
+    dev: true
+    resolution:
+      integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
   /amdefine/1.0.1:
     dev: true
     engines:
@@ -5523,10 +5544,10 @@ packages:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
       integrity: sha512-/aMOAYEFXDdjG0wytpTL5YQLfZnnTmLNjn+AIrJ/6HVnTfDqLsVKUUwkDf4I4kgex36BvjuXEn/TX9B/1ESyqQ==
-  /file-loader/6.1.0_webpack@4.44.2:
+  /file-loader/6.1.1_webpack@4.44.2:
     dependencies:
       loader-utils: 2.0.0
-      schema-utils: 2.7.1
+      schema-utils: 3.0.0
       webpack: 4.44.2_93ca2875a658e9d1552850624e6b91c7
     dev: true
     engines:
@@ -5534,7 +5555,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-26qPdHyTsArQ6gU4P1HJbAbnFTyT2r0pG7czh1GFAd9TZbj0n94wWbupgixZH/ET/meqi2/5+F7DhW4OAXD+Lg==
+      integrity: sha512-Klt8C4BjWSXYQAfhpYYkG4qHNTna4toMHEbWrI5IuVoxbU6uiDKeKAP99R8mmbJi3lvewn/jQBOgU4+NS3tDQw==
   /file-type/10.11.0:
     dev: true
     engines:
@@ -10955,6 +10976,16 @@ packages:
       node: '>= 8.9.0'
     resolution:
       integrity: sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg==
+  /schema-utils/3.0.0:
+    dependencies:
+      '@types/json-schema': 7.0.6
+      ajv: 6.12.6
+      ajv-keywords: 3.5.2_ajv@6.12.6
+    dev: true
+    engines:
+      node: '>= 10.13.0'
+    resolution:
+      integrity: sha512-6D82/xSzO094ajanoOSbe4YvXWMfn2A//8Y1+MUqFAJul5Bs+yn36xbK9OtNDcRVSBJ9jjeoXftM6CfztsjOAA==
   /scss-tokenizer/0.2.3:
     dependencies:
       js-base64: 2.5.2
@@ -12597,9 +12628,9 @@ packages:
     dev: true
     resolution:
       integrity: sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
-  /url-loader/4.1.0_file-loader@6.1.0+webpack@4.44.2:
+  /url-loader/4.1.0_file-loader@6.1.1+webpack@4.44.2:
     dependencies:
-      file-loader: 6.1.0_webpack@4.44.2
+      file-loader: 6.1.1_webpack@4.44.2
       loader-utils: 2.0.0
       mime-types: 2.1.27
       schema-utils: 2.6.6
@@ -13296,7 +13327,7 @@ specifiers:
   eslint-plugin-react-hooks: 4.1.2
   eslint-plugin-redux-saga: 1.2.1
   express: 4.17.1
-  file-loader: 6.1.0
+  file-loader: 6.1.1
   fontfaceobserver: 2.1.0
   hard-source-webpack-plugin: 0.13.1
   history: 4.10.1
