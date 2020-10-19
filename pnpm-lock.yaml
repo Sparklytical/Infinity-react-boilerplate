@@ -77,7 +77,7 @@ devDependencies:
   ngrok: 3.3.0
   node-plop: 0.26.2
   node-sass: 4.14.1
-  null-loader: 4.0.0_webpack@4.44.2
+  null-loader: 4.0.1_webpack@4.44.2
   plop: 2.7.4
   prettier: 2.1.2
   react-test-renderer: 16.13.1_react@16.13.1
@@ -8879,10 +8879,10 @@ packages:
       boolbase: 1.0.0
     resolution:
       integrity: sha512-WeBOdju8SnzPN5vTUJYxYUxLeXpCaVP5i5e0LF8fg7WORF2Wd7wFX/pk0tYZk7s8T+J7VLy0Da6J1+wCT0AtHg==
-  /null-loader/4.0.0_webpack@4.44.2:
+  /null-loader/4.0.1_webpack@4.44.2:
     dependencies:
       loader-utils: 2.0.0
-      schema-utils: 2.6.6
+      schema-utils: 3.0.0
       webpack: 4.44.2_93ca2875a658e9d1552850624e6b91c7
     dev: true
     engines:
@@ -8890,7 +8890,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-vSoBF6M08/RHwc6r0gvB/xBJBtmbvvEkf6+IiadUCoNYchjxE8lwzCGFg0Qp2D25xPiJxUBh2iNWzlzGMILp7Q==
+      integrity: sha512-pxqVbi4U6N26lq+LmgIbB5XATP0VdZKOG25DhHi8btMmJJefGArFyDg1yc4U3hWCJbMqSrw0qyrz1UQX+qYXqg==
   /num2fraction/1.2.2:
     dev: true
     resolution:
@@ -13400,7 +13400,7 @@ specifiers:
   ngrok: 3.3.0
   node-plop: 0.26.2
   node-sass: 4.14.1
-  null-loader: 4.0.0
+  null-loader: 4.0.1
   offline-plugin: 5.0.7
   plop: 2.7.4
   prettier: 2.1.2

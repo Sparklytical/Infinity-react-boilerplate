@@ -135,7 +135,7 @@
     "ngrok": "3.3.0",
     "node-plop": "0.26.2",
     "node-sass": "4.14.1",
-    "null-loader": "4.0.0",
+    "null-loader": "4.0.1",
     "plop": "2.7.4",
     "prettier": "2.1.2",
     "react-test-renderer": "16.13.1",
