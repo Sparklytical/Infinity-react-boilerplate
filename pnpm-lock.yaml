@@ -22,7 +22,7 @@ dependencies:
   react-app-polyfill: 1.0.6
   react-dom: 16.13.1_react@16.13.1
   react-helmet-async: 1.0.7_react-dom@16.13.1+react@16.13.1
-  react-hot-loader: 4.12.21_react-dom@16.13.1+react@16.13.1
+  react-hot-loader: 4.13.0_react-dom@16.13.1+react@16.13.1
   react-is: 16.13.1
   react-redux: 7.2.1_react-dom@16.13.1+react@16.13.1
   react-router-dom: 5.2.0_react@16.13.1
@@ -10213,7 +10213,7 @@ packages:
       react-dom: ^16.6.0
     resolution:
       integrity: sha512-By90p5uxAriGukbyejq2poK41DwTxpNWOpOjN8mIyX/BKrCd3+sXZ5pHUZXjHyjR5OYS7PGsOD9dbM61YxfFmA==
-  /react-hot-loader/4.12.21_react-dom@16.13.1+react@16.13.1:
+  /react-hot-loader/4.13.0_react-dom@16.13.1+react@16.13.1:
     dependencies:
       fast-levenshtein: 2.0.6
       global: 4.4.0
@@ -10229,14 +10229,14 @@ packages:
     engines:
       node: '>= 6'
     peerDependencies:
-      '@types/react': ^15.0.0 || ^16.0.0
-      react: ^15.0.0 || ^16.0.0
-      react-dom: ^15.0.0 || ^16.0.0
+      '@types/react': '^15.0.0 || ^16.0.0 || ^17.0.0 '
+      react: '^15.0.0 || ^16.0.0 || ^17.0.0 '
+      react-dom: '^15.0.0 || ^16.0.0 || ^17.0.0 '
     peerDependenciesMeta:
       '@types/react':
         optional: true
     resolution:
-      integrity: sha512-Ynxa6ROfWUeKWsTHxsrL2KMzujxJVPjs385lmB2t5cHUxdoRPGind9F00tOkdc1l5WBleOF4XEAMILY1KPIIDA==
+      integrity: sha512-JrLlvUPqh6wIkrK2hZDfOyq/Uh/WeVEr8nc7hkn2/3Ul0sx1Kr5y4kOGNacNRoj7RhwLNcQ3Udf1KJXrqc0ZtA==
   /react-is/16.13.0:
     resolution:
       integrity: sha512-GFMtL0vHkiBv9HluwNZTggSn/sCyEt9n02aM0dSAjGGyqyNlAyftYm4phPxdvCigG15JreC5biwxCgTAJZ7yAA==
@@ -13410,7 +13410,7 @@ specifiers:
   react-app-polyfill: 1.0.6
   react-dom: 16.13.1
   react-helmet-async: 1.0.7
-  react-hot-loader: 4.12.21
+  react-hot-loader: 4.13.0
   react-is: 16.13.1
   react-redux: 7.2.1
   react-router-dom: 5.2.0
