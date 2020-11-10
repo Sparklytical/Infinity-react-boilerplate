@@ -91,7 +91,7 @@ devDependencies:
   stylelint-processor-styled-components: 1.10.0
   svg-url-loader: 5.0.1_webpack@4.44.2
   terser-webpack-plugin: 2.3.8_webpack@4.44.2
-  url-loader: 4.1.0_file-loader@6.1.1+webpack@4.44.2
+  url-loader: 4.1.1_file-loader@6.1.1+webpack@4.44.2
   webpack: 4.44.2_webpack-cli@3.3.12
   webpack-cli: 3.3.12_webpack@4.44.2
   webpack-dashboard: 3.2.1_webpack@4.44.2
@@ -13033,12 +13033,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
-  /url-loader/4.1.0_file-loader@6.1.1+webpack@4.44.2:
+  /url-loader/4.1.1_file-loader@6.1.1+webpack@4.44.2:
     dependencies:
       file-loader: 6.1.1_webpack@4.44.2
       loader-utils: 2.0.0
       mime-types: 2.1.27
-      schema-utils: 2.6.6
+      schema-utils: 3.0.0
       webpack: 4.44.2_webpack-cli@3.3.12
     dev: true
     engines:
@@ -13050,7 +13050,7 @@ packages:
       file-loader:
         optional: true
     resolution:
-      integrity: sha512-IzgAAIC8wRrg6NYkFIJY09vtktQcsvU8V6HhtQj9PTefbYImzLB1hufqo4m+RyM5N3mLx5BqJKccgxJS+W3kqw==
+      integrity: sha512-3BTV812+AVHHOJQO8O5MkWgZ5aosP7GnROJwvzLS9hWDj00lZ6Z0wNak423Lp9PBZN05N+Jk/N5Si8jRAlGyWA==
   /url-parse-lax/1.0.0:
     dependencies:
       prepend-http: 1.0.4
@@ -13787,7 +13787,7 @@ specifiers:
   stylelint-processor-styled-components: 1.10.0
   svg-url-loader: 5.0.1
   terser-webpack-plugin: 2.3.8
-  url-loader: 4.1.0
+  url-loader: 4.1.1
   webpack: 4.44.2
   webpack-cli: 3.3.12
   webpack-dashboard: 3.2.1
