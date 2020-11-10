@@ -114,7 +114,7 @@
     "css-loader": "3.6.0",
     "error-overlay-webpack-plugin": "0.4.1",
     "eslint": "7.13.0",
-    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-airbnb": "18.2.1",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-config-prettier": "6.13.0",
     "eslint-import-resolver-webpack": "0.13.0",
