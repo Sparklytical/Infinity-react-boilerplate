@@ -57,7 +57,7 @@ devDependencies:
   error-overlay-webpack-plugin: 0.4.1_webpack@4.44.2
   eslint: 7.13.0
   eslint-config-airbnb: 18.2.1_89e8506e695e5446537190ee5a9bce0f
-  eslint-config-airbnb-base: 14.2.0_537fbdca934358ea9709e7f14f1334c7
+  eslint-config-airbnb-base: 14.2.1_537fbdca934358ea9709e7f14f1334c7
   eslint-config-prettier: 6.13.0_eslint@7.13.0
   eslint-import-resolver-webpack: 0.13.0_6329b38c5ae5b21cbe8cbc4bd14231af
   eslint-plugin-import: 2.22.1_eslint@7.13.0
@@ -3955,10 +3955,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-gNld/3lySHwuhaVluJUKLePYirM3QNCKzVxqAdhJII9/WXKVX5PURzMVJspS1jTslSqjeuG4KMVTSouit5YPHA==
-  /confusing-browser-globals/1.0.9:
-    dev: true
-    resolution:
-      integrity: sha512-KbS1Y0jMtyPgIxjO7ZzMAuUpAKMt1SzCL9fsrKsX6b0zJPTaT0SiSPmewwVZg9UAO83HVIlEhZF84LIjZ0lmAw==
   /connected-react-router/6.8.0_d893507d6294d8e002f1e29c5480d8a1:
     dependencies:
       history: 4.10.1
@@ -5067,21 +5063,6 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
-  /eslint-config-airbnb-base/14.2.0_537fbdca934358ea9709e7f14f1334c7:
-    dependencies:
-      confusing-browser-globals: 1.0.9
-      eslint: 7.13.0
-      eslint-plugin-import: 2.22.1_eslint@7.13.0
-      object.assign: 4.1.0
-      object.entries: 1.1.2
-    dev: true
-    engines:
-      node: '>= 6'
-    peerDependencies:
-      eslint: ^5.16.0 || ^6.8.0 || ^7.2.0
-      eslint-plugin-import: ^2.21.2
-    resolution:
-      integrity: sha512-Snswd5oC6nJaevs3nZoLSTvGJBvzTfnBqOIArkf3cbyTyq9UD79wOk8s+RiL6bhca0p/eRO6veczhf6A/7Jy8Q==
   /eslint-config-airbnb-base/14.2.1_537fbdca934358ea9709e7f14f1334c7:
     dependencies:
       confusing-browser-globals: 1.0.10
@@ -13747,7 +13728,7 @@ specifiers:
   error-overlay-webpack-plugin: 0.4.1
   eslint: 7.13.0
   eslint-config-airbnb: 18.2.1
-  eslint-config-airbnb-base: 14.2.0
+  eslint-config-airbnb-base: 14.2.1
   eslint-config-prettier: 6.13.0
   eslint-import-resolver-webpack: 0.13.0
   eslint-plugin-import: 2.22.1
