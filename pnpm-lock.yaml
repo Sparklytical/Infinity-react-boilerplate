@@ -95,7 +95,7 @@ devDependencies:
   webpack: 4.44.2_webpack-cli@3.3.12
   webpack-cli: 3.3.12_webpack@4.44.2
   webpack-dashboard: 3.2.1_webpack@4.44.2
-  webpack-dev-middleware: 3.7.2_webpack@4.44.2
+  webpack-dev-middleware: 3.7.3_webpack@4.44.2
   webpack-hot-middleware: 2.25.0
   webpack-pwa-manifest: 4.3.0
   webpack-shower: 1.7.2
@@ -8517,13 +8517,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
-  /mime/2.4.4:
-    dev: true
-    engines:
-      node: '>=4.0.0'
-    hasBin: true
-    resolution:
-      integrity: sha512-LRxmNwziLPT828z+4YkNzloCFC2YM4wrB99k+AV5ZbEyfGNWfG8SO1FUXLmLDBSo89NrJZ4DIWeLjy1CHGhMGA==
   /mime/2.4.6:
     dev: true
     engines:
@@ -13050,11 +13043,11 @@ packages:
       webpack: '*'
     resolution:
       integrity: sha512-ICUKmMOiVEqCVMy9QH7uJwpiZ+neJinZBcyLlmKy7PFWgdDccqiyuZtPb56xAg4WQZ2zfhqiNnT/Ekiw5Kz8MQ==
-  /webpack-dev-middleware/3.7.2_webpack@4.44.2:
+  /webpack-dev-middleware/3.7.3_webpack@4.44.2:
     dependencies:
       memory-fs: 0.4.1
-      mime: 2.4.4
-      mkdirp: 0.5.1
+      mime: 2.4.6
+      mkdirp: 0.5.5
       range-parser: 1.2.1
       webpack: 4.44.2_webpack-cli@3.3.12
       webpack-log: 2.0.0
@@ -13062,9 +13055,9 @@ packages:
     engines:
       node: '>= 6'
     peerDependencies:
-      webpack: ^4.0.0
+      webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-1xC42LxbYoqLNAhV6YzTYacicgMZQTqRd27Sim9wn5hJrX3I5nxYy1SxSd4+gjUFsz1dQFj+yEe6zEVmSkeJjw==
+      integrity: sha512-djelc/zGiz9nZj/U7PTBi2ViorGJXEWo/3ltkPbDyxCXhhEXkW0ce99falaok4TPj+AsxLiXJR0EBOb0zh9fKQ==
   /webpack-hot-middleware/2.25.0:
     dependencies:
       ansi-html: 0.0.7
@@ -13541,7 +13534,7 @@ specifiers:
   webpack: 4.44.2
   webpack-cli: 3.3.12
   webpack-dashboard: 3.2.1
-  webpack-dev-middleware: 3.7.2
+  webpack-dev-middleware: 3.7.3
   webpack-hot-middleware: 2.25.0
   webpack-pwa-manifest: 4.3.0
   webpack-shower: 1.7.2
