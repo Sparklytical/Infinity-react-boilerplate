@@ -1,7 +1,4 @@
-
-<h1 align="center">
-  Focus has shifted to the development of [Full Stack Boilerplate](https://github.com/Sparklytical/Fullstack-Boilerplate), the successor to Infinity-react-boilerplate. If you are interested in contributing or using it, come take a look!
-</h1>
+# Focus has shifted to the development of [Full Stack Boilerplate](https://github.com/Sparklytical/Fullstack-Boilerplate), the successor to Infinity-react-boilerplate. If you are interested in contributing or using it, come take a look!
 
 <p align=center>
 <img src="https://raw.githubusercontent.com/EvilSpark/react-redux-boilerplate/master/app/components/common/assets/images/Main.png" alt="react boilerplate banner" align="center" />
