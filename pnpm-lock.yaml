@@ -62,7 +62,7 @@ devDependencies:
   eslint-import-resolver-webpack: 0.13.0_6329b38c5ae5b21cbe8cbc4bd14231af
   eslint-plugin-import: 2.22.1_eslint@7.17.0
   eslint-plugin-jsx-a11y: 6.3.1_eslint@7.17.0
-  eslint-plugin-prettier: 3.3.0_eslint@7.17.0+prettier@2.2.1
+  eslint-plugin-prettier: 3.3.1_475686ef63c0678a0baba036b265a57c
   eslint-plugin-react: 7.22.0_eslint@7.17.0
   eslint-plugin-react-hooks: 4.2.0_eslint@7.17.0
   eslint-plugin-redux-saga: 1.2.1_eslint@7.17.0+redux-saga@1.1.3
@@ -5137,10 +5137,10 @@ packages:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7
     resolution:
       integrity: sha512-i1S+P+c3HOlBJzMFORRbC58tHa65Kbo8b52/TwCwSKLohwvpfT5rm2GjGWzOHTEuq4xxf2aRlHHTtmExDQOP+g==
-  /eslint-plugin-prettier/3.3.0_eslint@7.17.0+prettier@2.2.1:
+  /eslint-plugin-prettier/3.3.1_475686ef63c0678a0baba036b265a57c:
     dependencies:
       eslint: 7.17.0
-      eslint-plugin-prettier: 3.3.0_eslint@7.17.0+prettier@2.2.1
+      eslint-config-prettier: 6.13.0_eslint@7.17.0
       prettier: 2.2.1
       prettier-linter-helpers: 1.0.0
     dev: true
@@ -5148,13 +5148,13 @@ packages:
       node: '>=6.0.0'
     peerDependencies:
       eslint: '>=5.0.0'
-      eslint-plugin-prettier: '*'
+      eslint-config-prettier: '*'
       prettier: '>=1.13.0'
     peerDependenciesMeta:
-      eslint-plugin-prettier:
+      eslint-config-prettier:
         optional: true
     resolution:
-      integrity: sha512-tMTwO8iUWlSRZIwS9k7/E4vrTsfvsrcM5p1eftyuqWH25nKsz/o6/54I7jwQ/3zobISyC7wMy9ZsFwgTxOcOpQ==
+      integrity: sha512-Rq3jkcFY8RYeQLgk2cCwuc0P7SEFwDravPhsJZOQ5N4YI4DSg50NyqJ/9gdZHzQlHf8MvafSesbNJCcP/FF6pQ==
   /eslint-plugin-react-hooks/4.2.0_eslint@7.17.0:
     dependencies:
       eslint: 7.17.0
@@ -10854,7 +10854,7 @@ packages:
       request-promise-core: 1.1.3_request@2.88.2
       stealthy-require: 1.1.1
       tough-cookie: 2.5.0
-    deprecated: 'request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142'
+    deprecated: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
     dev: true
     engines:
       node: '>=0.12.0'
@@ -10884,7 +10884,7 @@ packages:
       tough-cookie: 2.5.0
       tunnel-agent: 0.6.0
       uuid: 3.4.0
-    deprecated: 'request has been deprecated, see https://github.com/request/request/issues/3142'
+    deprecated: request has been deprecated, see https://github.com/request/request/issues/3142
     dev: true
     engines:
       node: '>= 6'
@@ -10952,7 +10952,7 @@ packages:
     resolution:
       integrity: sha512-C7rARubxI8bXFNB/hqcp/4iUeIXJhJZvFPFPiSPRnhU5UPxzMFIl+2E6yY6c4k9giDJAhtV+enfA+G89N6Csng==
   /resolve-url/0.2.1:
-    deprecated: 'https://github.com/lydell/resolve-url#deprecated'
+    deprecated: https://github.com/lydell/resolve-url#deprecated
     dev: true
     resolution:
       integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
@@ -12779,7 +12779,7 @@ packages:
     resolution:
       integrity: sha512-KY9Frmirql91X2Qgjry0Wd4Y+YTdrdZheS8TFwvkbLWf/G5KNJDCh6pKL5OZctEW4+0Baa5idK2ZQuELRwPznQ==
   /urix/0.1.0:
-    deprecated: 'Please see https://github.com/lydell/urix#deprecated'
+    deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: true
     resolution:
       integrity: sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
@@ -13469,7 +13469,7 @@ specifiers:
   eslint-import-resolver-webpack: 0.13.0
   eslint-plugin-import: 2.22.1
   eslint-plugin-jsx-a11y: 6.3.1
-  eslint-plugin-prettier: 3.3.0
+  eslint-plugin-prettier: 3.3.1
   eslint-plugin-react: 7.22.0
   eslint-plugin-react-hooks: 4.2.0
   eslint-plugin-redux-saga: 1.2.1
