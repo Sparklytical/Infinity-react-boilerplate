@@ -647,8 +647,8 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-v9eEi4GiORDg8x+Dmi5r8ibOe0VXoKDeNPYcTTxdGN4eOWikrJfDJCJrr1l5gKGvsNyGJbrfMftC2dTL6oz7pg==
-  /@babel/plugin-proposal-logical-assignment-operators/7.12.13_@babel+core@7.12.13:
-    dependencies:
+  ? /@babel/plugin-proposal-logical-assignment-operators/7.12.13_@babel+core@7.12.13
+  : dependencies:
       '@babel/core': 7.12.13
       '@babel/helper-plugin-utils': 7.12.13
       '@babel/plugin-syntax-logical-assignment-operators': 7.10.4_@babel+core@7.12.13
@@ -657,8 +657,8 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-fqmiD3Lz7jVdK6kabeSr1PZlWSUVqSitmHEe3Z00dtGTKieWnX9beafvavc32kjORa5Bai4QNHgFDwWJP+WtSQ==
-  /@babel/plugin-proposal-nullish-coalescing-operator/7.12.13_@babel+core@7.12.13:
-    dependencies:
+  ? /@babel/plugin-proposal-nullish-coalescing-operator/7.12.13_@babel+core@7.12.13
+  : dependencies:
       '@babel/core': 7.12.13
       '@babel/helper-plugin-utils': 7.12.13
       '@babel/plugin-syntax-nullish-coalescing-operator': 7.8.3_@babel+core@7.12.13
@@ -976,8 +976,8 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-FW+WPjSR7hiUxMcKqyNjP05tQ2kmBCdpEpZHY1ARm96tGQCCBvXKnpjILtDplUnJ/eHZ0lALLM+d2lMFSpYJrQ==
-  /@babel/plugin-transform-member-expression-literals/7.12.13_@babel+core@7.12.13:
-    dependencies:
+  ? /@babel/plugin-transform-member-expression-literals/7.12.13_@babel+core@7.12.13
+  : dependencies:
       '@babel/core': 7.12.13
       '@babel/helper-plugin-utils': 7.12.13
     dev: true
@@ -1031,8 +1031,8 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-BgZndyABRML4z6ibpi7Z98m4EVLFI9tVsZDADC14AElFaNHHBcJIovflJ6wtCqFxwy2YJ1tJhGRsr0yLPKoN+w==
-  /@babel/plugin-transform-named-capturing-groups-regex/7.12.13_@babel+core@7.12.13:
-    dependencies:
+  ? /@babel/plugin-transform-named-capturing-groups-regex/7.12.13_@babel+core@7.12.13
+  : dependencies:
       '@babel/core': 7.12.13
       '@babel/helper-create-regexp-features-plugin': 7.12.13_@babel+core@7.12.13
     dev: true
