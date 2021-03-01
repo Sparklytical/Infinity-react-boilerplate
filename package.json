@@ -158,6 +158,6 @@
     "webpack-pwa-manifest": "4.3.0",
     "webpack-shower": "1.7.2",
     "webpackbar": "4.0.0",
-    "whatwg-fetch": "3.5.0"
+    "whatwg-fetch": "3.6.2"
   }
 }
