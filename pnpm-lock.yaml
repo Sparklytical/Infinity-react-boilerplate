@@ -21,7 +21,7 @@ dependencies:
   react: 16.14.0
   react-app-polyfill: 1.0.6
   react-dom: 16.14.0_react@16.14.0
-  react-helmet-async: 1.0.7_react-dom@16.14.0+react@16.14.0
+  react-helmet-async: 1.0.9_react-dom@16.14.0+react@16.14.0
   react-hot-loader: 4.13.0_react-dom@16.14.0+react@16.14.0
   react-is: 16.13.1
   react-redux: 7.2.1_react-dom@16.14.0+react@16.14.0
@@ -1380,8 +1380,15 @@ packages:
   /@babel/runtime/7.11.2:
     dependencies:
       regenerator-runtime: 0.13.5
+    dev: true
     resolution:
       integrity: sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
+  /@babel/runtime/7.13.9:
+    dependencies:
+      regenerator-runtime: 0.13.5
+    dev: false
+    resolution:
+      integrity: sha512-aY2kU+xgJ3dJ1eU6FMB9EH8dIe8dmusF1xEku52joLvw6eAFN0AI+WxCLDnpev2LEejWBAy2sBvBOBAjI3zmvA==
   /@babel/runtime/7.8.4:
     dependencies:
       regenerator-runtime: 0.13.3
@@ -10538,9 +10545,9 @@ packages:
     dev: false
     resolution:
       integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
-  /react-helmet-async/1.0.7_react-dom@16.14.0+react@16.14.0:
+  /react-helmet-async/1.0.9_react-dom@16.14.0+react@16.14.0:
     dependencies:
-      '@babel/runtime': 7.11.2
+      '@babel/runtime': 7.13.9
       invariant: 2.2.4
       prop-types: 15.7.2
       react: 16.14.0
@@ -10549,10 +10556,10 @@ packages:
       shallowequal: 1.1.0
     dev: false
     peerDependencies:
-      react: ^16.6.0
-      react-dom: ^16.6.0
+      react: ^16.6.0 || ^17.0.0
+      react-dom: ^16.6.0 || ^17.0.0
     resolution:
-      integrity: sha512-By90p5uxAriGukbyejq2poK41DwTxpNWOpOjN8mIyX/BKrCd3+sXZ5pHUZXjHyjR5OYS7PGsOD9dbM61YxfFmA==
+      integrity: sha512-N+iUlo9WR3/u9qGMmP4jiYfaD6pe9IvDTapZLFJz2D3xlTlCM1Bzy4Ab3g72Nbajo/0ZyW+W9hdz8Hbe4l97pQ==
   /react-hot-loader/4.13.0_react-dom@16.14.0+react@16.14.0:
     dependencies:
       fast-levenshtein: 2.0.6
@@ -13633,7 +13640,7 @@ specifiers:
   react: 16.14.0
   react-app-polyfill: 1.0.6
   react-dom: 16.14.0
-  react-helmet-async: 1.0.7
+  react-helmet-async: 1.0.9
   react-hot-loader: 4.13.0
   react-is: 16.13.1
   react-redux: 7.2.1
