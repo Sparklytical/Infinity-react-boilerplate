@@ -42,7 +42,7 @@ devDependencies:
   '@babel/preset-env': 7.13.9_@babel+core@7.13.8
   '@babel/preset-react': 7.12.13_@babel+core@7.13.8
   '@babel/register': 7.13.8_@babel+core@7.13.8
-  add-asset-html-webpack-plugin: 3.2.0_14532ecc63666644da7b45debfdd80b0
+  add-asset-html-webpack-plugin: 3.2.0_724c7cce3aa5157eb9c06e68327e1483
   babel-core: 7.0.0-bridge.0_@babel+core@7.13.8
   babel-eslint: 10.1.0_eslint@7.21.0
   babel-loader: 8.2.2_10cd6a7d04848c96a6e299bf325db7c9
@@ -69,7 +69,7 @@ devDependencies:
   file-loader: 6.1.1_webpack@4.46.0
   hard-source-webpack-plugin: 0.13.1_webpack@4.46.0
   html-loader: 1.3.2_webpack@4.46.0
-  html-webpack-plugin: 4.5.1_webpack@4.46.0
+  html-webpack-plugin: 4.5.2_webpack@4.46.0
   husky: 4.3.8
   image-webpack-loader: 6.0.0
   imports-loader: 0.8.0
@@ -2282,7 +2282,7 @@ packages:
       integrity: sha512-FvUupuM3rlRsRtCN+fDudtmytGO6iHJuuRKS1Ss0pG5z8oX0diNEw94UEL7hgDbpN94rgaK5R7sWm6RrSkZuAQ==
   /@types/webpack-sources/0.1.7:
     dependencies:
-      '@types/node': 13.13.4
+      '@types/node': 14.14.22
       '@types/source-list-map': 0.1.2
       source-map: 0.6.1
     dev: true
@@ -2291,7 +2291,7 @@ packages:
   /@types/webpack/4.41.12:
     dependencies:
       '@types/anymatch': 1.3.1
-      '@types/node': 13.13.4
+      '@types/node': 14.14.22
       '@types/tapable': 1.0.5
       '@types/uglify-js': 3.9.0
       '@types/webpack-sources': 0.1.7
@@ -2468,10 +2468,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-+G7P8jJmCHr+S+cLfQxygbWhXy+8YTVGzAkpEbcLo2mLoL7tij/VG41QSHACSf5QgYRhMZYHuNc6drJaO0Da+w==
-  /add-asset-html-webpack-plugin/3.2.0_14532ecc63666644da7b45debfdd80b0:
+  /add-asset-html-webpack-plugin/3.2.0_724c7cce3aa5157eb9c06e68327e1483:
     dependencies:
       globby: 9.2.0
-      html-webpack-plugin: 4.5.1_webpack@4.46.0
+      html-webpack-plugin: 4.5.2_webpack@4.46.0
       micromatch: 3.1.10
       p-each-series: 1.0.0
       webpack: 4.46.0_webpack-cli@3.3.12
@@ -6920,14 +6920,14 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-1qYz89hW3lFDEazhjW0yVAV87lw8lVkrJocr72XmBkMKsoSVJCQx3W8BXsC7hO2qAt8BoVjYjtAcZ9perqGnNg==
-  /html-webpack-plugin/4.5.1_webpack@4.46.0:
+  /html-webpack-plugin/4.5.2_webpack@4.46.0:
     dependencies:
       '@types/html-minifier-terser': 5.0.0
       '@types/tapable': 1.0.5
       '@types/webpack': 4.41.12
       html-minifier-terser: 5.1.1
       loader-utils: 1.4.0
-      lodash: 4.17.20
+      lodash: 4.17.21
       pretty-error: 2.1.2
       tapable: 1.1.3
       util.promisify: 1.0.0
@@ -6938,7 +6938,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     resolution:
-      integrity: sha512-yzK7RQZwv9xB+pcdHNTjcqbaaDZ+5L0zJHXfi89iWIZmb/FtzxhLk0635rmJihcQbs3ZUF27Xp4oWGx6EK56zg==
+      integrity: sha512-q5oYdzjKUIPQVjOosjgvCHQOv9Ett9CYYHlgvJeXG0qQvdSojnBq4vAdQBwn1+yGveAwHCoe/rMR86ozX3+c2A==
   /htmlparser2/3.10.1:
     dependencies:
       domelementtype: 1.3.1
@@ -8245,7 +8245,6 @@ packages:
     resolution:
       integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
   /lodash/4.17.21:
-    dev: false
     resolution:
       integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
   /log-symbols/2.2.0:
@@ -13621,7 +13620,7 @@ specifiers:
   history: 4.10.1
   hoist-non-react-statics: 3.3.2
   html-loader: 1.3.2
-  html-webpack-plugin: 4.5.1
+  html-webpack-plugin: 4.5.2
   husky: 4.3.8
   image-webpack-loader: 6.0.0
   immer: 6.0.9
