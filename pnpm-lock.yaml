@@ -72,7 +72,7 @@ devDependencies:
   html-webpack-plugin: 4.5.2_webpack@4.46.0
   husky: 4.3.8
   image-webpack-loader: 6.0.0
-  imports-loader: 0.8.0
+  imports-loader: 2.0.0_webpack@4.46.0
   lint-staged: 10.5.4
   ngrok: 3.4.0
   node-plop: 0.26.2
@@ -7217,15 +7217,19 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-b6s04m3O+s3CGSbqDIyP4R6aAwAeYlVq9+WUWep6iHa8ETRf9yei1U48C5MmfJmV9AiLYYBKPMq/W+/WRpQmCQ==
-  /imports-loader/0.8.0:
+  /imports-loader/2.0.0_webpack@4.46.0:
     dependencies:
-      loader-utils: 1.4.0
+      loader-utils: 2.0.0
       source-map: 0.6.1
+      strip-comments: 2.0.1
+      webpack: 4.46.0_webpack-cli@3.3.12
     dev: true
     engines:
-      node: '>= 4'
+      node: '>= 10.13.0'
+    peerDependencies:
+      webpack: ^5.0.0
     resolution:
-      integrity: sha512-kXWL7Scp8KQ4552ZcdVTeaQCZSLW+e6nJfp3cwUMB673T7Hr98Xjx5JK+ql7ADlJUvj1JS5O01RLbKoutN5QDQ==
+      integrity: sha512-ZwEx0GfsJ1QckGqHSS1uu1sjpUgT3AYFOr3nT07dVnfeyc/bOICSw48067hr0u7DW8TZVzNVvdnvA62U9lG8nQ==
   /imurmurhash/0.1.4:
     dev: true
     engines:
@@ -12120,6 +12124,12 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=
+  /strip-comments/2.0.1:
+    dev: true
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-ZprKx+bBLXv067WTCALv8SSz5l2+XhpYCsVtSqlMnkAXMWDq+/ekVbl1ghqP9rUHTzv6sm/DwCOiYutU/yp1fw==
   /strip-dirs/2.1.0:
     dependencies:
       is-natural-number: 4.0.1
@@ -13624,7 +13634,7 @@ specifiers:
   husky: 4.3.8
   image-webpack-loader: 6.0.0
   immer: 6.0.9
-  imports-loader: 0.8.0
+  imports-loader: 2.0.0
   intl: 1.2.5
   invariant: 2.2.4
   ip: 1.1.5
