@@ -74,7 +74,7 @@ devDependencies:
   image-webpack-loader: 6.0.0
   imports-loader: 0.8.0
   lint-staged: 10.5.4
-  ngrok: 3.4.0
+  ngrok: 3.4.1
   node-plop: 0.26.2
   node-sass: 4.14.1
   null-loader: 4.0.1_webpack@4.46.0
@@ -2246,7 +2246,7 @@ packages:
   /@types/request/2.48.4:
     dependencies:
       '@types/caseless': 0.12.2
-      '@types/node': 13.13.4
+      '@types/node': 14.14.22
       '@types/tough-cookie': 2.3.6
       form-data: 2.5.1
     dev: true
@@ -8906,7 +8906,7 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-C2kC4K+G2QnNQFXUIxTQvqmrdSIzGTX1ZRKeDW6ChmvPRw8rTkTEJzbEQHiHy06d36PCl/yMOCjquCRV8SpSQw==
-  /ngrok/3.4.0:
+  /ngrok/3.4.1:
     dependencies:
       '@types/node': 8.10.59
       '@types/request': 2.48.4
@@ -8920,7 +8920,7 @@ packages:
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-fwgYlGQsLclMRVkGNhdWbeE5xx/xCoKr8zHoqRehOxGu4Ep14dAfe1u45rE0rqtUhWqTVfCl1lWV2rLUNizIDw==
+      integrity: sha512-OTm6Nmi6JINPbzkZff8ysA2WqMeNDg3sOPMFHW2CpatVD5yJxmX1qdyLq3QYNACTKNB3/K9jTkG4wUVpAFX9Dw==
   /nice-try/1.0.5:
     dev: true
     resolution:
@@ -10992,7 +10992,7 @@ packages:
       integrity: sha1-3mMSg3P8v3w8z6TeWkgMRaZ5WOs=
   /request-promise-core/1.1.3_request@2.88.2:
     dependencies:
-      lodash: 4.17.20
+      lodash: 4.17.21
       request: 2.88.2
     dev: true
     engines:
@@ -13631,7 +13631,7 @@ specifiers:
   lint-staged: 10.5.4
   lodash: 4.17.21
   minimist: 1.2.5
-  ngrok: 3.4.0
+  ngrok: 3.4.1
   node-plop: 0.26.2
   node-sass: 4.14.1
   null-loader: 4.0.1
