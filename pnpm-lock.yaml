@@ -68,7 +68,7 @@ devDependencies:
   eslint-plugin-redux-saga: 1.2.1_eslint@7.21.0+redux-saga@1.1.3
   file-loader: 6.1.1_webpack@4.46.0
   hard-source-webpack-plugin: 0.13.1_webpack@4.46.0
-  html-loader: 1.3.2_webpack@4.46.0
+  html-loader: 2.1.2_webpack@4.46.0
   html-webpack-plugin: 4.5.2_webpack@4.46.0
   husky: 4.3.8
   image-webpack-loader: 6.0.0
@@ -4773,14 +4773,6 @@ packages:
       domelementtype: 1.3.1
     resolution:
       integrity: sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==
-  /domhandler/3.0.0:
-    dependencies:
-      domelementtype: 2.0.1
-    dev: true
-    engines:
-      node: '>= 4'
-    resolution:
-      integrity: sha512-eKLdI5v9m67kbXQbJSNn1zjh0SDzvzWVWtX+qEI3eMjZw8daH9k8rlj1FZY9memPwjiskQFbe7vHVVJIAqoEhw==
   /domutils/1.5.1:
     dependencies:
       dom-serializer: 0.2.2
@@ -4793,14 +4785,6 @@ packages:
       domelementtype: 1.3.1
     resolution:
       integrity: sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg==
-  /domutils/2.0.0:
-    dependencies:
-      dom-serializer: 0.2.2
-      domelementtype: 2.0.1
-      domhandler: 3.0.0
-    dev: true
-    resolution:
-      integrity: sha512-n5SelJ1axbO636c2yUtOGia/IcJtVtlhQbFiVDBZHKV5ReJO1ViX7sFEemtuyoAnBxk5meNSYgA8V4s0271efg==
   /dot-case/2.1.1:
     dependencies:
       no-case: 2.3.2
@@ -6885,20 +6869,18 @@ packages:
       '0': node >= 0.4.0
     resolution:
       integrity: sha1-DfKTUfByEWNRXfueVUPl9u7VFi8=
-  /html-loader/1.3.2_webpack@4.46.0:
+  /html-loader/2.1.2_webpack@4.46.0:
     dependencies:
       html-minifier-terser: 5.1.1
-      htmlparser2: 4.1.0
-      loader-utils: 2.0.0
-      schema-utils: 3.0.0
+      parse5: 6.0.1
       webpack: 4.46.0_webpack-cli@3.3.12
     dev: true
     engines:
       node: '>= 10.13.0'
     peerDependencies:
-      webpack: ^4.0.0 || ^5.0.0
+      webpack: ^5.0.0
     resolution:
-      integrity: sha512-DEkUwSd0sijK5PF3kRWspYi56XP7bTNkyg5YWSzBdjaSDmvCufep5c4Vpb3PBf6lUL0YPtLwBfy9fL0t5hBAGA==
+      integrity: sha512-XB4O1+6mpLp4qy/3qg5+1QPZ/uXvWtO64hNAX87sKHwcHkp1LJGU7V3sJ9iVmRACElAZXQ4YOO/Lbkx5kYfl9A==
   /html-minifier-terser/5.1.1:
     dependencies:
       camel-case: 4.1.1
@@ -6949,15 +6931,6 @@ packages:
       readable-stream: 3.6.0
     resolution:
       integrity: sha512-IgieNijUMbkDovyoKObU1DUhm1iwNYE/fuifEoEHfd1oZKZDaONBSkal7Y01shxsM49R4XaMdGez3WnF9UfiCQ==
-  /htmlparser2/4.1.0:
-    dependencies:
-      domelementtype: 2.0.1
-      domhandler: 3.0.0
-      domutils: 2.0.0
-      entities: 2.0.0
-    dev: true
-    resolution:
-      integrity: sha512-4zDq1a1zhE4gQso/c5LP1OtrhYTncXNSpvJYtWJBtXAETPlMfi3IFNjGuQbYLuVY4ZR0QMqRVvo4Pdy9KLyP8Q==
   /http-cache-semantics/3.8.1:
     dev: true
     optional: true
@@ -9761,6 +9734,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-bVuTSkVpk7I9N/QKOC1vFmao5cY=
+  /parse5/6.0.1:
+    dev: true
+    resolution:
+      integrity: sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
   /parseqs/0.0.6:
     dev: true
     resolution:
@@ -13619,7 +13596,7 @@ specifiers:
   hard-source-webpack-plugin: 0.13.1
   history: 4.10.1
   hoist-non-react-statics: 3.3.2
-  html-loader: 1.3.2
+  html-loader: 2.1.2
   html-webpack-plugin: 4.5.2
   husky: 4.3.8
   image-webpack-loader: 6.0.0
