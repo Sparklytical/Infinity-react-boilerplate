@@ -73,7 +73,7 @@
     "lodash": "4.17.21",
     "minimist": "1.2.5",
     "offline-plugin": "5.0.7",
-    "pretty-error": "2.1.2",
+    "pretty-error": "3.0.4",
     "prop-types": "15.7.2",
     "react": "16.14.0",
     "react-app-polyfill": "1.0.6",
