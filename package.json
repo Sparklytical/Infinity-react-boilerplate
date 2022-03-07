@@ -141,7 +141,7 @@
     "react-test-renderer": "16.14.0",
     "rimraf": "3.0.2",
     "sass-loader": "8.0.2",
-    "shelljs": "0.8.4",
+    "shelljs": "0.8.5",
     "style-loader": "1.2.1",
     "stylelint": "13.9.0",
     "stylelint-config-recommended": "3.0.0",
