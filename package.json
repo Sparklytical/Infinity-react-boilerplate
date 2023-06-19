@@ -113,7 +113,7 @@
     "compression-webpack-plugin": "5.0.2",
     "css-loader": "3.6.0",
     "error-overlay-webpack-plugin": "0.4.2",
-    "eslint": "7.21.0",
+    "eslint": "7.32.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-config-prettier": "6.13.0",
