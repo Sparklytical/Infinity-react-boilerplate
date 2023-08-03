@@ -58,11 +58,11 @@ devDependencies:
   eslint: 7.21.0
   eslint-config-airbnb: 18.2.1_3eb31ed2411672ada16103cca5184c6b
   eslint-config-airbnb-base: 14.2.1_7c15dd0cfa14fe651ab374dc3d7ac180
-  eslint-config-prettier: 6.13.0_eslint@7.21.0
+  eslint-config-prettier: 8.10.0_eslint@7.21.0
   eslint-import-resolver-webpack: 0.13.0_eec934aba8f7b83f09a152aa86b18bb6
   eslint-plugin-import: 2.22.1_eslint@7.21.0
   eslint-plugin-jsx-a11y: 6.3.1_eslint@7.21.0
-  eslint-plugin-prettier: 3.3.1_83c9ca0ce446d90e629e5b4bac79bcf0
+  eslint-plugin-prettier: 3.3.1_2c27c26d5419a379bab3d549666412d8
   eslint-plugin-react: 7.22.0_eslint@7.21.0
   eslint-plugin-react-hooks: 4.2.0_eslint@7.21.0
   eslint-plugin-redux-saga: 1.2.1_eslint@7.21.0+redux-saga@1.1.3
@@ -5175,16 +5175,15 @@ packages:
       eslint-plugin-react-hooks: ^4 || ^3 || ^2.3.0 || ^1.7.0
     resolution:
       integrity: sha512-glZNDEZ36VdlZWoxn/bUR1r/sdFKPd1mHPbqUtkctgNG4yT2DLLtJ3D+yCV+jzZCc2V1nBVkmdknOJBZ5Hc0fg==
-  /eslint-config-prettier/6.13.0_eslint@7.21.0:
+  /eslint-config-prettier/8.10.0_eslint@7.21.0:
     dependencies:
       eslint: 7.21.0
-      get-stdin: 6.0.0
     dev: true
     hasBin: true
     peerDependencies:
-      eslint: '>=3.14.1'
+      eslint: '>=7.0.0'
     resolution:
-      integrity: sha512-LcT0i0LSmnzqK2t764pyIt7kKH2AuuqKRTtJTdddWxOiUja9HdG5GXBVF2gmCTvVYWVsTu8J2MhJLVGRh+pj8w==
+      integrity: sha512-SM8AMJdeQqRYT9O9zguiruQZaN7+z+E4eAP9oiLNGKMtomwaB1E9dcgUD6ZAn/eQAb52USbvezbiljfZUhbJcg==
   /eslint-import-resolver-node/0.3.4:
     dependencies:
       debug: 2.6.9
@@ -5265,10 +5264,10 @@ packages:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7
     resolution:
       integrity: sha512-i1S+P+c3HOlBJzMFORRbC58tHa65Kbo8b52/TwCwSKLohwvpfT5rm2GjGWzOHTEuq4xxf2aRlHHTtmExDQOP+g==
-  /eslint-plugin-prettier/3.3.1_83c9ca0ce446d90e629e5b4bac79bcf0:
+  /eslint-plugin-prettier/3.3.1_2c27c26d5419a379bab3d549666412d8:
     dependencies:
       eslint: 7.21.0
-      eslint-config-prettier: 6.13.0_eslint@7.21.0
+      eslint-config-prettier: 8.10.0_eslint@7.21.0
       prettier: 2.2.1
       prettier-linter-helpers: 1.0.0
     dev: true
@@ -6346,12 +6345,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-uWjGsKBDhDJJAui/Gl3zJXmkUP4=
-  /get-stdin/6.0.0:
-    dev: true
-    engines:
-      node: '>=4'
-    resolution:
-      integrity: sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==
   /get-stdin/8.0.0:
     dev: true
     engines:
@@ -13620,7 +13613,7 @@ specifiers:
   eslint: 7.21.0
   eslint-config-airbnb: 18.2.1
   eslint-config-airbnb-base: 14.2.1
-  eslint-config-prettier: 6.13.0
+  eslint-config-prettier: 8.10.0
   eslint-import-resolver-webpack: 0.13.0
   eslint-plugin-import: 2.22.1
   eslint-plugin-jsx-a11y: 6.3.1
