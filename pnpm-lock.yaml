@@ -100,7 +100,7 @@ devDependencies:
   webpack-pwa-manifest: 4.3.0
   webpack-shower: 1.7.2
   webpackbar: 4.0.0_webpack@4.46.0
-  whatwg-fetch: 3.5.0
+  whatwg-fetch: 3.6.20
 lockfileVersion: 5.2
 overrides:
   babel-core: 7.0.0-bridge.0
@@ -13322,10 +13322,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-9GSJUgz1D4MfyKU7KRqwOjXCXTqWdFNvEr7eUBYchQiVc744mqK/MzXPNR2WsPkmkOa4ywfg8C2n8h+13Bey1Q==
-  /whatwg-fetch/3.5.0:
+  /whatwg-fetch/3.6.20:
     dev: true
     resolution:
-      integrity: sha512-jXkLtsR42xhXg7akoDKvKWE40eJeI+2KZqcp2h3NsOrRnDvtWX36KcKl30dy+hxECivdk2BVUHVNrPtoMBUx6A==
+      integrity: sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==
   /which-module/2.0.0:
     dev: true
     resolution:
@@ -13688,4 +13688,4 @@ specifiers:
   webpack-pwa-manifest: 4.3.0
   webpack-shower: 1.7.2
   webpackbar: 4.0.0
-  whatwg-fetch: 3.5.0
+  whatwg-fetch: 3.6.20
