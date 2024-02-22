@@ -12,7 +12,7 @@ dependencies:
   immer: 6.0.9
   intl: 1.2.5
   invariant: 2.2.4
-  ip: 1.1.5
+  ip: 1.1.9
   lodash: 4.17.21
   minimist: 1.2.5
   offline-plugin: 5.0.7
@@ -7390,10 +7390,10 @@ packages:
       fp-ts: ^2.0.0
     resolution:
       integrity: sha512-BYJgE/BanovJKDvCnAkrr7f3gTucSyk+Sr5VtpouBO1/YfBKUyIn2z1ODG8LEF+1D4sjKZ3Bd/A5/v8JrJe5UQ==
-  /ip/1.1.5:
+  /ip/1.1.9:
     dev: false
     resolution:
-      integrity: sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=
+      integrity: sha512-cyRxvOEpNHNtchU3Ln9KC/auJgup87llfQpQ+t5ghoC/UhL16SWzbueiCsdTnWmqAWl7LadfuwhlqmtOaqMHdQ==
   /ipaddr.js/1.9.1:
     dev: false
     engines:
@@ -13642,7 +13642,7 @@ specifiers:
   imports-loader: 0.8.0
   intl: 1.2.5
   invariant: 2.2.4
-  ip: 1.1.5
+  ip: 1.1.9
   lint-staged: 10.5.4
   lodash: 4.17.21
   minimist: 1.2.5
